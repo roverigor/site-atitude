@@ -1,0 +1,48 @@
+slug: wkids
+nome: "WKids - Ingles Infantil"
+categoria: ingles
+descricao_curta: "Ingles para criancas de 6 a 10 anos com metodologia ludica, musicas, jogos e muita diversao."
+descricao_completa: |
+  O WKids e o curso de ingles da Atitude Ensino feito especialmente para criancas de 6 a 10 anos. Com uma metodologia ludica e imersiva, as criancas aprendem ingles de forma natural, assim como aprenderam portugues — ouvindo, repetindo, cantando e brincando.
+
+  As aulas usam musicas, jogos, historias, atividades manuais e interacao constante para criar um ambiente divertido onde o ingles acontece naturalmente. As turmas sao pequenas para garantir que cada crianca receba atencao e se sinta confortavel para participar.
+
+  Estudos comprovam que criancas que aprendem ingles cedo desenvolvem melhor raciocinio logico, memoria e habilidades de comunicacao. O WKids planta a semente do bilinguismo de forma leve e prazerosa, sem pressao de provas ou notas.
+modulos:
+  - nome: "My First Words"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Vocabulario basico: cores, numeros, animais, familia, comidas e cumprimentos em ingles"
+  - nome: "Let's Talk"
+    carga_horaria: "22h"
+    valor: 190.00
+    descricao: "Frases simples, perguntas e respostas, dialogo basico e pronuncia com musicas"
+  - nome: "Fun Reading"
+    carga_horaria: "18h"
+    valor: 170.00
+    descricao: "Introducao a leitura em ingles com historias ilustradas, phonics e atividades interativas"
+  - nome: "My World in English"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Temas do cotidiano da crianca: escola, brincadeiras, esportes e rotina em ingles"
+duracao_total: "12 meses"
+modalidade: presencial
+publico_alvo: "Criancas de 6 a 10 anos em fase de alfabetizacao ou ja alfabetizadas"
+prerequisitos: "Estar em processo de alfabetizacao ou ja alfabetizado em portugues. Nenhum conhecimento previo de ingles."
+incluso:
+  - "Material didatico ilustrado"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Atividades ludicas e jogos"
+  - "Acesso a jogos educativos online"
+proxima_turma: "2026-03-10"
+vagas: 6
+investimento:
+  matricula: 150.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/wkids.webp"
+ativo: true
+ordem: 7

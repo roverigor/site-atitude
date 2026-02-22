@@ -1,0 +1,52 @@
+slug: designer-grafico
+nome: "Designer Grafico"
+categoria: design
+descricao_curta: "Aprenda Photoshop, Illustrator e CorelDRAW e torne-se um designer profissional requisitado pelo mercado."
+descricao_completa: |
+  O curso de Designer Grafico forma profissionais criativos e tecnicamente preparados para atuar com criacao visual. Voce vai dominar as tres principais ferramentas do mercado: Adobe Photoshop, Adobe Illustrator e CorelDRAW, criando pecas graficas reais do inicio ao fim.
+
+  Das aulas praticas em laboratorio saem logos, cartazes, posts para redes sociais, cartoes de visita, flyers e muito mais. Voce aprende os fundamentos do design — cores, tipografia, composicao — e aplica tudo isso em projetos que ja vao para o seu portfolio profissional.
+
+  O designer grafico e um dos profissionais mais procurados na regiao: graficas, agencias, lojas, escritorios e autonomos todos precisam de alguem que saiba criar materiais visuais de qualidade. Esse curso e o seu passaporte para essa carreira.
+modulos:
+  - nome: "Fundamentos de Design"
+    carga_horaria: "16h"
+    valor: 180.00
+    descricao: "Teoria das cores, tipografia, composicao, grid e principios visuais essenciais"
+  - nome: "Adobe Photoshop"
+    carga_horaria: "32h"
+    valor: 280.00
+    descricao: "Edicao de imagens, tratamento de fotos, montagens, efeitos e criacao de pecas digitais"
+  - nome: "Adobe Illustrator"
+    carga_horaria: "28h"
+    valor: 260.00
+    descricao: "Criacao vetorial, logos, icones, ilustracoes e identidade visual profissional"
+  - nome: "CorelDRAW"
+    carga_horaria: "24h"
+    valor: 240.00
+    descricao: "Layout para impressao, cartoes, banners, panfletos e materiais graficos para graficas"
+  - nome: "Projeto Final e Portfolio"
+    carga_horaria: "12h"
+    valor: 160.00
+    descricao: "Criacao de portfolio profissional com projetos reais para apresentar ao mercado"
+duracao_total: "8 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos criativos que desejam trabalhar com design grafico, comunicacao visual ou midia digital"
+prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse, teclado e navegar em pastas)."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio com softwares instalados"
+  - "Orientacao para montagem de portfolio"
+proxima_turma: "2026-04-07"
+vagas: 6
+investimento:
+  matricula: 200.00
+  parcelas: 8
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/designer-grafico.webp"
+ativo: true
+ordem: 4

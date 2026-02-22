@@ -12,49 +12,48 @@ export type CategorySlug =
   | "excel"
   | "outros";
 
-export interface Category {
-  slug: CategorySlug;
-  name: string;
-  description: string;
-  icon: string;
-  color: string;
-}
-
 export interface CourseModule {
-  title: string;
-  topics: string[];
+  nome: string;
+  carga_horaria: string;
+  valor: number;
+  descricao: string;
 }
 
-export interface CourseFAQ {
-  question: string;
-  answer: string;
+export interface CourseInvestment {
+  matricula: number;
+  parcelas: number;
+  valor_parcela: number | null;
+  bonus_pontualidade: number;
+  desconto_maximo: string;
 }
 
 export interface Course {
   slug: string;
-  name: string;
-  category: CategorySlug;
-  shortDescription: string;
-  longDescription: string;
-  duration: string;
-  schedule: string;
-  modality: "presencial" | "online" | "hibrido";
-  level: "iniciante" | "intermediario" | "avancado";
-  price?: number;
-  originalPrice?: number;
-  installments?: {
-    count: number;
-    value: number;
-  };
-  image: string;
-  badge?: string;
-  featured: boolean;
-  modules: CourseModule[];
-  prerequisites?: string[];
-  targetAudience: string[];
-  skills: string[];
-  certificate: boolean;
-  faq: CourseFAQ[];
+  nome: string;
+  categoria: CategorySlug;
+  descricao_curta: string;
+  descricao_completa: string;
+  modulos: CourseModule[];
+  duracao_total: string;
+  modalidade: "presencial" | "online" | "interativo";
+  publico_alvo: string;
+  prerequisitos: string;
+  incluso: string[];
+  proxima_turma: string;
+  vagas: number;
+  investimento: CourseInvestment;
+  imagem_destaque: string;
+  ativo: boolean;
+  ordem: number;
+}
+
+export interface Category {
+  nome: string;
+  slug: CategorySlug;
+  cor: string;
+  corHex: string;
+  icone: string;
+  descricao: string;
 }
 
 export interface CourseCardProps {

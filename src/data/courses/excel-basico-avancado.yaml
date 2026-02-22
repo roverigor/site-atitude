@@ -1,0 +1,48 @@
+slug: excel-basico-avancado
+nome: "Excel do Basico ao Avancado"
+categoria: excel
+descricao_curta: "Domine o Excel do zero ate tabelas dinamicas e funcoes avancadas — a habilidade mais pedida em vagas de emprego."
+descricao_completa: |
+  O Excel e a ferramenta mais exigida em vagas de emprego no Brasil. Esse curso leva voce do basico absoluto ate recursos avancados como tabelas dinamicas, funcoes PROCV/SOMASE, graficos profissionais e automacao de planilhas.
+
+  Com aulas 100% praticas, voce trabalha com planilhas reais do dia a dia: controle de estoque, folha de pagamento, orcamentos, relatorios de vendas e dashboards visuais. Cada aula tem exercicios que simulam situacoes reais de trabalho.
+
+  Ao final do curso, voce tera confianca para resolver qualquer desafio com planilhas e se destacar em processos seletivos. O Excel avancado e um diferencial que pode aumentar seu salario em ate 30% segundo pesquisas do mercado.
+modulos:
+  - nome: "Excel Basico"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Interface, celulas, formatacao, formulas basicas (SOMA, MEDIA, SE) e graficos simples"
+  - nome: "Excel Intermediario"
+    carga_horaria: "18h"
+    valor: 180.00
+    descricao: "PROCV, SOMASE, CONT.SE, formatacao condicional, validacao de dados e filtros avancados"
+  - nome: "Excel Avancado"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Tabelas dinamicas, graficos dinamicos, funcoes aninhadas, INDICE/CORRESP e dashboards"
+  - nome: "Excel na Pratica"
+    carga_horaria: "10h"
+    valor: 140.00
+    descricao: "Projetos reais: controle de estoque, fluxo de caixa, relatorio de vendas e folha de pagamento"
+duracao_total: "4 meses"
+modalidade: presencial
+publico_alvo: "Profissionais de qualquer area que querem dominar o Excel para melhorar sua performance e empregabilidade"
+prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse e teclado)."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Planilhas modelo para uso profissional"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 150.00
+  parcelas: 4
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/excel-basico-avancado.webp"
+ativo: true
+ordem: 5

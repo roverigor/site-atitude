@@ -1,0 +1,53 @@
+slug: programacao
+nome: "Programacao Web"
+categoria: tecnologia
+descricao_curta: "Aprenda a programar do zero com Python, HTML, CSS e JavaScript — o curso que abre as portas da tecnologia."
+descricao_completa: |
+  O curso de Programacao Web e a porta de entrada para o mundo da tecnologia. Voce vai aprender a criar sites, sistemas e aplicacoes usando as linguagens mais requisitadas do mercado: HTML, CSS, JavaScript e Python. Tudo do zero, sem necessidade de experiencia previa.
+
+  O metodo e interativo: voce aprende no computador com exercicios praticos, projetos guiados e desafios progressivos. Cada modulo constroi sobre o anterior, e ao final voce tera criado projetos reais como um site pessoal, uma calculadora web, um sistema de cadastro e um jogo simples.
+
+  A area de programacao e a que mais cresce no Brasil, com salarios acima da media e oportunidades de trabalho remoto. Mesmo em cidades menores, empresas precisam de sites, sistemas e automacoes. Esse curso e o primeiro passo para uma carreira com enorme potencial de crescimento.
+modulos:
+  - nome: "Logica de Programacao"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Pensamento computacional, algoritmos, variaveis, condicionais, lacos e funcoes"
+  - nome: "HTML e CSS"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Estrutura de paginas web, estilizacao, responsividade e boas praticas de layout"
+  - nome: "JavaScript"
+    carga_horaria: "28h"
+    valor: 240.00
+    descricao: "Interatividade web, manipulacao do DOM, eventos, formularios e consumo de APIs"
+  - nome: "Python"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Fundamentos de Python, automacao de tarefas, manipulacao de dados e projetos praticos"
+  - nome: "Projeto Integrador"
+    carga_horaria: "16h"
+    valor: 180.00
+    descricao: "Desenvolvimento de projeto completo integrando todas as tecnologias aprendidas"
+duracao_total: "10 meses"
+modalidade: interativo
+publico_alvo: "Jovens e adultos interessados em tecnologia que desejam aprender a programar do zero"
+prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse, teclado e navegador). Raciocinio logico basico."
+incluso:
+  - "Material didatico digital"
+  - "Certificado de conclusao"
+  - "Acesso a plataforma interativa"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Projetos para portfolio"
+proxima_turma: "2026-04-07"
+vagas: 8
+investimento:
+  matricula: 200.00
+  parcelas: 10
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/programacao.webp"
+ativo: true
+ordem: 10

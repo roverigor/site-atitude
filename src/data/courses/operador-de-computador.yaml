@@ -1,0 +1,52 @@
+slug: operador-de-computador
+nome: "Operador de Computador"
+categoria: informatica
+descricao_curta: "Domine as ferramentas essenciais de informatica e conquiste sua vaga no mercado de trabalho."
+descricao_completa: |
+  O curso de Operador de Computador forma profissionais preparados para atuar com seguranca em qualquer ambiente de escritorio. Voce vai aprender desde o basico do sistema operacional ate as ferramentas do pacote Office mais usadas no dia a dia das empresas.
+
+  Com aulas praticas em laboratorio equipado, voce desenvolve habilidades reais em digitacao, organizacao de arquivos, criacao de documentos, planilhas e apresentacoes profissionais. Nosso metodo garante que voce saia pronto para o mercado de trabalho, mesmo sem nenhuma experiencia previa com computadores.
+
+  Ao concluir, voce recebe certificado reconhecido e pode atuar em escritorios, comercio, industria e servicos publicos. Esse e o curso mais procurado da Atitude Ensino e ja formou centenas de profissionais na regiao.
+modulos:
+  - nome: "Windows 11"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Sistema operacional, gerenciamento de arquivos, configuracoes e atalhos essenciais"
+  - nome: "Microsoft Word"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Criacao e formatacao de documentos, curriculos, cartas comerciais e relatorios"
+  - nome: "Microsoft Excel"
+    carga_horaria: "28h"
+    valor: 220.00
+    descricao: "Planilhas, formulas, graficos e organizacao de dados para o ambiente corporativo"
+  - nome: "Microsoft PowerPoint"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Apresentacoes profissionais com animacoes, transicoes e design impactante"
+  - nome: "Internet e E-mail"
+    carga_horaria: "12h"
+    valor: 140.00
+    descricao: "Navegacao segura, pesquisa eficiente, e-mail profissional e ferramentas online"
+duracao_total: "12 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam ingressar no mercado de trabalho com conhecimentos solidos de informatica"
+prerequisitos: "Nenhum. O curso e indicado para iniciantes completos."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Material de apoio digital"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 120.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "60%"
+imagem_destaque: "/images/courses/operador-de-computador.webp"
+ativo: true
+ordem: 1

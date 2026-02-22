@@ -1,0 +1,53 @@
+slug: wprime
+nome: "WPrime - Ingles Adultos"
+categoria: ingles
+descricao_curta: "Curso de ingles online ao vivo para adultos — do intermediario ao avancado com aulas por Google Meet."
+descricao_completa: |
+  O WPrime e o curso de ingles da Atitude Ensino voltado para adultos que ja possuem uma base no idioma e querem avancar para a fluencia. As aulas acontecem ao vivo pelo Google Meet com turmas reduzidas, garantindo interacao real com o professor e pratica constante de conversacao.
+
+  O metodo combina gramatica aplicada, expansao de vocabulario, compreensao auditiva e muita pratica de fala. Voce vai trabalhar com situacoes reais: entrevistas de emprego em ingles, viagens, reunioes de trabalho, apresentacoes e conversas do cotidiano.
+
+  Com 24 meses de duracao, o curso e estruturado para quem quer resultados consistentes sem correria. As aulas online permitem que voce estude de onde estiver, com a mesma qualidade de um curso presencial. Ideal para quem trabalha e precisa de flexibilidade de horario.
+modulos:
+  - nome: "Intermediate Foundation"
+    carga_horaria: "40h"
+    valor: 360.00
+    descricao: "Consolidacao de gramatica intermediaria, tempos verbais, voz passiva e condicionais"
+  - nome: "Communication Skills"
+    carga_horaria: "36h"
+    valor: 340.00
+    descricao: "Pratica de conversacao, expressoes idiomaticas, pronuncia e fluencia para situacoes reais"
+  - nome: "Business English"
+    carga_horaria: "32h"
+    valor: 320.00
+    descricao: "Ingles para o ambiente profissional: reunioes, e-mails, apresentacoes e negociacoes"
+  - nome: "Upper-Intermediate"
+    carga_horaria: "36h"
+    valor: 340.00
+    descricao: "Gramatica avancada, textos complexos, debates e producao escrita elaborada"
+  - nome: "Advanced Fluency"
+    carga_horaria: "32h"
+    valor: 320.00
+    descricao: "Refinamento da fluencia, sotaque, nuances culturais e preparacao para certificacoes"
+duracao_total: "24 meses"
+modalidade: online
+publico_alvo: "Adultos a partir de 16 anos com nivel basico ou intermediario de ingles que desejam avancar rumo a fluencia"
+prerequisitos: "Nivel basico de ingles (conseguir se apresentar e formar frases simples). Computador com camera e microfone."
+incluso:
+  - "Material didatico digital"
+  - "Certificado de conclusao"
+  - "Aulas ao vivo pelo Google Meet"
+  - "Gravacao das aulas para revisao"
+  - "Acompanhamento individual"
+  - "Acesso a plataforma de exercicios"
+proxima_turma: "2026-03-17"
+vagas: 10
+investimento:
+  matricula: 200.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/wprime.webp"
+ativo: true
+ordem: 6

@@ -1,0 +1,69 @@
+slug: operador-premium
+nome: "Operador Premium"
+categoria: informatica
+descricao_curta: "O curso mais completo de informatica e gestao: domine o computador e as habilidades administrativas que o mercado exige."
+descricao_completa: |
+  O Operador Premium e o curso mais completo da Atitude Ensino. Alem de todo o conteudo do Operador de Computador — Windows, Word, Excel, PowerPoint e Internet — voce ainda aprende Gestao Administrativa, Gestao Financeira, Gestao de Pessoas e Marketing.
+
+  Esse curso foi criado para quem quer se destacar no mercado de trabalho com um perfil completo: saber usar o computador E entender como uma empresa funciona. E o diferencial que transforma um simples operador em um profissional disputado.
+
+  Com duracao de 18 meses e aulas praticas todas as semanas, voce desenvolve competencias tecnicas e gerenciais que abrem portas para cargos de assistente, auxiliar administrativo e muito mais. Ideal para quem quer comecar do zero e chegar longe.
+modulos:
+  - nome: "Windows 11"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Sistema operacional, gerenciamento de arquivos, configuracoes e atalhos essenciais"
+  - nome: "Microsoft Word"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Documentos profissionais, formatacao avancada, mala direta e modelos"
+  - nome: "Microsoft Excel"
+    carga_horaria: "28h"
+    valor: 220.00
+    descricao: "Planilhas, formulas, graficos e organizacao de dados corporativos"
+  - nome: "Microsoft PowerPoint"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Apresentacoes profissionais com design impactante e storytelling visual"
+  - nome: "Internet e E-mail"
+    carga_horaria: "12h"
+    valor: 140.00
+    descricao: "Navegacao segura, pesquisa eficiente e comunicacao profissional online"
+  - nome: "Gestao Administrativa"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Organizacao empresarial, processos administrativos, documentacao e rotinas de escritorio"
+  - nome: "Gestao Financeira"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Controle financeiro, fluxo de caixa, contas a pagar e receber, nocoes de contabilidade"
+  - nome: "Gestao de Pessoas"
+    carga_horaria: "16h"
+    valor: 180.00
+    descricao: "Lideranca, trabalho em equipe, comunicacao interpessoal e resolucao de conflitos"
+  - nome: "Marketing"
+    carga_horaria: "16h"
+    valor: 180.00
+    descricao: "Fundamentos de marketing, redes sociais para negocios e estrategias de divulgacao"
+duracao_total: "18 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que buscam formacao completa em informatica e gestao para cargos administrativos"
+prerequisitos: "Nenhum. O curso parte do zero e acompanha cada aluno individualmente."
+incluso:
+  - "Apostila impressa para cada modulo"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Material de apoio digital"
+  - "Simulados praticos de escritorio"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 180.00
+  parcelas: 18
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "60%"
+imagem_destaque: "/images/courses/operador-premium.webp"
+ativo: true
+ordem: 2

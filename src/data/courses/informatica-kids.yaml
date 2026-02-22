@@ -1,0 +1,48 @@
+slug: informatica-kids
+nome: "Informatica Kids"
+categoria: informatica
+descricao_curta: "Informatica para criancas de 7 a 12 anos com metodologia ludica, divertida e segura."
+descricao_completa: |
+  O Informatica Kids foi desenvolvido especialmente para criancas de 7 a 12 anos que estao tendo seus primeiros contatos com o computador. Com uma metodologia ludica e divertida, as criancas aprendem enquanto se divertem criando projetos, jogos educativos e apresentacoes criativas.
+
+  O curso ensina desde o basico — como usar o mouse, teclado e navegar no computador — ate habilidades mais avancadas como criar documentos, fazer pesquisas seguras na internet e montar apresentacoes para a escola. Tudo com linguagem acessivel e atividades praticas adaptadas para cada faixa etaria.
+
+  Os pais podem ficar tranquilos: alem de aprender informatica, as criancas desenvolvem raciocinio logico, criatividade e responsabilidade digital. Turmas pequenas garantem atencao individual para cada aluno.
+modulos:
+  - nome: "Primeiros Passos no Computador"
+    carga_horaria: "12h"
+    valor: 140.00
+    descricao: "Mouse, teclado, area de trabalho, abrir e salvar arquivos de forma intuitiva"
+  - nome: "Criando com o Word"
+    carga_horaria: "14h"
+    valor: 150.00
+    descricao: "Textos criativos, convites, cartazes e trabalhos escolares com formatacao divertida"
+  - nome: "Descobrindo o PowerPoint"
+    carga_horaria: "12h"
+    valor: 140.00
+    descricao: "Apresentacoes criativas com imagens, animacoes e sons para projetos da escola"
+  - nome: "Internet Segura"
+    carga_horaria: "10h"
+    valor: 120.00
+    descricao: "Pesquisa escolar, seguranca online, boas praticas e cidadania digital para criancas"
+duracao_total: "6 meses"
+modalidade: presencial
+publico_alvo: "Criancas de 7 a 12 anos em fase escolar"
+prerequisitos: "Saber ler e escrever. Nao e necessario nenhum conhecimento previo de informatica."
+incluso:
+  - "Apostila ilustrada"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Atividades ludicas e jogos educativos"
+proxima_turma: "2026-03-10"
+vagas: 6
+investimento:
+  matricula: 120.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "60%"
+imagem_destaque: "/images/courses/informatica-kids.webp"
+ativo: true
+ordem: 3

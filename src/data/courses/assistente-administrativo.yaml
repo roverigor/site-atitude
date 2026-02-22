@@ -1,0 +1,52 @@
+slug: assistente-administrativo
+nome: "Assistente Administrativo"
+categoria: administracao
+descricao_curta: "Formacao completa para atuar como assistente administrativo em empresas de qualquer porte."
+descricao_completa: |
+  O curso de Assistente Administrativo prepara voce para uma das funcoes mais demandadas do mercado de trabalho brasileiro. Voce vai aprender rotinas administrativas, atendimento ao cliente, organizacao de documentos, controle financeiro basico e comunicacao empresarial.
+
+  As aulas combinam teoria e pratica com simulacoes de situacoes reais de escritorio. Voce vai trabalhar com emissao de notas fiscais, controle de estoque, agendamento, protocolo de documentos, elaboracao de relatorios e atendimento telefonico profissional.
+
+  O assistente administrativo e essencial em qualquer empresa — de pequenos comercios a grandes industrias. Com esse curso, voce entra preparado para atuar com confianca e profissionalismo desde o primeiro dia de trabalho.
+modulos:
+  - nome: "Rotinas Administrativas"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Organizacao de escritorio, arquivo, protocolo, correspondencia e fluxo de documentos"
+  - nome: "Atendimento ao Cliente"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Tecnicas de atendimento presencial e telefonico, postura profissional e resolucao de problemas"
+  - nome: "Comunicacao Empresarial"
+    carga_horaria: "14h"
+    valor: 150.00
+    descricao: "Redacao comercial, e-mails profissionais, atas de reuniao e comunicacao interna"
+  - nome: "Controle Financeiro Basico"
+    carga_horaria: "18h"
+    valor: 170.00
+    descricao: "Contas a pagar e receber, fluxo de caixa, conciliacao bancaria e emissao de boletos"
+  - nome: "Informatica Aplicada"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Word, Excel e PowerPoint aplicados as rotinas administrativas do dia a dia"
+duracao_total: "6 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que buscam sua primeira oportunidade ou recolocacao na area administrativa"
+prerequisitos: "Ensino fundamental completo. Conhecimentos basicos de informatica sao desejaveis mas nao obrigatorios."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Simulados praticos de rotina administrativa"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 150.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/assistente-administrativo.webp"
+ativo: true
+ordem: 8
