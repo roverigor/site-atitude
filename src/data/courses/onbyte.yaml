@@ -1,0 +1,44 @@
+slug: onbyte
+nome: "OnByte (Informatica por Computador)"
+categoria: interativos
+descricao_curta: "Sistema OnByte de ensino interativo: aprenda informatica com tecnologia de ponta e suporte presencial."
+descricao_completa: |
+  O OnByte e um dos sistemas de ensino por computador mais utilizados em escolas profissionalizantes do Brasil. Com uma plataforma moderna e intuitiva, voce aprende informatica atraves de aulas interativas que simulam os programas reais, praticando cada funcao passo a passo.
+
+  O pacote completo cobre desde o basico do sistema operacional ate ferramentas avancadas de escritorio, internet e produtividade. O sistema registra seu progresso automaticamente e gera relatorios de desempenho para que voce e o instrutor acompanhem sua evolucao.
+
+  Perfeito para quem quer aprender no proprio ritmo mas com a seguranca de ter um instrutor disponivel para tirar duvidas. Os horarios sao flexiveis e voce pode agendar suas aulas conforme sua rotina.
+modulos:
+  - nome: "Sistema Operacional e Office Basico"
+    carga_horaria: "30h"
+    valor: 190.00
+    descricao: "Windows, Word e PowerPoint com pratica interativa e simulacoes dos programas"
+  - nome: "Excel e Ferramentas Avancadas"
+    carga_horaria: "28h"
+    valor: 190.00
+    descricao: "Excel completo, formulas, graficos, tabelas dinamicas e ferramentas de produtividade"
+  - nome: "Internet e Seguranca Digital"
+    carga_horaria: "22h"
+    valor: 160.00
+    descricao: "Navegacao segura, e-mail, nuvem, redes sociais e protecao contra golpes digitais"
+duracao_total: "6 meses"
+modalidade: interativo
+publico_alvo: "Jovens e adultos que desejam aprender informatica com flexibilidade e suporte presencial"
+prerequisitos: "Nenhum. O sistema e indicado para iniciantes."
+incluso:
+  - "Acesso ao sistema OnByte"
+  - "Certificado de conclusao"
+  - "Acompanhamento de instrutor"
+  - "Acesso ao laboratorio"
+  - "Relatorios de progresso"
+proxima_turma: "2026-03-10"
+vagas: 15
+investimento:
+  matricula: 79.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "45%"
+imagem_destaque: "/images/courses/onbyte.webp"
+ativo: true
+ordem: 19

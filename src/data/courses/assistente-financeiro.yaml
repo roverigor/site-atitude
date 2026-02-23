@@ -1,0 +1,44 @@
+slug: assistente-financeiro
+nome: "Assistente Financeiro"
+categoria: administracao
+descricao_curta: "Domine financas empresariais, contas a pagar/receber e fluxo de caixa para atuar no setor financeiro."
+descricao_completa: |
+  O curso de Assistente Financeiro forma profissionais preparados para atuar no departamento financeiro de empresas de todos os portes. Voce vai aprender controle de contas a pagar e receber, fluxo de caixa, conciliacao bancaria, emissao de boletos e notas fiscais, alem de nocoes de contabilidade e tributacao.
+
+  As aulas combinam teoria e pratica com planilhas reais, simulacoes de sistemas financeiros e casos do dia a dia empresarial. Voce desenvolve a capacidade de organizar as financas de uma empresa, gerar relatorios gerenciais e apoiar a tomada de decisoes financeiras.
+
+  O setor financeiro e essencial em qualquer empresa, e profissionais qualificados nessa area sempre encontram oportunidades. Com o certificado da Atitude, voce estara preparado para assumir funcoes financeiras com confianca e competencia.
+modulos:
+  - nome: "Fundamentos Financeiros"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Conceitos financeiros, fluxo de caixa, contas a pagar e receber, e controles internos"
+  - nome: "Ferramentas e Sistemas"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Excel financeiro, emissao de boletos e notas fiscais, conciliacao bancaria e relatorios"
+  - nome: "Contabilidade e Tributacao Basica"
+    carga_horaria: "20h"
+    valor: 190.00
+    descricao: "Nocoes de contabilidade, impostos basicos, folha de pagamento e obrigacoes fiscais"
+duracao_total: "5 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar no departamento financeiro de empresas"
+prerequisitos: "Ensino fundamental completo. Conhecimentos basicos de informatica."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Planilhas modelo para pratica"
+  - "Material de apoio digital"
+proxima_turma: "2026-04-07"
+vagas: 12
+investimento:
+  matricula: 79.00
+  parcelas: 5
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/assistente-financeiro.webp"
+ativo: true
+ordem: 22

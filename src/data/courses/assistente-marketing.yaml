@@ -1,0 +1,44 @@
+slug: assistente-marketing
+nome: "Assistente de Marketing Digital"
+categoria: rh-marketing
+descricao_curta: "Domine marketing digital: redes sociais, anuncios, conteudo e estrategias que geram resultados."
+descricao_completa: |
+  O curso de Assistente de Marketing Digital forma profissionais preparados para atuar com marketing online em empresas, agencias ou como freelancers. Voce vai aprender gestao de redes sociais, criacao de conteudo, anuncios pagos (Meta Ads e Google Ads), e-mail marketing, SEO e analise de metricas.
+
+  As aulas sao praticas: voce cria campanhas reais, gerencia perfis de redes sociais, produz conteudo visual com Canva, configura anuncios e aprende a interpretar metricas para tomar decisoes baseadas em dados. Tudo isso com as ferramentas que o mercado realmente usa.
+
+  O marketing digital e a area que mais cresce no Brasil, e empresas de todos os tamanhos precisam de profissionais qualificados. Com esse curso, voce pode trabalhar em agencias, departamentos de marketing, lojas virtuais ou iniciar sua carreira como freelancer digital.
+modulos:
+  - nome: "Fundamentos de Marketing Digital"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Conceitos de marketing, funil de vendas, persona, jornada do cliente e planejamento estrategico"
+  - nome: "Redes Sociais e Conteudo"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Instagram, TikTok, YouTube, criacao de conteudo, Canva, calendario editorial e engajamento"
+  - nome: "Anuncios e Analise de Dados"
+    carga_horaria: "20h"
+    valor: 190.00
+    descricao: "Meta Ads, Google Ads, remarketing, metricas, relatorios e otimizacao de campanhas"
+duracao_total: "5 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar com marketing digital em empresas ou como freelancers"
+prerequisitos: "Conhecimentos basicos de informatica e familiaridade com redes sociais."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Templates e modelos de campanha"
+  - "Acesso ao laboratorio"
+proxima_turma: "2026-04-07"
+vagas: 12
+investimento:
+  matricula: 79.00
+  parcelas: 5
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/assistente-marketing.webp"
+ativo: true
+ordem: 32

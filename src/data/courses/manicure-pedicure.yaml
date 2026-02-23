@@ -1,0 +1,40 @@
+slug: manicure-pedicure
+nome: "Manicure e Pedicure"
+categoria: beleza
+descricao_curta: "Aprenda tecnicas profissionais de manicure, pedicure e nail art para iniciar sua carreira."
+descricao_completa: |
+  O curso de Manicure e Pedicure forma profissionais preparadas para atuar em saloes de beleza, espacos de estetica ou como autonomas. Voce vai aprender todas as tecnicas essenciais: cutilagem, esmaltacao perfeita, tratamento de unhas, cuidados com os pes e as tendencias mais procuradas de nail art.
+
+  As aulas praticas garantem que voce desenvolva agilidade e precisao, atendendo clientes reais durante o curso. Voce tambem aprende sobre biosseguranca, esterilizacao de materiais, atendimento ao cliente e como precificar seus servicos.
+
+  Manicure e uma das profissoes com maior demanda na regiao, e profissionais qualificadas conseguem montar agenda propria rapidamente. Com o certificado da Atitude, voce comeca a atender com confianca e tecnica.
+modulos:
+  - nome: "Manicure Profissional"
+    carga_horaria: "24h"
+    valor: 180.00
+    descricao: "Cutilagem, esmaltacao, tratamento de unhas, biosseguranca e esterilizacao de materiais"
+  - nome: "Pedicure e Nail Art"
+    carga_horaria: "20h"
+    valor: 160.00
+    descricao: "Pedicure completa, cuidados com os pes, alongamento de unhas e tecnicas de nail art"
+duracao_total: "3 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultas que desejam trabalhar como manicure e pedicure profissional"
+prerequisitos: "Nenhum. Aberto para iniciantes completas."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Kit de pratica para aulas"
+  - "Material de apoio digital"
+proxima_turma: "2026-03-17"
+vagas: 12
+investimento:
+  matricula: 49.00
+  parcelas: 3
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "35%"
+imagem_destaque: "/images/courses/manicure-pedicure.webp"
+ativo: true
+ordem: 13

@@ -1,0 +1,44 @@
+slug: assistente-rh
+nome: "Assistente de RH"
+categoria: rh-marketing
+descricao_curta: "Aprenda rotinas de recursos humanos: recrutamento, folha de pagamento, beneficios e legislacao."
+descricao_completa: |
+  O curso de Assistente de RH forma profissionais para atuar no departamento de recursos humanos de empresas de todos os portes. Voce vai aprender recrutamento e selecao, admissao e demissao, folha de pagamento, beneficios, ferias, legislacao trabalhista e rotinas do departamento pessoal.
+
+  As aulas combinam teoria e pratica com simulacoes de processos seletivos, calculos trabalhistas em planilhas e estudos de caso reais. Voce desenvolve habilidades de comunicacao, organizacao e gestao de pessoas que sao essenciais para qualquer profissional de RH.
+
+  O setor de recursos humanos e fundamental em todas as empresas, e profissionais qualificados sao muito procurados. Com o certificado da Atitude, voce estara preparado para iniciar sua carreira em RH ou agregar conhecimento se ja trabalha na area administrativa.
+modulos:
+  - nome: "Fundamentos de RH"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Funcoes do RH, recrutamento, selecao, entrevistas, admissao e integracao de colaboradores"
+  - nome: "Departamento Pessoal"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Folha de pagamento, encargos, beneficios, ferias, 13o salario, rescisao e eSocial"
+  - nome: "Legislacao e Gestao de Pessoas"
+    carga_horaria: "20h"
+    valor: 190.00
+    descricao: "CLT, direitos trabalhistas, gestao de conflitos, clima organizacional e comunicacao interna"
+duracao_total: "5 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar no departamento de recursos humanos de empresas"
+prerequisitos: "Ensino fundamental completo. Conhecimentos basicos de informatica."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Planilhas modelo de RH"
+  - "Material de apoio digital"
+proxima_turma: "2026-04-07"
+vagas: 12
+investimento:
+  matricula: 79.00
+  parcelas: 5
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/assistente-rh.webp"
+ativo: true
+ordem: 31

@@ -1,0 +1,44 @@
+slug: ouro-moderno
+nome: "Ouro Moderno (Pacote Informatica Interativo)"
+categoria: interativos
+descricao_curta: "Aprenda informatica no seu ritmo com o sistema interativo Ouro Moderno, lider em ensino digital."
+descricao_completa: |
+  O Ouro Moderno e um dos sistemas de ensino interativo mais reconhecidos do Brasil, e agora esta disponivel na Atitude Ensino. Com aulas por computador que combinam video, animacao e exercicios praticos, voce aprende informatica no seu proprio ritmo, com acompanhamento de instrutor presencial.
+
+  O pacote inclui Windows, Word, Excel, PowerPoint, Internet e muito mais. Cada modulo tem avaliacoes automaticas que garantem que voce realmente dominou o conteudo antes de avancar. O sistema se adapta ao seu nivel, reforçando onde voce tem mais dificuldade.
+
+  Ideal para quem precisa de flexibilidade de horario e prefere aprender de forma mais independente, sem perder o suporte presencial. Voce agenda seus horarios e progride conforme sua disponibilidade.
+modulos:
+  - nome: "Informatica Essencial"
+    carga_horaria: "30h"
+    valor: 200.00
+    descricao: "Windows, digitacao, organizacao de arquivos, Word e formatacao de documentos"
+  - nome: "Produtividade e Planilhas"
+    carga_horaria: "30h"
+    valor: 200.00
+    descricao: "Excel completo, PowerPoint profissional e ferramentas de produtividade"
+  - nome: "Internet e Mundo Digital"
+    carga_horaria: "20h"
+    valor: 160.00
+    descricao: "Navegacao segura, e-mail, redes sociais, armazenamento em nuvem e seguranca digital"
+duracao_total: "6 meses"
+modalidade: interativo
+publico_alvo: "Jovens e adultos que preferem aprender informatica no proprio ritmo com suporte presencial"
+prerequisitos: "Nenhum. O sistema se adapta ao nivel do aluno."
+incluso:
+  - "Acesso ao sistema Ouro Moderno"
+  - "Certificado de conclusao"
+  - "Acompanhamento de instrutor"
+  - "Acesso ao laboratorio"
+  - "Flexibilidade de horarios"
+proxima_turma: "2026-03-10"
+vagas: 15
+investimento:
+  matricula: 79.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "45%"
+imagem_destaque: "/images/courses/ouro-moderno.webp"
+ativo: true
+ordem: 17

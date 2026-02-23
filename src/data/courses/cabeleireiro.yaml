@@ -1,0 +1,48 @@
+slug: cabeleireiro
+nome: "Cabeleireiro Profissional"
+categoria: beleza
+descricao_curta: "Domine cortes, coloracao e tratamentos capilares para se tornar um cabeleireiro completo."
+descricao_completa: |
+  O curso de Cabeleireiro Profissional forma profissionais completos para atuar em saloes de beleza, barbearias e como autonomos. Voce vai aprender desde os fundamentos de visagismo e tipos de cabelo ate tecnicas avancadas de corte, coloracao, mechas, alisamentos e tratamentos capilares.
+
+  Com aulas praticas em modelos reais, voce desenvolve seguranca e habilidade para atender clientes de todos os estilos. O curso aborda tambem quimica capilar, diagnostico do fio, tendencias do mercado e como fidelizar sua clientela.
+
+  O profissional de cabelo e indispensavel em qualquer cidade, e a demanda por cabeleireiros qualificados so aumenta. Ao concluir o curso, voce estara preparado para trabalhar em saloes ou abrir seu proprio negocio.
+modulos:
+  - nome: "Fundamentos e Visagismo"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Tipos de cabelo, visagismo, ferramentas, higiene e postura profissional"
+  - nome: "Tecnicas de Corte"
+    carga_horaria: "28h"
+    valor: 240.00
+    descricao: "Cortes femininos e masculinos, desfiados, camadas, repicados e tendencias atuais"
+  - nome: "Coloracao e Quimica"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Tinturas, mechas, balayage, ombrehair, descoloracao, alisamentos e progressivas"
+  - nome: "Tratamentos e Finalizacao"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "Hidratacao, cauterizacao, reconstrucao, escova, babyliss e penteados para eventos"
+duracao_total: "6 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar como cabeleireiros em saloes ou como autonomos"
+prerequisitos: "Nenhum. Aberto para iniciantes completos."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Material de pratica incluso"
+  - "Acesso ao salao escola"
+proxima_turma: "2026-04-07"
+vagas: 10
+investimento:
+  matricula: 99.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "45%"
+imagem_destaque: "/images/courses/cabeleireiro.webp"
+ativo: true
+ordem: 12

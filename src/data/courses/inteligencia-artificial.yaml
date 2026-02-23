@@ -1,0 +1,44 @@
+slug: inteligencia-artificial
+nome: "Inteligencia Artificial para Iniciantes"
+categoria: tecnologia
+descricao_curta: "Entenda e use IA no dia a dia: ChatGPT, automacoes e ferramentas que estao transformando o mercado."
+descricao_completa: |
+  O curso de Inteligencia Artificial para Iniciantes ensina voce a entender e usar as ferramentas de IA que estao revolucionando o mercado de trabalho. Voce vai aprender a usar ChatGPT, Gemini, Copilot e outras IAs para aumentar sua produtividade, criar conteudo, automatizar tarefas e resolver problemas do dia a dia.
+
+  Nao e preciso saber programar! O curso e 100% pratico e voltado para quem quer aplicar IA na vida real: redigir textos, criar imagens, analisar dados, automatizar planilhas, gerar apresentacoes e muito mais. Voce tambem aprende sobre etica, limitacoes e como se destacar no mercado usando essas ferramentas.
+
+  A IA ja esta mudando todas as profissoes, e quem souber usar essas ferramentas vai ter vantagem competitiva enorme. Esse curso e o seu ponto de partida para nao ficar para tras na revolucao tecnologica mais importante da nossa geracao.
+modulos:
+  - nome: "Fundamentos de IA"
+    carga_horaria: "16h"
+    valor: 160.00
+    descricao: "O que e IA, como funciona, tipos de IA, historia, etica e impacto no mercado de trabalho"
+  - nome: "IA na Pratica — Ferramentas"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "ChatGPT, Gemini, Copilot, DALL-E, Midjourney: prompts eficientes e aplicacoes reais"
+  - nome: "Automacao e Produtividade com IA"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Automatizar tarefas com IA, Excel com IA, criacao de conteudo, analise de dados e workflow"
+duracao_total: "4 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos de qualquer area que querem aprender a usar inteligencia artificial no dia a dia"
+prerequisitos: "Conhecimentos basicos de informatica (saber usar computador e navegar na internet)."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Guia de ferramentas de IA atualizado"
+proxima_turma: "2026-03-10"
+vagas: 12
+investimento:
+  matricula: 79.00
+  parcelas: 4
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/inteligencia-artificial.webp"
+ativo: true
+ordem: 24

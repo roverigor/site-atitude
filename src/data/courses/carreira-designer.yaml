@@ -1,0 +1,48 @@
+slug: carreira-designer
+nome: "Carreira Designer (Design Completo)"
+categoria: carreiras-pro
+descricao_curta: "Formacao completa em design: grafico, web, UI/UX e branding para se tornar um designer versátil."
+descricao_completa: |
+  O Carreira Designer e a formacao mais ampla da Atitude para quem quer dominar todas as areas do design. Em 8 meses, voce passa pelo design grafico, design para web e redes sociais, UI/UX e branding, saindo preparado para atuar em qualquer segmento do mercado criativo.
+
+  Voce vai dominar Photoshop, Illustrator, Figma e Canva Pro, criando projetos reais em cada modulo: logotipos, identidades visuais, layouts de sites, posts para redes sociais, apresentacoes corporativas e muito mais. Tudo isso com orientacao para montar um portfolio profissional de alto nivel.
+
+  Designers completos sao disputados por agencias, startups, graficas, e-commerces e empresas de todos os portes. Essa formacao te prepara para trabalhar como CLT, freelancer ou empreender no mundo criativo.
+modulos:
+  - nome: "Design Grafico Profissional"
+    carga_horaria: "32h"
+    valor: 260.00
+    descricao: "Photoshop, Illustrator, teoria das cores, tipografia, composicao e criacao de pecas graficas"
+  - nome: "Design para Web e Redes Sociais"
+    carga_horaria: "28h"
+    valor: 240.00
+    descricao: "Criacao de posts, stories, thumbnails, banners web e templates para redes sociais"
+  - nome: "UI/UX e Prototipacao"
+    carga_horaria: "24h"
+    valor: 240.00
+    descricao: "Figma, wireframes, prototipos interativos, usabilidade e design de interfaces"
+  - nome: "Branding e Portfolio"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Criacao de marca completa, manual de identidade visual e portfolio profissional"
+duracao_total: "8 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos criativos que desejam uma carreira completa em design e comunicacao visual"
+prerequisitos: "Conhecimentos basicos de informatica."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio com softwares profissionais"
+  - "Orientacao de portfolio e carreira"
+proxima_turma: "2026-04-07"
+vagas: 8
+investimento:
+  matricula: 129.00
+  parcelas: 8
+  valor_parcela: null
+  bonus_pontualidade: 20.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/carreira-designer.webp"
+ativo: true
+ordem: 16

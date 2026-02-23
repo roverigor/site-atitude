@@ -1,0 +1,44 @@
+slug: manutencao-computadores
+nome: "Manutencao de Computadores"
+categoria: tecnologia
+descricao_curta: "Aprenda a montar, configurar e consertar computadores — uma habilidade valorizada em qualquer cidade."
+descricao_completa: |
+  O curso de Manutencao de Computadores forma tecnicos preparados para montar, configurar, diagnosticar e consertar computadores desktop e notebooks. Voce vai aprender sobre hardware, software, redes, formatacao, instalacao de sistemas operacionais e resolucao dos problemas mais comuns.
+
+  As aulas sao 100% praticas em laboratorio: voce desmonta e monta computadores, identifica pecas, faz upgrades, formata maquinas, instala drivers, configura redes Wi-Fi e resolve os problemas que clientes trazem no dia a dia. Tambem abordamos orcamento de pecas, atendimento ao cliente e como montar sua assistencia tecnica.
+
+  Toda empresa, escritorio e residencia precisa de alguem que entenda de computadores. Esse curso te prepara para trabalhar em assistencias tecnicas, lojas de informatica, departamentos de TI ou como tecnico autonomo — uma profissao com demanda constante na regiao.
+modulos:
+  - nome: "Hardware e Montagem"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Componentes do computador, montagem, desmontagem, upgrades, notebooks e perifericos"
+  - nome: "Software e Sistemas"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Formatacao, instalacao de Windows e Linux, drivers, configuracoes e ferramentas de diagnostico"
+  - nome: "Redes e Atendimento Tecnico"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Redes Wi-Fi, cabeamento, configuracao de roteadores, backup, seguranca e atendimento ao cliente"
+duracao_total: "5 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar com manutencao de computadores e suporte tecnico"
+prerequisitos: "Conhecimentos basicos de informatica."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Pratica em laboratorio com hardware real"
+  - "Material de apoio digital"
+proxima_turma: "2026-04-07"
+vagas: 10
+investimento:
+  matricula: 89.00
+  parcelas: 5
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/manutencao-computadores.webp"
+ativo: true
+ordem: 26

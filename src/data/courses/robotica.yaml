@@ -1,0 +1,44 @@
+slug: robotica
+nome: "Robotica Educacional"
+categoria: tecnologia
+descricao_curta: "Aprenda robotica na pratica: monte robos, programe sensores e desenvolva raciocinio logico."
+descricao_completa: |
+  O curso de Robotica Educacional combina tecnologia, criatividade e logica para ensinar voce a construir e programar robos de verdade. Usando kits de robotica profissionais, voce vai montar estruturas, conectar sensores e motores, e programar comportamentos inteligentes — tudo de forma pratica e divertida.
+
+  O curso desenvolve habilidades essenciais para o seculo 21: raciocinio logico, resolucao de problemas, trabalho em equipe e pensamento computacional. Voce aprende eletronica basica, mecanica, programacao em blocos e texto, e participa de desafios que simulam competicoes de robotica.
+
+  A robotica esta cada vez mais presente em industrias, agricultura, saude e educacao. Esse curso e ideal para quem quer ter uma base solida em tecnologia e se preparar para as profissoes do futuro. Alunos ja participaram de competicoes regionais representando a Atitude.
+modulos:
+  - nome: "Fundamentos de Robotica"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Eletronica basica, mecanica, sensores, motores e montagem de estruturas roboticas"
+  - nome: "Programacao de Robos"
+    carga_horaria: "28h"
+    valor: 220.00
+    descricao: "Programacao em blocos e texto, logica de controle, sensores e tomada de decisao"
+  - nome: "Projetos e Desafios"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Projetos completos: robo seguidor de linha, robo autonomo, desafios de competicao"
+duracao_total: "6 meses"
+modalidade: presencial
+publico_alvo: "Jovens a partir de 12 anos e adultos interessados em tecnologia, robotica e automacao"
+prerequisitos: "Nenhum. Aberto para iniciantes completos."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Kit de robotica para aulas"
+  - "Participacao em desafios internos"
+proxima_turma: "2026-04-07"
+vagas: 10
+investimento:
+  matricula: 99.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "45%"
+imagem_destaque: "/images/courses/robotica.webp"
+ativo: true
+ordem: 25

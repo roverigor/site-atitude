@@ -7,8 +7,11 @@ import { FAQ } from "@/components/home/FAQ";
 import { CTAFinal } from "@/components/home/CTAFinal";
 import { OrganizationSchema, FAQSchema } from "@/components/seo/JsonLd";
 import { faqs } from "@/data/faq";
+import { getFeaturedTestimonials } from "@/lib/testimonials";
 
 export default function Home() {
+  const testimonials = getFeaturedTestimonials();
+
   return (
     <>
       <OrganizationSchema />
@@ -17,7 +20,7 @@ export default function Home() {
       <StatsSection />
       <CoursesGrid />
       <Timeline />
-      <TestimonialsCarousel />
+      <TestimonialsCarousel testimonials={testimonials} />
       <FAQ />
       <CTAFinal />
     </>

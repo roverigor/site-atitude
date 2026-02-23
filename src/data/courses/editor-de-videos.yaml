@@ -1,0 +1,44 @@
+slug: editor-de-videos
+nome: "Editor de Videos Profissional"
+categoria: design
+descricao_curta: "Domine edicao de video com Premiere, CapCut e DaVinci para criar conteudo profissional."
+descricao_completa: |
+  O curso de Editor de Videos Profissional forma profissionais preparados para editar videos para redes sociais, YouTube, empresas, eventos e producoes audiovisuais. Voce vai dominar as ferramentas mais usadas do mercado: Adobe Premiere Pro, CapCut e DaVinci Resolve, aprendendo desde cortes basicos ate efeitos avancados.
+
+  As aulas sao 100% praticas: voce edita videos reais desde a primeira semana. Aprende corte, transicoes, correcao de cor, audio, legendas, motion graphics basico, thumbnails e exportacao para diferentes plataformas. Tambem abordamos storytelling visual e como criar conteudo que engaja.
+
+  Editor de video e uma das profissoes que mais crescem com a explosao das redes sociais e do marketing digital. Empresas, influenciadores, agencias e produtoras precisam constantemente de editores qualificados. Saia do curso com portfolio e pronto para faturar.
+modulos:
+  - nome: "Fundamentos de Edicao"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Conceitos de edicao, timeline, cortes, transicoes, ritmo, storytelling e fluxo de trabalho"
+  - nome: "Premiere Pro e DaVinci Resolve"
+    carga_horaria: "28h"
+    valor: 240.00
+    descricao: "Edicao profissional, correcao de cor, audio, efeitos, exportacao e projetos avancados"
+  - nome: "CapCut, Reels e Portfolio"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Edicao rapida para redes sociais, CapCut, thumbnails, legendas automaticas e portfolio"
+duracao_total: "5 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar com edicao de video para redes sociais, YouTube ou producoes"
+prerequisitos: "Conhecimentos basicos de informatica."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio com softwares instalados"
+  - "Orientacao para portfolio"
+proxima_turma: "2026-04-07"
+vagas: 8
+investimento:
+  matricula: 89.00
+  parcelas: 5
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/editor-de-videos.webp"
+ativo: true
+ordem: 30

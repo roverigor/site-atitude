@@ -1,0 +1,44 @@
+slug: evolua
+nome: "Evolua (Curso Interativo Profissional)"
+categoria: interativos
+descricao_curta: "Sistema interativo Evolua: informatica profissional com metodologia moderna e certificacao."
+descricao_completa: |
+  O Evolua e um sistema de ensino interativo que combina tecnologia e didatica para formar profissionais de informatica com qualidade. As aulas sao realizadas por computador com simulacoes reais dos programas, garantindo que voce aprenda fazendo — nao apenas assistindo.
+
+  O curso cobre as ferramentas mais pedidas pelo mercado: pacote Office, navegacao na internet, redes sociais profissionais e ferramentas de comunicacao empresarial. Cada licao termina com exercicios praticos e avaliacoes que medem seu progresso real.
+
+  Com horarios flexiveis e acompanhamento de instrutor, o Evolua e perfeito para quem trabalha ou estuda e precisa encaixar o curso na rotina. Voce define seu ritmo e conta com suporte sempre que precisar.
+modulos:
+  - nome: "Informatica Basica e Office"
+    carga_horaria: "28h"
+    valor: 180.00
+    descricao: "Windows, Word, Excel e PowerPoint com simulacoes interativas dos programas reais"
+  - nome: "Comunicacao Digital"
+    carga_horaria: "20h"
+    valor: 160.00
+    descricao: "E-mail profissional, Google Workspace, redes sociais para negocios e comunicacao online"
+  - nome: "Profissionalizacao Digital"
+    carga_horaria: "16h"
+    valor: 140.00
+    descricao: "Curriculo digital, LinkedIn, plataformas de emprego e postura profissional online"
+duracao_total: "4 meses"
+modalidade: interativo
+publico_alvo: "Jovens e adultos que buscam qualificacao em informatica com horarios flexiveis"
+prerequisitos: "Nenhum. Indicado para todos os niveis."
+incluso:
+  - "Acesso ao sistema Evolua"
+  - "Certificado de conclusao"
+  - "Acompanhamento de instrutor"
+  - "Acesso ao laboratorio"
+  - "Material de apoio digital"
+proxima_turma: "2026-03-10"
+vagas: 15
+investimento:
+  matricula: 69.00
+  parcelas: 4
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/evolua.webp"
+ativo: true
+ordem: 18

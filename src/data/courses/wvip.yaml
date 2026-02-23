@@ -1,0 +1,48 @@
+slug: wvip
+nome: "WVip (Ingles Avancado VIP)"
+categoria: ingles
+descricao_curta: "Ingles avancado com turmas reduzidas e atencao personalizada para fluencia real."
+descricao_completa: |
+  O WVip e o curso de ingles mais exclusivo da Atitude Ensino, com turmas reduzidas de no maximo 6 alunos para garantir atencao personalizada e evolucao acelerada. Voltado para quem ja tem base no idioma e quer alcancar fluencia real para trabalho, viagens e certificacoes internacionais.
+
+  O metodo foca em conversacao intensa, compreensao auditiva avancada, leitura de textos complexos e escrita formal e informal. Voce pratica situacoes reais: reunioes de negocios, entrevistas de emprego, viagens, apresentacoes e discussoes sobre temas atuais — tudo em ingles.
+
+  Com acompanhamento individual e plano de estudos personalizado, o WVip e ideal para profissionais que precisam do ingles no trabalho, estudantes que querem certificacoes internacionais ou qualquer pessoa que busca fluencia com conforto e qualidade.
+modulos:
+  - nome: "Upper Intermediate"
+    carga_horaria: "40h"
+    valor: 320.00
+    descricao: "Conversacao avancada, gramatica complexa, vocabulario profissional e compreensao auditiva"
+  - nome: "Advanced Communication"
+    carga_horaria: "40h"
+    valor: 320.00
+    descricao: "Apresentacoes, debates, escrita formal, negocios internacionais e expressoes idiomaticas"
+  - nome: "Fluency and Culture"
+    carga_horaria: "36h"
+    valor: 300.00
+    descricao: "Imersao cultural, filmes, podcasts, artigos e pratica de fluencia espontanea"
+  - nome: "Exam Preparation"
+    carga_horaria: "32h"
+    valor: 280.00
+    descricao: "Preparacao para TOEFL, IELTS e Cambridge, com simulados e estrategias de prova"
+duracao_total: "18 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos com nivel intermediario que buscam fluencia e certificacao em ingles"
+prerequisitos: "Nivel intermediario de ingles (passar por avaliacao de nivelamento)."
+incluso:
+  - "Material didatico completo"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Turmas reduzidas (max 6 alunos)"
+  - "Plano de estudos personalizado"
+proxima_turma: "2026-03-10"
+vagas: 6
+investimento:
+  matricula: 149.00
+  parcelas: 18
+  valor_parcela: null
+  bonus_pontualidade: 20.00
+  desconto_maximo: "55%"
+imagem_destaque: "/images/courses/wvip.webp"
+ativo: true
+ordem: 27

@@ -1,0 +1,48 @@
+slug: carreira-games
+nome: "Carreira Games (Desenvolvimento de Jogos)"
+categoria: carreiras-pro
+descricao_curta: "Crie seus proprios jogos: aprenda game design, programacao e arte digital para a industria de games."
+descricao_completa: |
+  O Carreira Games e a formacao ideal para quem sonha em trabalhar com desenvolvimento de jogos. Em 10 meses, voce aprende game design, programacao em C#, modelagem 3D, animacao e som, criando jogos completos usando a engine Unity — a mesma usada por estudios profissionais no mundo todo.
+
+  O curso combina criatividade e tecnologia: voce aprende a desenhar fases, criar personagens, programar mecanicas de jogo, implementar fisica e publicar seus jogos. Cada modulo resulta em um projeto funcional que vai para o seu portfolio de game developer.
+
+  A industria de jogos fatura mais que cinema e musica juntos, e desenvolvedores de games tem oportunidades em estudios, empresas de tecnologia, educacao e simulacao. Comece sua jornada na Atitude e transforme sua paixao por jogos em profissao.
+modulos:
+  - nome: "Game Design e Conceito"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Principios de game design, mecanicas, level design, narrativa e documentacao de jogos"
+  - nome: "Programacao com C# e Unity"
+    carga_horaria: "36h"
+    valor: 300.00
+    descricao: "Logica de programacao, C# aplicado, Unity Engine, fisica, colisoes e gameplay"
+  - nome: "Arte e Animacao para Jogos"
+    carga_horaria: "28h"
+    valor: 260.00
+    descricao: "Pixel art, modelagem 3D basica, animacao de personagens, cenarios e efeitos visuais"
+  - nome: "Projeto Final — Jogo Completo"
+    carga_horaria: "20h"
+    valor: 220.00
+    descricao: "Desenvolvimento de um jogo completo do conceito a publicacao, com portfolio profissional"
+duracao_total: "10 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos apaixonados por jogos que desejam aprender a desenvolver games profissionalmente"
+prerequisitos: "Conhecimentos basicos de informatica. Interesse em jogos digitais."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio com Unity instalado"
+  - "Publicacao de jogo na plataforma itch.io"
+proxima_turma: "2026-04-07"
+vagas: 8
+investimento:
+  matricula: 129.00
+  parcelas: 10
+  valor_parcela: null
+  bonus_pontualidade: 20.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/carreira-games.webp"
+ativo: true
+ordem: 15

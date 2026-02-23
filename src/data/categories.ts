@@ -81,6 +81,14 @@ export const categories: Category[] = [
     icone: "Table",
     descricao: "Cursos especializados em Excel e planilhas",
   },
+  {
+    nome: "RH e Marketing",
+    slug: "rh-marketing",
+    cor: "category-rh-marketing",
+    corHex: "#0891B2",
+    icone: "Megaphone",
+    descricao: "Cursos de recursos humanos, marketing e vendas",
+  },
 ];
 
 export function getCategoryBySlug(slug: CategorySlug): Category | undefined {

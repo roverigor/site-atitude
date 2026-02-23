@@ -1,0 +1,52 @@
+slug: carreira-dev
+nome: "Carreira Dev (Programacao Full Stack)"
+categoria: carreiras-pro
+descricao_curta: "Formacao completa em programacao web: do front-end ao back-end, pronto para o mercado tech."
+descricao_completa: |
+  O Carreira Dev e a formacao mais completa da Atitude Ensino para quem quer se tornar programador profissional. Em 12 meses, voce domina HTML, CSS, JavaScript, React, Node.js, banco de dados e APIs, construindo projetos reais que vao direto para o seu portfolio.
+
+  O curso segue a metodologia de aprendizado por projetos: a cada modulo, voce desenvolve uma aplicacao funcional. Do site institucional ao sistema web completo com login, painel administrativo e banco de dados — voce constroi tudo com as proprias maos.
+
+  Programadores sao os profissionais mais demandados do mercado, com salarios iniciais acima da media e possibilidade de trabalho remoto. Essa formacao e o seu caminho para entrar na area de tecnologia com base solida e portfolio profissional.
+modulos:
+  - nome: "Fundamentos Web (HTML, CSS, JS)"
+    carga_horaria: "40h"
+    valor: 280.00
+    descricao: "HTML5, CSS3, JavaScript moderno, responsividade, Git e publicacao de sites"
+  - nome: "Front-end com React"
+    carga_horaria: "36h"
+    valor: 300.00
+    descricao: "Componentizacao, hooks, rotas, consumo de APIs e criacao de interfaces modernas"
+  - nome: "Back-end com Node.js"
+    carga_horaria: "36h"
+    valor: 300.00
+    descricao: "Servidores, APIs REST, autenticacao, Express.js e integracao com banco de dados"
+  - nome: "Banco de Dados"
+    carga_horaria: "24h"
+    valor: 240.00
+    descricao: "SQL, PostgreSQL, modelagem de dados, consultas e integracao com aplicacoes"
+  - nome: "Projeto Final Full Stack"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Desenvolvimento de aplicacao completa do zero ao deploy, com portfolio profissional"
+duracao_total: "12 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam se tornar programadores e ingressar no mercado de tecnologia"
+prerequisitos: "Conhecimentos basicos de informatica. Desejavel ter concluido o curso de Operador de Computador."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Acesso ao laboratorio"
+  - "Mentoria para portfolio e carreira"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 149.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 20.00
+  desconto_maximo: "55%"
+imagem_destaque: "/images/courses/carreira-dev.webp"
+ativo: true
+ordem: 14

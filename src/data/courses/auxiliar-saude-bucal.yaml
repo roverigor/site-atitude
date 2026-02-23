@@ -1,0 +1,48 @@
+slug: auxiliar-saude-bucal
+nome: "Auxiliar de Saude Bucal"
+categoria: saude
+descricao_curta: "Qualifique-se para atuar em consultorios odontologicos com tecnica, higiene e profissionalismo."
+descricao_completa: |
+  O curso de Auxiliar de Saude Bucal forma profissionais para atuar em consultorios odontologicos, clinicas e postos de saude. Voce vai aprender anatomia bucal, instrumentacao, biosseguranca, radiologia odontologica, materiais dentarios e tecnicas de auxiliar o dentista durante procedimentos.
+
+  O programa segue as diretrizes do Conselho Federal de Odontologia e prepara o aluno para as funcoes reais do dia a dia: organizacao do consultorio, esterilizacao de instrumentos, preparo de materiais, auxiliar em restauracoes, extracao e profilaxia, alem do atendimento humanizado ao paciente.
+
+  Auxiliares de saude bucal sao essenciais em qualquer consultorio odontologico, e a demanda e constante na regiao. Com essa formacao, voce entra em um mercado estavel, com boas oportunidades de emprego e possibilidade de crescimento profissional.
+modulos:
+  - nome: "Anatomia e Saude Bucal"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Anatomia da boca e dentes, doencas bucais, prevencao, etica e postura profissional"
+  - nome: "Biosseguranca e Esterilizacao"
+    carga_horaria: "16h"
+    valor: 180.00
+    descricao: "Normas de biosseguranca, esterilizacao de instrumentos, EPIs e controle de infeccao"
+  - nome: "Instrumentacao e Materiais"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Instrumentos odontologicos, materiais dentarios, preparo de bandejas e auxiliar em procedimentos"
+  - nome: "Radiologia e Pratica Clinica"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Radiologia odontologica basica, atendimento ao paciente, agendamento e organizacao do consultorio"
+duracao_total: "8 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar em consultorios odontologicos e clinicas de saude bucal"
+prerequisitos: "Ensino fundamental completo. Ter 18 anos ou mais."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Material complementar de odontologia"
+  - "Pratica simulada em consultorio"
+proxima_turma: "2026-04-07"
+vagas: 10
+investimento:
+  matricula: 129.00
+  parcelas: 8
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/auxiliar-saude-bucal.webp"
+ativo: true
+ordem: 21

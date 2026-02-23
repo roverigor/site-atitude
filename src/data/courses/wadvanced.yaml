@@ -1,0 +1,44 @@
+slug: wadvanced
+nome: "WAdvanced (Ingles Business)"
+categoria: ingles
+descricao_curta: "Ingles corporativo para profissionais: reunioes, e-mails, negociacoes e apresentacoes em ingles."
+descricao_completa: |
+  O WAdvanced e o curso de ingles voltado para o mundo dos negocios. Projetado para profissionais que ja tem base no idioma e precisam usar ingles no trabalho: reunioes, e-mails, negociacoes, relatorios, apresentacoes e atendimento a clientes internacionais.
+
+  As aulas simulam situacoes reais do ambiente corporativo: conference calls, pitch de vendas, entrevistas de emprego em ingles, redacao de propostas comerciais e networking profissional. O vocabulario e focado em business English, com expressoes e termos usados nas maiores empresas do mundo.
+
+  Profissionais que dominam o ingles corporativo tem acesso a cargos melhores, salarios maiores e oportunidades internacionais. Esse curso e o diferencial que falta para voce se destacar no mercado de trabalho e avançar na carreira.
+modulos:
+  - nome: "Business Communication"
+    carga_horaria: "32h"
+    valor: 280.00
+    descricao: "E-mails profissionais, telefone, reunioes, negociacoes e vocabulario corporativo"
+  - nome: "Professional Presentations"
+    carga_horaria: "28h"
+    valor: 260.00
+    descricao: "Apresentacoes, pitch, relatorios, dados e graficos em ingles para negocios"
+  - nome: "Advanced Business Skills"
+    carga_horaria: "28h"
+    valor: 260.00
+    descricao: "Lideranca, networking, entrevistas, contratos e ingles para gestao e RH"
+duracao_total: "12 meses"
+modalidade: presencial
+publico_alvo: "Profissionais que precisam usar ingles no ambiente corporativo e de negocios"
+prerequisitos: "Nivel intermediario de ingles (passar por avaliacao de nivelamento)."
+incluso:
+  - "Material didatico especializado"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Simulacoes de reunioes e apresentacoes"
+  - "Acesso a plataforma online"
+proxima_turma: "2026-03-10"
+vagas: 8
+investimento:
+  matricula: 129.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 20.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/wadvanced.webp"
+ativo: true
+ordem: 29

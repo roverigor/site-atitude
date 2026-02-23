@@ -1,0 +1,44 @@
+slug: maquiagem-profissional
+nome: "Maquiagem Profissional"
+categoria: beleza
+descricao_curta: "Aprenda tecnicas de maquiagem profissional e transforme sua paixao em uma carreira lucrativa."
+descricao_completa: |
+  O curso de Maquiagem Profissional forma maquiadoras e maquiadores preparados para atuar em saloes, studios, eventos e como autonomos. Voce vai dominar tecnicas de maquiagem social, noiva, editorial e artistica, usando produtos profissionais e aprendendo a valorizar cada tipo de rosto.
+
+  As aulas sao 100% praticas, com modelos reais e simulacoes de atendimento. Voce aprende colorimetria, preparacao de pele, contorno, iluminacao, olhos esfumados, delineados e tecnicas de fixacao que duram o dia todo. Tambem abordamos atendimento ao cliente, precificacao e como montar seu kit profissional.
+
+  O mercado de beleza e um dos que mais crescem no Brasil, e maquiadores qualificados sao muito procurados para festas, casamentos, formaturas e producoes fotograficas. Saia do curso pronta para atender e faturar.
+modulos:
+  - nome: "Fundamentos da Maquiagem"
+    carga_horaria: "20h"
+    valor: 180.00
+    descricao: "Colorimetria, tipos de pele, preparacao, primers, bases e corretivos para cada ocasiao"
+  - nome: "Tecnicas Avancadas"
+    carga_horaria: "24h"
+    valor: 200.00
+    descricao: "Contorno, iluminacao, cut crease, esfumados, delineados e tecnicas para olhos e labios"
+  - nome: "Maquiagem para Eventos"
+    carga_horaria: "20h"
+    valor: 190.00
+    descricao: "Maquiagem de noiva, madrinha, formatura, editorial e producao para fotos e videos"
+duracao_total: "4 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos apaixonados por beleza que desejam trabalhar como maquiadores profissionais"
+prerequisitos: "Nenhum. Aberto para iniciantes completos."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Kit de pinceis para pratica"
+  - "Material de apoio digital"
+proxima_turma: "2026-04-07"
+vagas: 12
+investimento:
+  matricula: 79.00
+  parcelas: 4
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "40%"
+imagem_destaque: "/images/courses/maquiagem-profissional.webp"
+ativo: true
+ordem: 11

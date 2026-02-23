@@ -1,0 +1,44 @@
+slug: wjuniors
+nome: "WJuniors (Ingles para Jovens 10-14 anos)"
+categoria: ingles
+descricao_curta: "Ingles divertido e eficiente para jovens de 10 a 14 anos que querem sair na frente."
+descricao_completa: |
+  O WJuniors e o curso de ingles da Wizard projetado especialmente para jovens de 10 a 14 anos, na fase mais importante para o aprendizado de idiomas. Com metodologia ludica e interativa, os alunos aprendem ingles de forma natural e prazerosa, desenvolvendo as quatro habilidades: falar, ouvir, ler e escrever.
+
+  As aulas sao dinamicas, com jogos, musicas, videos, projetos em grupo e atividades que conectam o ingles ao universo dos jovens: tecnologia, redes sociais, filmes, series e games. O material e moderno e o metodo prioriza a comunicacao real desde a primeira aula.
+
+  Aprender ingles na adolescencia garante uma base solida que vai fazer diferenca na escola, no vestibular e na futura carreira. Jovens que dominam o ingles tem acesso a mais conteudo, mais oportunidades e mais conexoes com o mundo. Investir agora e garantir o futuro.
+modulos:
+  - nome: "Starter"
+    carga_horaria: "36h"
+    valor: 240.00
+    descricao: "Primeiros passos no ingles, vocabulario do dia a dia, cumprimentos, familia, escola e hobbies"
+  - nome: "Explorer"
+    carga_horaria: "36h"
+    valor: 240.00
+    descricao: "Conversacao basica, gramatica essencial, leitura de textos simples e atividades interativas"
+  - nome: "Achiever"
+    carga_horaria: "36h"
+    valor: 240.00
+    descricao: "Comunicacao intermediaria, projetos em grupo, apresentacoes e preparacao para provas de ingles"
+duracao_total: "12 meses"
+modalidade: presencial
+publico_alvo: "Jovens de 10 a 14 anos que querem aprender ingles de forma divertida e eficiente"
+prerequisitos: "Ter entre 10 e 14 anos. Nenhum conhecimento previo de ingles necessario."
+incluso:
+  - "Material didatico Wizard"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Atividades extracurriculares em ingles"
+  - "Acesso a plataforma online"
+proxima_turma: "2026-03-10"
+vagas: 12
+investimento:
+  matricula: 99.00
+  parcelas: 12
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "50%"
+imagem_destaque: "/images/courses/wjuniors.webp"
+ativo: true
+ordem: 28

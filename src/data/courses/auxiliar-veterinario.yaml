@@ -1,0 +1,44 @@
+slug: auxiliar-veterinario
+nome: "Auxiliar de Veterinario"
+categoria: saude
+descricao_curta: "Prepare-se para trabalhar em clinicas veterinarias com conhecimento tecnico e amor pelos animais."
+descricao_completa: |
+  O curso de Auxiliar de Veterinario forma profissionais qualificados para atuar em clinicas veterinarias, pet shops, canis e criadouros. Voce vai aprender anatomia e fisiologia animal, tecnicas de contencao, higiene, primeiros socorros, auxiliar em consultas e procedimentos, alem de cuidados basicos com pequenos e grandes animais.
+
+  As aulas combinam teoria e pratica, com estudos de caso reais e simulacoes de atendimento. Voce aprende a lidar com diferentes especies, reconhecer sinais de emergencia, auxiliar o veterinario em procedimentos e manter o ambiente limpo e organizado conforme as normas sanitarias.
+
+  O mercado pet e um dos que mais crescem no Brasil, e clinicas veterinarias da regiao buscam constantemente profissionais qualificados. Esse curso e ideal para quem ama animais e quer transformar essa paixao em uma profissao valorizada.
+modulos:
+  - nome: "Fundamentos de Veterinaria"
+    carga_horaria: "20h"
+    valor: 190.00
+    descricao: "Anatomia e fisiologia animal, racas, comportamento, etica profissional e biosseguranca"
+  - nome: "Manejo e Contencao Animal"
+    carga_horaria: "24h"
+    valor: 220.00
+    descricao: "Tecnicas de contencao, higiene, banho e tosa basicos, vacinacao e primeiros socorros"
+  - nome: "Clinica e Atendimento"
+    carga_horaria: "20h"
+    valor: 200.00
+    descricao: "Auxiliar em consultas, administracao de medicamentos, curativos, pos-operatorio e recepcao"
+duracao_total: "6 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que amam animais e desejam trabalhar em clinicas veterinarias e pet shops"
+prerequisitos: "Ensino fundamental completo. Ter 16 anos ou mais."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Material complementar sobre especies"
+  - "Visita tecnica a clinica veterinaria"
+proxima_turma: "2026-04-07"
+vagas: 12
+investimento:
+  matricula: 99.00
+  parcelas: 6
+  valor_parcela: null
+  bonus_pontualidade: 15.00
+  desconto_maximo: "45%"
+imagem_destaque: "/images/courses/auxiliar-veterinario.webp"
+ativo: true
+ordem: 20

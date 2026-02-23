@@ -1,0 +1,40 @@
+slug: auxiliar-administrativo
+nome: "Auxiliar Administrativo"
+categoria: administracao
+descricao_curta: "Aprenda rotinas administrativas e torne-se um profissional indispensavel em qualquer empresa."
+descricao_completa: |
+  O curso de Auxiliar Administrativo forma profissionais para atuar nas rotinas do dia a dia de empresas, comercios e escritorios. Voce vai aprender organizacao de documentos, atendimento telefonico, agenda, protocolo, arquivo, correspondencias e apoio as atividades administrativas gerais.
+
+  As aulas sao praticas e simulam situacoes reais de trabalho: voce aprende a redigir e-mails profissionais, organizar reunioes, controlar materiais de escritorio, usar sistemas basicos e manter tudo funcionando com eficiencia. Tambem abordamos postura profissional, etica e trabalho em equipe.
+
+  O auxiliar administrativo e uma das funcoes mais procuradas no mercado de trabalho, especialmente para quem esta comecando a carreira. Com esse curso, voce ganha experiencia pratica e um certificado que abre portas em empresas de todos os setores.
+modulos:
+  - nome: "Rotinas Administrativas"
+    carga_horaria: "24h"
+    valor: 170.00
+    descricao: "Organizacao de documentos, arquivo, protocolo, correspondencias, agenda e atendimento telefonico"
+  - nome: "Comunicacao e Informatica Aplicada"
+    carga_horaria: "20h"
+    valor: 160.00
+    descricao: "Redacao empresarial, e-mail profissional, Word, Excel basico e sistemas administrativos"
+duracao_total: "4 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que buscam o primeiro emprego ou querem se qualificar para funcoes administrativas"
+prerequisitos: "Ensino fundamental completo."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Simulacoes de rotinas de escritorio"
+  - "Material de apoio digital"
+proxima_turma: "2026-03-17"
+vagas: 15
+investimento:
+  matricula: 69.00
+  parcelas: 4
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "35%"
+imagem_destaque: "/images/courses/auxiliar-administrativo.webp"
+ativo: true
+ordem: 23

@@ -1,0 +1,40 @@
+slug: operador-de-caixa
+nome: "Operador de Caixa"
+categoria: rh-marketing
+descricao_curta: "Qualifique-se para trabalhar como operador de caixa em supermercados, lojas e comercio em geral."
+descricao_completa: |
+  O curso de Operador de Caixa forma profissionais preparados para atuar em supermercados, lojas, farmacias, padarias e qualquer estabelecimento comercial. Voce vai aprender operacao de caixa registradora e PDV, formas de pagamento (dinheiro, cartao, Pix), troco, fechamento de caixa, emissao de notas fiscais e atendimento ao cliente.
+
+  As aulas sao praticas, com simulacoes de atendimento usando equipamentos reais. Voce tambem aprende nocoes de matematica comercial, prevencao de perdas, organizacao do posto de trabalho e como lidar com situacoes do dia a dia: filas, clientes insatisfeitos, troca de mercadorias e cancelamentos.
+
+  Operador de caixa e uma das funcoes com maior oferta de vagas no comercio da regiao. Com esse curso rapido e pratico, voce se qualifica em 3 meses e ja pode buscar sua vaga. Muitos alunos conseguem emprego antes mesmo de concluir o curso.
+modulos:
+  - nome: "Operacao de Caixa e PDV"
+    carga_horaria: "20h"
+    valor: 150.00
+    descricao: "Operacao de caixa registradora, PDV, formas de pagamento, troco, sangria e fechamento"
+  - nome: "Atendimento e Rotinas Comerciais"
+    carga_horaria: "16h"
+    valor: 130.00
+    descricao: "Atendimento ao cliente, nota fiscal, trocas, cancelamentos, prevencao de perdas e etica"
+duracao_total: "3 meses"
+modalidade: presencial
+publico_alvo: "Jovens e adultos que desejam trabalhar como operador de caixa no comercio"
+prerequisitos: "Ensino fundamental completo."
+incluso:
+  - "Apostila impressa"
+  - "Certificado de conclusao"
+  - "Acompanhamento individual"
+  - "Pratica com simulador de PDV"
+  - "Material de apoio digital"
+proxima_turma: "2026-03-17"
+vagas: 15
+investimento:
+  matricula: 49.00
+  parcelas: 3
+  valor_parcela: null
+  bonus_pontualidade: 10.00
+  desconto_maximo: "30%"
+imagem_destaque: "/images/courses/operador-de-caixa.webp"
+ativo: true
+ordem: 33
