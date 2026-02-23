@@ -24,10 +24,22 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://atitudeensino.com.br"
   ),
+  manifest: "/manifest.json",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: "Atitude Ensino",
+  },
+  other: {
+    "google-site-verification": "YOUR_GOOGLE_VERIFICATION_CODE",
   },
 };
 
@@ -38,6 +50,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <meta name="theme-color" content="#00E676" />
+      </head>
       <body className={`${poppins.variable} font-[family-name:var(--font-poppins)] antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <a href="#main-content" className="skip-to-content">

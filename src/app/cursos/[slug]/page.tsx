@@ -6,6 +6,7 @@ import {
   getCoursesByCategory,
 } from "@/lib/courses";
 import { categories } from "@/data/categories";
+import { CourseSchema } from "@/components/seo/JsonLd";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
@@ -93,6 +94,8 @@ export default async function CoursePage({
 
   return (
     <>
+      <CourseSchema course={course} />
+
       {/* Breadcrumb */}
       <Breadcrumb
         items={[

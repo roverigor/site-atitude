@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /obrigado
+
+# Host
+Host: https://atitudeensino.com.br
+
+# Sitemaps
+Sitemap: https://atitudeensino.com.br/sitemap.xml
