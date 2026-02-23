@@ -80,18 +80,37 @@ export interface BlogPost {
   readingTime: number;
 }
 
+export interface TeamMember {
+  nome: string;
+  funcao: string;
+  descricao: string;
+  foto: string;
+  ordem: number;
+}
+
 export interface Testimonial {
-  id: string;
-  name: string;
-  course: string;
-  text: string;
-  rating: number;
-  image?: string;
+  nome: string;
+  idade: number;
+  curso: string;
+  categoria: CategorySlug;
+  ano_conclusao: number;
+  texto: string;
+  resultado: string;
+  foto: string;
+  destaque: boolean;
 }
 
 export interface Partner {
-  id: string;
-  name: string;
+  nome: string;
   logo: string;
+  segmento: string;
   url?: string;
+}
+
+export interface GraduationEvent {
+  titulo: string;
+  data: string;
+  tipo: string;
+  descricao: string;
+  fotos: string[];
 }

@@ -1,0 +1,29 @@
+- nome: "Igor Rover"
+  funcao: "CEO & Fundador"
+  descricao: "Fundou a Atitude Ensino aos 17 anos. Ha 15 anos transformando vidas atraves da educacao profissionalizante em Ibaiti e regiao."
+  foto: "/images/team/placeholder.webp"
+  ordem: 1
+
+- nome: "Camila Ferreira"
+  funcao: "Coordenadora Pedagogica"
+  descricao: "Responsavel pela qualidade dos cursos e metodologia de ensino. Formada em Pedagogia com especializacao em educacao profissional."
+  foto: "/images/team/placeholder.webp"
+  ordem: 2
+
+- nome: "Rafael Mendes"
+  funcao: "Professor de Informatica"
+  descricao: "Especialista em informatica e programacao. Ensina desde o basico ate desenvolvimento web com didatica pratica e acessivel."
+  foto: "/images/team/placeholder.webp"
+  ordem: 3
+
+- nome: "Patricia Alves"
+  funcao: "Professora de Ingles"
+  descricao: "Certificada internacionalmente com experiencia em ensino de ingles para todas as idades. Metodologia comunicativa e imersiva."
+  foto: "/images/team/placeholder.webp"
+  ordem: 4
+
+- nome: "Juliana Santos"
+  funcao: "Secretaria Administrativa"
+  descricao: "Responsavel pelo atendimento aos alunos, matriculas e organizacao administrativa da escola."
+  foto: "/images/team/placeholder.webp"
+  ordem: 5

@@ -1,0 +1,79 @@
+- nome: "Maria Aparecida Silva"
+  idade: 22
+  curso: "Operador de Computador"
+  categoria: informatica
+  ano_conclusao: 2024
+  texto: "Gracas a Atitude Ensino consegui meu primeiro emprego como auxiliar administrativo na Prefeitura de Ibaiti. Os professores sao incriveis e a apostila e muito completa. Antes eu nao sabia nem abrir um e-mail, hoje trabalho com planilhas e sistemas todos os dias."
+  resultado: "Contratada como auxiliar administrativo na Prefeitura"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: true
+
+- nome: "Carlos Eduardo Ferreira"
+  idade: 35
+  curso: "Excel do Basico ao Avancado"
+  categoria: excel
+  ano_conclusao: 2024
+  texto: "Eu ja trabalhava no comercio ha 10 anos, mas nao conseguia subir de cargo porque nao dominava Excel. Depois do curso, criei uma planilha de controle de estoque pro meu chefe e fui promovido a gerente em menos de 3 meses."
+  resultado: "Promovido a gerente de loja"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: true
+
+- nome: "Ana Paula Rodrigues"
+  idade: 19
+  curso: "Designer Grafico"
+  categoria: design
+  ano_conclusao: 2025
+  texto: "Sempre gostei de desenhar, mas nao sabia usar programas profissionais. O curso de Designer Grafico me ensinou Photoshop, Illustrator e Canva. Hoje faco trabalhos freelancer pra lojas da cidade e ja tenho renda propria."
+  resultado: "Trabalha como freelancer de design grafico"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: true
+
+- nome: "Jose Roberto Almeida"
+  idade: 45
+  curso: "Assistente Administrativo"
+  categoria: administracao
+  ano_conclusao: 2023
+  texto: "Perdi meu emprego na pandemia e precisava me recolocar no mercado. O curso de Assistente Administrativo me deu a base que eu precisava. Aprendi rotinas de escritorio, atendimento ao cliente e informatica basica tudo junto."
+  resultado: "Recolocado no mercado de trabalho"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: false
+
+- nome: "Leticia Santos Oliveira"
+  idade: 17
+  curso: "Informatica Kids"
+  categoria: informatica
+  ano_conclusao: 2024
+  texto: "Comecei o curso com 14 anos e aprendi muito sobre computador. Minha mae disse que agora eu ajudo ela a resolver tudo no celular e no notebook. Quero fazer o curso de programacao quando terminar o ensino medio."
+  resultado: "Desenvolveu habilidades digitais desde cedo"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: false
+
+- nome: "Fernanda Costa Lima"
+  idade: 28
+  curso: "WPrime - Ingles Adultos"
+  categoria: ingles
+  ano_conclusao: 2024
+  texto: "Sempre tive vontade de aprender ingles mas tinha vergonha. Na Atitude Ensino o ambiente e acolhedor e a professora tem muita paciencia. Hoje consigo assistir filmes sem legenda e me comunicar com turistas que passam pela regiao."
+  resultado: "Alcancou nivel intermediario de ingles"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: false
+
+- nome: "Lucas Henrique Barbosa"
+  idade: 20
+  curso: "Programacao Web"
+  categoria: tecnologia
+  ano_conclusao: 2025
+  texto: "Eu nao imaginava que em Ibaiti teria um curso de programacao tao bom. Aprendi HTML, CSS, JavaScript e ja estou fazendo sites pra comercios da regiao. Meu sonho e trabalhar remoto pra uma empresa de tecnologia."
+  resultado: "Criando sites para comercios locais"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: false
+
+- nome: "Rosangela de Fatima Pereira"
+  idade: 41
+  curso: "Atendente de Farmacia"
+  categoria: saude
+  ano_conclusao: 2023
+  texto: "Trabalhava como caixa de supermercado e queria mudar de area. O curso de Atendente de Farmacia me abriu as portas. Aprendi sobre medicamentos, atendimento e organizacao de estoque. Hoje trabalho na Farmacia Sao Lucas e ganho mais do que antes."
+  resultado: "Mudou de carreira para area da saude"
+  foto: "/images/testimonials/placeholder.webp"
+  destaque: false

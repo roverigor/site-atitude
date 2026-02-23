@@ -1,0 +1,23 @@
+- nome: "Supermercado Ibaiti"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Comercio"
+
+- nome: "Farmacia Sao Lucas"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Saude"
+
+- nome: "Prefeitura de Ibaiti"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Governo"
+
+- nome: "Clinica Odontologica Sorriso"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Saude"
+
+- nome: "Escritorio Contabil Confianca"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Servicos"
+
+- nome: "TechShop Informatica"
+  logo: "/images/partners/placeholder.webp"
+  segmento: "Tecnologia"

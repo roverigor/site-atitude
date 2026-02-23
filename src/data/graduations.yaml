@@ -1,0 +1,20 @@
+- titulo: "Formatura Informatica - Turma 2024"
+  data: "2024-12-15"
+  tipo: "informatica"
+  descricao: "Celebracao da conclusao da turma de Operador de Computador e Designer Grafico 2024. Mais de 30 alunos formados prontos para o mercado de trabalho."
+  fotos:
+    - "/images/graduations/info-2024-01.webp"
+    - "/images/graduations/info-2024-02.webp"
+    - "/images/graduations/info-2024-03.webp"
+    - "/images/graduations/info-2024-04.webp"
+    - "/images/graduations/info-2024-05.webp"
+
+- titulo: "Formatura Ingles - Turma 2024"
+  data: "2024-11-20"
+  tipo: "ingles"
+  descricao: "Formatura das turmas WPrime e WKids 2024. Alunos de todas as idades celebrando a conquista de um novo idioma."
+  fotos:
+    - "/images/graduations/ingles-2024-01.webp"
+    - "/images/graduations/ingles-2024-02.webp"
+    - "/images/graduations/ingles-2024-03.webp"
+    - "/images/graduations/ingles-2024-04.webp"
