@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
+import { Analytics } from "@/components/shared/Analytics";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -46,6 +47,7 @@ export default function RootLayout({
           <main id="main-content">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
