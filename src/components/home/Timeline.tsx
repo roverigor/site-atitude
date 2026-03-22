@@ -5,11 +5,11 @@ import { ClipboardList, BookOpen, HeartHandshake, GraduationCap, Briefcase } fro
 import { Container } from "@/components/layout/Container";
 
 const steps = [
-  { icon: ClipboardList, title: "Matricula", desc: "Escolha seu curso e se inscreva" },
-  { icon: BookOpen, title: "Curso", desc: "Aprenda na pratica com apoio" },
-  { icon: HeartHandshake, title: "Acompanhamento", desc: "Suporte individual ate o fim" },
-  { icon: GraduationCap, title: "Formatura", desc: "Certificado na mao" },
-  { icon: Briefcase, title: "Estagio", desc: "Encaminhamento para empresas" },
+  { icon: ClipboardList, title: "Matrícula", desc: "Sem burocracia — RG, CPF e endereço. Feita na hora, no mesmo dia." },
+  { icon: BookOpen, title: "Curso", desc: "Aulas práticas com apostila inclusa e professores que acompanham seu ritmo." },
+  { icon: HeartHandshake, title: "Acompanhamento", desc: "Suporte individual do início ao fim — ninguém fica pra trás." },
+  { icon: GraduationCap, title: "Formatura", desc: "Certificado reconhecido pelo mercado, que você leva com orgulho." },
+  { icon: Briefcase, title: "Emprego", desc: "Encaminhamento real para vagas e estágios em empresas parceiras da região." },
 ];
 
 export function Timeline() {
@@ -18,10 +18,10 @@ export function Timeline() {
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Da Matricula ao Emprego
+            Da Matrícula ao Emprego
           </h2>
           <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
-            Acompanhamos voce em toda a jornada
+            Você não estuda sozinho — acompanhamos cada etapa até sua contratação
           </p>
         </div>
 

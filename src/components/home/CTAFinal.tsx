@@ -10,15 +10,15 @@ export function CTAFinal() {
       <Container>
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold mb-4">
-            Pronto para transformar seu futuro?
+            O mercado está contratando. Você está pronto?
           </h2>
           <p className="text-lg text-white/80 mb-8">
-            A Atitude Ensino esta esperando voce. Fale com a gente e de o primeiro passo!
+            Mais de 21 mil vagas abertas só na área administrativa. Inglês pode render até R$ 1.500 a mais por mês. A próxima oportunidade pode ser sua — comece agora.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="whatsapp" size="lg" href={buildWhatsAppUrl({ type: "home" })}>
               <MessageCircle className="h-5 w-5" />
-              Fale pelo WhatsApp
+              Quero me matricular agora
             </Button>
           </div>
           <p className="mt-6 text-white/60 flex items-center justify-center gap-2">

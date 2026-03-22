@@ -20,52 +20,52 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Atitude English School | Cursos de Ingles Online",
+  title: "Atitude English School | Inglês Presencial e Online em Ibaiti",
   description:
-    "Aprenda ingles com aulas ao vivo por Google Meet. Turmas para criancas, jovens e adultos. Professores fluentes, turmas reduzidas e certificado. Matricule-se!",
+    "Aprenda inglês presencialmente em Ibaiti ou online ao vivo por videochamada, com professores fluentes e turmas de até 6 alunos. Inglês aumenta seu salário em até 60%. Matricule-se!",
   openGraph: {
-    title: "Atitude English School | Cursos de Ingles Online",
+    title: "Atitude English School | Inglês Presencial e Online em Ibaiti",
     description:
-      "Aprenda ingles com aulas ao vivo por Google Meet. Do basico ao avancado, para todas as idades.",
+      "Inglês presencial ou online ao vivo com professores fluentes. Turmas reduzidas, do básico ao avançado. Profissionais com inglês ganham até 60% a mais.",
   },
 };
 
 const differentials = [
   {
     icon: Video,
-    title: "Aulas ao vivo por Meet",
+    title: "Presencial ou online — você escolhe",
     description:
-      "Aulas interativas em tempo real com o Google Meet. Voce aprende de onde estiver.",
+      "Aulas na nossa escola em Ibaiti ou ao vivo por videochamada no Google Meet. Mesma qualidade, mesma atenção — na modalidade que cabe na sua rotina.",
   },
   {
     icon: Headphones,
-    title: "Professores fluentes",
+    title: "Professores fluentes de verdade",
     description:
-      "Professores com vivencia no idioma, prontos para te guiar em cada etapa.",
+      "Nossos professores têm vivência real no idioma e conduzem as aulas em inglês desde o início, com tradução estratégica quando necessário.",
   },
   {
     icon: BookOpen,
-    title: "Apostila impressa",
+    title: "Apostila impressa inclusa",
     description:
-      "Material didatico completo entregue na sua casa para acompanhar as aulas.",
+      "Material didático completo desenvolvido pela nossa equipe. O aluno leva pra casa e consulta sempre que precisar.",
   },
   {
     icon: Users,
-    title: "Turmas reduzidas",
+    title: "Turmas de no máximo 6 alunos",
     description:
-      "Maximo de 6 alunos por turma para garantir atencao individual.",
+      "Atenção individual garantida. Sem se perder em turmas grandes — aqui você aprende de verdade.",
   },
   {
     icon: Globe,
-    title: "Do basico ao avancado",
+    title: "Do básico ao avançado",
     description:
-      "Niveis para todas as fases da sua jornada, do primeiro contato a fluencia.",
+      "Níveis para todas as idades e fases: crianças, jovens e adultos, do primeiro contato à fluência.",
   },
   {
     icon: Award,
-    title: "Certificado",
+    title: "Certificado + diferencial salarial",
     description:
-      "Certificado reconhecido ao concluir cada nivel do curso.",
+      "Certificado reconhecido ao concluir cada nível. Estudos da Catho mostram que inglês aumenta o salário em até 60% em qualquer profissão.",
   },
 ];
 
@@ -97,22 +97,21 @@ export default function InglesPage() {
             </Badge>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Aprenda ingles{" "}
+              Inglês que{" "}
               <span className="text-[var(--color-brand-green)]">
-                com quem sabe ensinar
+                aumenta seu salário
               </span>
             </h1>
 
             <p className="text-lg md:text-xl text-white/85 mb-8 leading-relaxed max-w-2xl">
-              Aulas online ao vivo por Google Meet, com professores fluentes e
-              turmas reduzidas. Do basico ao avancado, para todas as idades.
+              Presencial em Ibaiti ou online ao vivo por videochamada — você escolhe. Professores fluentes, turmas de no máximo 6 alunos e metodologia que realmente funciona. Profissionais com inglês ganham até 60% a mais. (Fonte: Catho)
             </p>
 
             {/* Highlight pills */}
             <div className="flex flex-wrap gap-3 mb-10">
               <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-2.5 text-sm font-medium backdrop-blur-sm">
                 <Monitor className="h-4 w-4" />
-                Aulas online por Meet
+                Presencial ou online
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-2.5 text-sm font-medium backdrop-blur-sm">
                 <Headphones className="h-4 w-4" />
@@ -120,7 +119,7 @@ export default function InglesPage() {
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-5 py-2.5 text-sm font-medium backdrop-blur-sm">
                 <Users className="h-4 w-4" />
-                Max 6 alunos por turma
+                Máx. 6 alunos por turma
               </span>
             </div>
 
@@ -132,7 +131,7 @@ export default function InglesPage() {
               className="shadow-[var(--shadow-wa)]"
             >
               <MessageCircle className="h-5 w-5" />
-              Quero aprender ingles
+              Quero aprender inglês
             </Button>
           </div>
         </Container>
@@ -143,11 +142,10 @@ export default function InglesPage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-foreground)] mb-4">
-              Escolha o seu nivel
+              Escolha o seu nível
             </h2>
             <p className="text-[var(--color-foreground-muted)] text-lg max-w-2xl mx-auto">
-              Temos cursos para todas as idades e niveis. Encontre o ideal para
-              voce ou seu filho.
+              Cursos para crianças, jovens e adultos. Presencial em Ibaiti ou online por videochamada — você decide.
             </p>
           </div>
 
@@ -224,8 +222,7 @@ export default function InglesPage() {
               Por que escolher a Atitude English School?
             </h2>
             <p className="text-[var(--color-foreground-muted)] text-lg max-w-2xl mx-auto">
-              Uma metodologia pensada para voce aprender de verdade, com
-              conforto e acompanhamento de perto.
+              Presencial ou online. Professores fluentes. Turmas pequenas. Uma metodologia pensada para você aprender de verdade — e transformar isso em salário.
             </p>
           </div>
 
@@ -261,12 +258,11 @@ export default function InglesPage() {
 
         <Container className="relative text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Comece sua jornada no ingles{" "}
-            <span className="text-[var(--color-brand-green)]">hoje</span>
+            Inglês que vale{" "}
+            <span className="text-[var(--color-brand-green)]">aumento de salário</span>
           </h2>
           <p className="text-lg text-white/85 mb-8 max-w-2xl mx-auto">
-            Fale com a gente pelo WhatsApp e garanta sua vaga. Turmas reduzidas
-            com vagas limitadas!
+            Turmas com vagas limitadas — presencial em Ibaiti ou online por videochamada. Garanta sua vaga agora e comece a diferença no seu currículo.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
@@ -276,7 +272,7 @@ export default function InglesPage() {
               className="shadow-[var(--shadow-wa)]"
             >
               <MessageCircle className="h-5 w-5" />
-              Falar pelo WhatsApp
+              Garantir minha vaga
             </Button>
             <Button
               variant="outline"

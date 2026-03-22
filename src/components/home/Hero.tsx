@@ -23,28 +23,26 @@ export function Hero() {
           </div>
 
           <h1 className="text-[2.25rem] md:text-[4rem] font-extrabold leading-[1.1] text-white mb-6">
-            Transformando{" "}
-            <span className="text-[var(--color-brand-green)]">vidas</span>{" "}
-            através da educação
+            Aqui, o certificado vem com{" "}
+            <span className="text-[var(--color-brand-green)]">emprego incluso</span>
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-lg mx-auto md:mx-0">
-            Cursos profissionalizantes que abrem portas para o seu futuro.
-            Da informatica ao ingles, do basico ao emprego.
+            Inglês aumenta seu salário em até 60%. TI tem mais de 11 mil vagas abertas. Administração, Saúde e Beleza em alta no interior do PR. Escolha sua área e comece hoje.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button variant="whatsapp" size="lg" href={buildWhatsAppUrl({ type: "home" })}>
               <MessageCircle className="h-5 w-5" />
-              Fale com a gente
+              Garantir minha vaga
             </Button>
             <Button variant="secondary-inverted" size="lg" href="/cursos">
               <BookOpen className="h-5 w-5" />
-              Conheca nossos cursos
+              Ver os cursos
             </Button>
           </div>
 
           {/* Social proof */}
           <p className="mt-6 text-sm text-white/50 text-center md:text-left">
-            Mais de <span className="text-white/80 font-semibold">5.000 alunos</span> formados em 15 anos
+            Mais de <span className="text-white/80 font-semibold">1.500 alunos formados</span> e encaminhados para o mercado desde 2009
           </p>
         </div>
       </Container>
