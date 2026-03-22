@@ -67,7 +67,7 @@ export function CoursesGrid() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {categories.map((cat, i) => {
             const Icon = iconMap[cat.icone] || Monitor;
             const href = categoryHrefs[cat.slug as CategorySlug] || `/cursos?categoria=${cat.slug}`;
@@ -83,7 +83,7 @@ export function CoursesGrid() {
               >
                 <Link
                   href={href}
-                  className="group relative flex flex-col justify-between h-full min-h-[160px] rounded-2xl overflow-hidden p-6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  className="group relative flex flex-col justify-between h-full min-h-[200px] sm:min-h-[160px] rounded-2xl overflow-hidden p-8 sm:p-6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   style={{ background: `linear-gradient(135deg, ${cat.corHex}ee 0%, ${cat.corHex}99 100%)` }}
                   aria-label={`Ver cursos de ${cat.nome}`}
                 >
