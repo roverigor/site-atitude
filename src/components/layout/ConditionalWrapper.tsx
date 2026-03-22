@@ -7,7 +7,14 @@ import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 
 export function ConditionalWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isLP = pathname?.startsWith("/lp/");
+
+  // Hide site chrome on LP routes (path-based) or LP subdomain (host-based)
+  const isLpPath = pathname?.startsWith("/lp/");
+  const isLpHost =
+    typeof window !== "undefined" &&
+    (window.location.hostname.startsWith("lp.") ||
+      window.location.hostname.startsWith("lp-"));
+  const isLP = isLpPath || isLpHost;
 
   return (
     <>
