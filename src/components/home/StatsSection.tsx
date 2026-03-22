@@ -30,6 +30,8 @@ function CountUp({ target, suffix = "+" }: { target: number; suffix?: string }) 
   return (
     <span
       ref={ref}
+      aria-live="polite"
+      aria-atomic="true"
       className="text-4xl md:text-5xl font-bold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]"
     >
       0{suffix}

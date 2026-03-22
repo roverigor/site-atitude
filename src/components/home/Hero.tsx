@@ -29,7 +29,7 @@ export function Hero() {
               <MessageCircle className="h-5 w-5" />
               Fale com a gente
             </Button>
-            <Button variant="secondary" size="lg" href="/cursos" className="border-white text-white hover:bg-white hover:text-[var(--color-brand-navy)]">
+            <Button variant="secondary-inverted" size="lg" href="/cursos">
               <BookOpen className="h-5 w-5" />
               Conheca nossos cursos
             </Button>

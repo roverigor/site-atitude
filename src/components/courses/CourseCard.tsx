@@ -34,7 +34,7 @@ export function CourseCard({ course, index = 0 }: CourseCardProps) {
     >
       <Link
         href={`/cursos/${course.slug}`}
-        className="group flex flex-col h-full rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] hover:shadow-lg transition-all duration-200 overflow-hidden"
+        className="group flex flex-col h-full rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)] hover:shadow-lg transition-all duration-200 overflow-hidden"
         style={{ borderLeftWidth: "4px", borderLeftColor: categoryColor }}
       >
         <div className="flex flex-col flex-1 p-5">
@@ -71,9 +71,10 @@ export function CourseCard({ course, index = 0 }: CourseCardProps) {
           <span
             className="inline-flex items-center gap-1 text-sm font-medium transition-colors"
             style={{ color: categoryColor }}
+            aria-label={`Saiba mais sobre ${course.nome}`}
           >
             Saiba mais
-            <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
           </span>
         </div>
       </Link>
