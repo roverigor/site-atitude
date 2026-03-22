@@ -109,7 +109,7 @@ export function BlogPage({
         </div>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl leading-relaxed">
           {pageDescription ||
-            "Dicas, novidades e conteudos para impulsionar sua carreira e aprendizado."}
+            "Dicas, novidades e conteúdos para impulsionar sua carreira e aprendizado."}
         </p>
       </div>
 
@@ -238,8 +238,8 @@ export function BlogPage({
               </h3>
               <p className="text-sm text-[var(--color-foreground-muted)] max-w-sm">
                 {searchQuery
-                  ? `Nao encontramos artigos para "${searchQuery}". Tente outra busca ou limpe os filtros.`
-                  : "Nao ha artigos disponiveis com os filtros selecionados."}
+                  ? `Não encontramos artigos para "${searchQuery}". Tente outra busca ou limpe os filtros.`
+                  : "Não há artigos disponíveis com os filtros selecionados."}
               </p>
               {(searchQuery || activeCategory !== "all") && (
                 <button

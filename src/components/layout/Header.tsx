@@ -41,7 +41,7 @@ export function Header() {
             <button
               onClick={() => setIsMobileOpen(true)}
               className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-black/5 dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] dark:focus:ring-[var(--color-brand-green)]"
-              aria-label="Abrir menu de navegacao"
+              aria-label="Abrir menu de navegação"
             >
               <Menu className="h-6 w-6" />
             </button>
@@ -65,7 +65,7 @@ export function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1" aria-label="Navegacao principal">
+            <nav className="hidden lg:flex items-center gap-1" aria-label="Navegação principal">
               {siteConfig.nav.map((item) => (
                 <Link
                   key={item.href}

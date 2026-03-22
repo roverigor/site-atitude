@@ -8,7 +8,7 @@ import { Breadcrumb } from "@/components/layout/Breadcrumb";
 export const metadata: Metadata = {
   title: "Depoimentos",
   description:
-    "Veja o que nossos alunos dizem sobre a Atitude Ensino. Historias reais de transformacao profissional em Ibaiti-PR.",
+    "Veja o que nossos alunos dizem sobre a Atitude Ensino. Histórias reais de transformação profissional em Ibaiti-PR.",
 };
 
 export default function Depoimentos() {

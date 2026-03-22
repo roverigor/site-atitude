@@ -8,7 +8,7 @@ import { Breadcrumb } from "@/components/layout/Breadcrumb";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Dicas, novidades e conteudos sobre informatica, ingles, carreira e muito mais. Acompanhe o blog da Atitude Ensino.",
+    "Dicas, novidades e conteúdos sobre informática, inglês, carreira e muito mais. Acompanhe o blog da Atitude Ensino.",
 };
 
 export default function BlogListingPage() {

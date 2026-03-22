@@ -1,45 +1,45 @@
 slug: wprime
-nome: "WPrime - Ingles Adultos"
+nome: "WPrime - Inglês Adultos"
 categoria: ingles
-descricao_curta: "Curso de ingles online ao vivo para adultos — do intermediario ao avancado com aulas por Google Meet."
+descricao_curta: "Curso de inglês online ao vivo para adultos — do intermediário ao avançado com aulas por Google Meet."
 descricao_completa: |
-  O WPrime e o curso de ingles da Atitude Ensino voltado para adultos que ja possuem uma base no idioma e querem avancar para a fluencia. As aulas acontecem ao vivo pelo Google Meet com turmas reduzidas, garantindo interacao real com o professor e pratica constante de conversacao.
+  O WPrime é o curso de inglês da Atitude Ensino voltado para adultos que já possuem uma base no idioma e querem avançar para a fluência. As aulas acontecem ao vivo pelo Google Meet com turmas reduzidas, garantindo interação real com o professor e prática constante de conversação.
 
-  O metodo combina gramatica aplicada, expansao de vocabulario, compreensao auditiva e muita pratica de fala. Voce vai trabalhar com situacoes reais: entrevistas de emprego em ingles, viagens, reunioes de trabalho, apresentacoes e conversas do cotidiano.
+  O método combina gramática aplicada, expansão de vocabulário, compreensão auditiva e muita prática de fala. Você vai trabalhar com situações reais: entrevistas de emprego em inglês, viagens, reuniões de trabalho, apresentações e conversas do cotidiano.
 
-  Com 24 meses de duracao, o curso e estruturado para quem quer resultados consistentes sem correria. As aulas online permitem que voce estude de onde estiver, com a mesma qualidade de um curso presencial. Ideal para quem trabalha e precisa de flexibilidade de horario.
+  Com 24 meses de duração, o curso é estruturado para quem quer resultados consistentes sem correria. As aulas online permitem que você estude de onde estiver, com a mesma qualidade de um curso presencial. Ideal para quem trabalha e precisa de flexibilidade de horário.
 modulos:
   - nome: "Intermediate Foundation"
     carga_horaria: "40h"
     valor: 360.00
-    descricao: "Consolidacao de gramatica intermediaria, tempos verbais, voz passiva e condicionais"
+    descricao: "Consolidação de gramática intermediária, tempos verbais, voz passiva e condicionais"
   - nome: "Communication Skills"
     carga_horaria: "36h"
     valor: 340.00
-    descricao: "Pratica de conversacao, expressoes idiomaticas, pronuncia e fluencia para situacoes reais"
+    descricao: "Prática de conversação, expressões idiomáticas, pronúncia e fluência para situações reais"
   - nome: "Business English"
     carga_horaria: "32h"
     valor: 320.00
-    descricao: "Ingles para o ambiente profissional: reunioes, e-mails, apresentacoes e negociacoes"
+    descricao: "Inglês para o ambiente profissional: reuniões, e-mails, apresentações e negociações"
   - nome: "Upper-Intermediate"
     carga_horaria: "36h"
     valor: 340.00
-    descricao: "Gramatica avancada, textos complexos, debates e producao escrita elaborada"
+    descricao: "Gramática avançada, textos complexos, debates e produção escrita elaborada"
   - nome: "Advanced Fluency"
     carga_horaria: "32h"
     valor: 320.00
-    descricao: "Refinamento da fluencia, sotaque, nuances culturais e preparacao para certificacoes"
+    descricao: "Refinamento da fluência, sotaque, nuances culturais e preparação para certificações"
 duracao_total: "24 meses"
 modalidade: online
-publico_alvo: "Adultos a partir de 16 anos com nivel basico ou intermediario de ingles que desejam avancar rumo a fluencia"
-prerequisitos: "Nivel basico de ingles (conseguir se apresentar e formar frases simples). Computador com camera e microfone."
+publico_alvo: "Adultos a partir de 16 anos com nível básico ou intermediário de inglês que desejam avançar rumo à fluência"
+prerequisitos: "Nível básico de inglês (conseguir se apresentar e formar frases simples). Computador com câmera e microfone."
 incluso:
-  - "Material didatico digital"
-  - "Certificado de conclusao"
+  - "Material didático digital"
+  - "Certificado de conclusão"
   - "Aulas ao vivo pelo Google Meet"
-  - "Gravacao das aulas para revisao"
+  - "Gravação das aulas para revisão"
   - "Acompanhamento individual"
-  - "Acesso a plataforma de exercicios"
+  - "Acesso à plataforma de exercícios"
 proxima_turma: "2026-03-17"
 vagas: 10
 investimento:

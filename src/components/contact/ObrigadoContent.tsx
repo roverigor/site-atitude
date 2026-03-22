@@ -56,7 +56,7 @@ export function ObrigadoContent() {
             </p>
 
             <p className="text-[var(--color-foreground-muted)] text-base mb-6">
-              Se preferir, voce tambem pode nos ligar:
+              Se preferir, você também pode nos ligar:
             </p>
 
             <a

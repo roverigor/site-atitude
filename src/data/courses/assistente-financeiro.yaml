@@ -1,35 +1,35 @@
 slug: assistente-financeiro
 nome: "Assistente Financeiro"
 categoria: administracao
-descricao_curta: "Domine financas empresariais, contas a pagar/receber e fluxo de caixa para atuar no setor financeiro."
+descricao_curta: "Domine finanças empresariais, contas a pagar/receber e fluxo de caixa para atuar no setor financeiro."
 descricao_completa: |
-  O curso de Assistente Financeiro forma profissionais preparados para atuar no departamento financeiro de empresas de todos os portes. Voce vai aprender controle de contas a pagar e receber, fluxo de caixa, conciliacao bancaria, emissao de boletos e notas fiscais, alem de nocoes de contabilidade e tributacao.
+  O curso de Assistente Financeiro forma profissionais preparados para atuar no departamento financeiro de empresas de todos os portes. Você vai aprender controle de contas a pagar e receber, fluxo de caixa, conciliação bancária, emissão de boletos e notas fiscais, além de noções de contabilidade e tributação.
 
-  As aulas combinam teoria e pratica com planilhas reais, simulacoes de sistemas financeiros e casos do dia a dia empresarial. Voce desenvolve a capacidade de organizar as financas de uma empresa, gerar relatorios gerenciais e apoiar a tomada de decisoes financeiras.
+  As aulas combinam teoria e prática com planilhas reais, simulações de sistemas financeiros e casos do dia a dia empresarial. Você desenvolve a capacidade de organizar as finanças de uma empresa, gerar relatórios gerenciais e apoiar a tomada de decisões financeiras.
 
-  O setor financeiro e essencial em qualquer empresa, e profissionais qualificados nessa area sempre encontram oportunidades. Com o certificado da Atitude, voce estara preparado para assumir funcoes financeiras com confianca e competencia.
+  O setor financeiro é essencial em qualquer empresa, e profissionais qualificados nessa área sempre encontram oportunidades. Com o certificado da Atitude, você estará preparado para assumir funções financeiras com confiança e competência.
 modulos:
   - nome: "Fundamentos Financeiros"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Conceitos financeiros, fluxo de caixa, contas a pagar e receber, e controles internos"
+    descricao: "Conceitos financeiros, fluxo de caixa, contas a pagar e receber e controles internos"
   - nome: "Ferramentas e Sistemas"
     carga_horaria: "24h"
     valor: 200.00
-    descricao: "Excel financeiro, emissao de boletos e notas fiscais, conciliacao bancaria e relatorios"
-  - nome: "Contabilidade e Tributacao Basica"
+    descricao: "Excel financeiro, emissão de boletos e notas fiscais, conciliação bancária e relatórios"
+  - nome: "Contabilidade e Tributação Básica"
     carga_horaria: "20h"
     valor: 190.00
-    descricao: "Nocoes de contabilidade, impostos basicos, folha de pagamento e obrigacoes fiscais"
+    descricao: "Noções de contabilidade, impostos básicos, folha de pagamento e obrigações fiscais"
 duracao_total: "5 meses"
 modalidade: presencial
 publico_alvo: "Jovens e adultos que desejam trabalhar no departamento financeiro de empresas"
-prerequisitos: "Ensino fundamental completo. Conhecimentos basicos de informatica."
+prerequisitos: "Ensino fundamental completo. Conhecimentos básicos de informática."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Planilhas modelo para pratica"
+  - "Planilhas modelo para prática"
   - "Material de apoio digital"
 proxima_turma: "2026-04-07"
 vagas: 12

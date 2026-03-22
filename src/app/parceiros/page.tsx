@@ -20,7 +20,7 @@ import { Breadcrumb } from "@/components/layout/Breadcrumb";
 export const metadata: Metadata = {
   title: "Empresas Parceiras",
   description:
-    "Conheva as empresas parceiras da Atitude Ensino que empregam nossos alunos. Da sala de aula ao mercado de trabalho.",
+    "Conheça as empresas parceiras da Atitude Ensino que empregam nossos alunos. Da sala de aula ao mercado de trabalho.",
 };
 
 function getInitials(name: string): string {
@@ -34,10 +34,10 @@ function getInitials(name: string): string {
 }
 
 const segmentColors: Record<string, string> = {
-  Comercio: "#16A34A",
-  Saude: "#FF6600",
+  Comércio: "#16A34A",
+  Saúde: "#FF6600",
   Governo: "#1B1464",
-  Servicos: "#6600FF",
+  Serviços: "#6600FF",
   Tecnologia: "#7C3AED",
 };
 
@@ -53,17 +53,17 @@ export default function ParceirosPage() {
   const steps = [
     {
       icon: GraduationCap,
-      title: "Voce Aprende",
+      title: "Você Aprende",
       description: "Cursos completos com apostila e certificado",
     },
     {
       icon: Handshake,
       title: "A Gente Encaminha",
-      description: "Programa de estagio com empresas parceiras",
+      description: "Programa de estágio com empresas parceiras",
     },
     {
       icon: Briefcase,
-      title: "Voce Conquista",
+      title: "Você Conquista",
       description: "Oportunidade real de emprego na sua cidade",
     },
   ];
@@ -71,7 +71,7 @@ export default function ParceirosPage() {
   const benefits = [
     "Profissionais treinados",
     "Sem custo de recrutamento",
-    "Estagiarios motivados",
+    "Estagiários motivados",
   ];
 
   return (

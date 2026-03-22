@@ -1,39 +1,39 @@
 slug: wkids
-nome: "WKids - Ingles Infantil"
+nome: "WKids - Inglês Infantil"
 categoria: ingles
-descricao_curta: "Ingles para criancas de 6 a 10 anos com metodologia ludica, musicas, jogos e muita diversao."
+descricao_curta: "Inglês para crianças de 6 a 10 anos com metodologia lúdica, músicas, jogos e muita diversão."
 descricao_completa: |
-  O WKids e o curso de ingles da Atitude Ensino feito especialmente para criancas de 6 a 10 anos. Com uma metodologia ludica e imersiva, as criancas aprendem ingles de forma natural, assim como aprenderam portugues — ouvindo, repetindo, cantando e brincando.
+  O WKids é o curso de inglês da Atitude Ensino feito especialmente para crianças de 6 a 10 anos. Com uma metodologia lúdica e imersiva, as crianças aprendem inglês de forma natural, assim como aprenderam português — ouvindo, repetindo, cantando e brincando.
 
-  As aulas usam musicas, jogos, historias, atividades manuais e interacao constante para criar um ambiente divertido onde o ingles acontece naturalmente. As turmas sao pequenas para garantir que cada crianca receba atencao e se sinta confortavel para participar.
+  As aulas usam músicas, jogos, histórias, atividades manuais e interação constante para criar um ambiente divertido onde o inglês acontece naturalmente. As turmas são pequenas para garantir que cada criança receba atenção e se sinta confortável para participar.
 
-  Estudos comprovam que criancas que aprendem ingles cedo desenvolvem melhor raciocinio logico, memoria e habilidades de comunicacao. O WKids planta a semente do bilinguismo de forma leve e prazerosa, sem pressao de provas ou notas.
+  Estudos comprovam que crianças que aprendem inglês cedo desenvolvem melhor raciocínio lógico, memória e habilidades de comunicação. O WKids planta a semente do bilinguismo de forma leve e prazerosa, sem pressão de provas ou notas.
 modulos:
   - nome: "My First Words"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Vocabulario basico: cores, numeros, animais, familia, comidas e cumprimentos em ingles"
+    descricao: "Vocabulário básico: cores, números, animais, família, comidas e cumprimentos em inglês"
   - nome: "Let's Talk"
     carga_horaria: "22h"
     valor: 190.00
-    descricao: "Frases simples, perguntas e respostas, dialogo basico e pronuncia com musicas"
+    descricao: "Frases simples, perguntas e respostas, diálogo básico e pronúncia com músicas"
   - nome: "Fun Reading"
     carga_horaria: "18h"
     valor: 170.00
-    descricao: "Introducao a leitura em ingles com historias ilustradas, phonics e atividades interativas"
+    descricao: "Introdução à leitura em inglês com histórias ilustradas, phonics e atividades interativas"
   - nome: "My World in English"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Temas do cotidiano da crianca: escola, brincadeiras, esportes e rotina em ingles"
+    descricao: "Temas do cotidiano da criança: escola, brincadeiras, esportes e rotina em inglês"
 duracao_total: "12 meses"
 modalidade: presencial
-publico_alvo: "Criancas de 6 a 10 anos em fase de alfabetizacao ou ja alfabetizadas"
-prerequisitos: "Estar em processo de alfabetizacao ou ja alfabetizado em portugues. Nenhum conhecimento previo de ingles."
+publico_alvo: "Crianças de 6 a 10 anos em fase de alfabetização ou já alfabetizadas"
+prerequisitos: "Estar em processo de alfabetização ou já alfabetizado em português. Nenhum conhecimento prévio de inglês."
 incluso:
-  - "Material didatico ilustrado"
-  - "Certificado de conclusao"
+  - "Material didático ilustrado"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Atividades ludicas e jogos"
+  - "Atividades lúdicas e jogos"
   - "Acesso a jogos educativos online"
 proxima_turma: "2026-03-10"
 vagas: 6

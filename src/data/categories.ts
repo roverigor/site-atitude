@@ -2,36 +2,36 @@ import { Category, CategorySlug } from "@/types/course";
 
 export const categories: Category[] = [
   {
-    nome: "Informatica",
+    nome: "Informática",
     slug: "informatica",
     cor: "category-informatica",
     corHex: "#1B1464",
     icone: "Monitor",
-    descricao: "Cursos de informatica basica e avancada para o mercado de trabalho",
+    descricao: "Cursos de informática básica e avançada para o mercado de trabalho",
   },
   {
-    nome: "Ingles",
+    nome: "Inglês",
     slug: "ingles",
     cor: "category-ingles",
     corHex: "#FF1493",
     icone: "Globe",
-    descricao: "Cursos de ingles para todas as idades e niveis",
+    descricao: "Cursos de inglês para todas as idades e níveis",
   },
   {
-    nome: "Administracao",
+    nome: "Administração",
     slug: "administracao",
     cor: "category-administracao",
     corHex: "#16A34A",
     icone: "Landmark",
-    descricao: "Cursos na area administrativa e gestao empresarial",
+    descricao: "Cursos na área administrativa e gestão empresarial",
   },
   {
-    nome: "Saude",
+    nome: "Saúde",
     slug: "saude",
     cor: "category-saude",
     corHex: "#FF6600",
     icone: "Heart",
-    descricao: "Cursos na area da saude e bem-estar",
+    descricao: "Cursos na área da saúde e bem-estar",
   },
   {
     nome: "Beleza",
@@ -39,7 +39,7 @@ export const categories: Category[] = [
     cor: "category-beleza",
     corHex: "#6600FF",
     icone: "Palette",
-    descricao: "Cursos de beleza e estetica profissional",
+    descricao: "Cursos de beleza e estética profissional",
   },
   {
     nome: "Tecnologia",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     cor: "category-tecnologia",
     corHex: "#7C3AED",
     icone: "Cpu",
-    descricao: "Cursos de tecnologia e programacao",
+    descricao: "Cursos de tecnologia e programação",
   },
   {
     nome: "Carreiras Pro",
@@ -55,7 +55,7 @@ export const categories: Category[] = [
     cor: "category-carreiras-pro",
     corHex: "#1E40AF",
     icone: "Briefcase",
-    descricao: "Cursos profissionalizantes para carreiras especificas",
+    descricao: "Cursos profissionalizantes para carreiras específicas",
   },
   {
     nome: "Interativos",
@@ -71,7 +71,7 @@ export const categories: Category[] = [
     cor: "category-design",
     corHex: "#EA580C",
     icone: "Pen",
-    descricao: "Cursos de design grafico e criacao visual",
+    descricao: "Cursos de design gráfico e criação visual",
   },
   {
     nome: "Excel",

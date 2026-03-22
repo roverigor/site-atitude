@@ -1,36 +1,36 @@
 slug: wadvanced
-nome: "WAdvanced (Ingles Business)"
+nome: "WAdvanced (Inglês Business)"
 categoria: ingles
-descricao_curta: "Ingles corporativo para profissionais: reunioes, e-mails, negociacoes e apresentacoes em ingles."
+descricao_curta: "Inglês corporativo para profissionais: reuniões, e-mails, negociações e apresentações em inglês."
 descricao_completa: |
-  O WAdvanced e o curso de ingles voltado para o mundo dos negocios. Projetado para profissionais que ja tem base no idioma e precisam usar ingles no trabalho: reunioes, e-mails, negociacoes, relatorios, apresentacoes e atendimento a clientes internacionais.
+  O WAdvanced é o curso de inglês voltado para o mundo dos negócios. Projetado para profissionais que já têm base no idioma e precisam usar inglês no trabalho: reuniões, e-mails, negociações, relatórios, apresentações e atendimento a clientes internacionais.
 
-  As aulas simulam situacoes reais do ambiente corporativo: conference calls, pitch de vendas, entrevistas de emprego em ingles, redacao de propostas comerciais e networking profissional. O vocabulario e focado em business English, com expressoes e termos usados nas maiores empresas do mundo.
+  As aulas simulam situações reais do ambiente corporativo: conference calls, pitch de vendas, entrevistas de emprego em inglês, redação de propostas comerciais e networking profissional. O vocabulário é focado em business English, com expressões e termos usados nas maiores empresas do mundo.
 
-  Profissionais que dominam o ingles corporativo tem acesso a cargos melhores, salarios maiores e oportunidades internacionais. Esse curso e o diferencial que falta para voce se destacar no mercado de trabalho e avançar na carreira.
+  Profissionais que dominam o inglês corporativo têm acesso a cargos melhores, salários maiores e oportunidades internacionais. Esse curso é o diferencial que falta para você se destacar no mercado de trabalho e avançar na carreira.
 modulos:
   - nome: "Business Communication"
     carga_horaria: "32h"
     valor: 280.00
-    descricao: "E-mails profissionais, telefone, reunioes, negociacoes e vocabulario corporativo"
+    descricao: "E-mails profissionais, telefone, reuniões, negociações e vocabulário corporativo"
   - nome: "Professional Presentations"
     carga_horaria: "28h"
     valor: 260.00
-    descricao: "Apresentacoes, pitch, relatorios, dados e graficos em ingles para negocios"
+    descricao: "Apresentações, pitch, relatórios, dados e gráficos em inglês para negócios"
   - nome: "Advanced Business Skills"
     carga_horaria: "28h"
     valor: 260.00
-    descricao: "Lideranca, networking, entrevistas, contratos e ingles para gestao e RH"
+    descricao: "Liderança, networking, entrevistas, contratos e inglês para gestão e RH"
 duracao_total: "12 meses"
 modalidade: presencial
-publico_alvo: "Profissionais que precisam usar ingles no ambiente corporativo e de negocios"
-prerequisitos: "Nivel intermediario de ingles (passar por avaliacao de nivelamento)."
+publico_alvo: "Profissionais que precisam usar inglês no ambiente corporativo e de negócios"
+prerequisitos: "Nível intermediário de inglês (passar por avaliação de nivelamento)."
 incluso:
-  - "Material didatico especializado"
-  - "Certificado de conclusao"
+  - "Material didático especializado"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Simulacoes de reunioes e apresentacoes"
-  - "Acesso a plataforma online"
+  - "Simulações de reuniões e apresentações"
+  - "Acesso à plataforma online"
 proxima_turma: "2026-03-10"
 vagas: 8
 investimento:

@@ -12,13 +12,13 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">{siteConfig.name}</h3>
             <p className="text-sm leading-relaxed">
-              {siteConfig.description}. Cursos de informatica, ingles, administracao, saude, beleza e tecnologia.
+              {siteConfig.description}. Cursos de informática, inglês, administração, saúde, beleza e tecnologia.
             </p>
           </div>
 
           {/* Quick Links */}
-          <nav aria-label="Links do rodape">
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Navegacao</h4>
+          <nav aria-label="Links do rodapé">
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Navegação</h4>
             <ul className="space-y-2">
               {siteConfig.nav.map((item) => (
                 <li key={item.href}>

@@ -1,35 +1,35 @@
-slug: manutencao-computadores
-nome: "Manutencao de Computadores"
+slug: manutenção-computadores
+nome: "Manutenção de Computadores"
 categoria: tecnologia
 descricao_curta: "Aprenda a montar, configurar e consertar computadores — uma habilidade valorizada em qualquer cidade."
 descricao_completa: |
-  O curso de Manutencao de Computadores forma tecnicos preparados para montar, configurar, diagnosticar e consertar computadores desktop e notebooks. Voce vai aprender sobre hardware, software, redes, formatacao, instalacao de sistemas operacionais e resolucao dos problemas mais comuns.
+  O curso de Manutenção de Computadores forma técnicos preparados para montar, configurar, diagnosticar e consertar computadores desktop e notebooks. Você vai aprender sobre hardware, software, redes, formatação, instalação de sistemas operacionais e resolução dos problemas mais comuns.
 
-  As aulas sao 100% praticas em laboratorio: voce desmonta e monta computadores, identifica pecas, faz upgrades, formata maquinas, instala drivers, configura redes Wi-Fi e resolve os problemas que clientes trazem no dia a dia. Tambem abordamos orcamento de pecas, atendimento ao cliente e como montar sua assistencia tecnica.
+  As aulas são 100% práticas em laboratório: você desmonta e monta computadores, identifica peças, faz upgrades, formata máquinas, instala drivers, configura redes Wi-Fi e resolve os problemas que clientes trazem no dia a dia. Também abordamos orçamento de peças, atendimento ao cliente e como montar sua assistência técnica.
 
-  Toda empresa, escritorio e residencia precisa de alguem que entenda de computadores. Esse curso te prepara para trabalhar em assistencias tecnicas, lojas de informatica, departamentos de TI ou como tecnico autonomo — uma profissao com demanda constante na regiao.
+  Toda empresa, escritório e residência precisa de alguém que entenda de computadores. Esse curso te prepara para trabalhar em assistências técnicas, lojas de informática, departamentos de TI ou como técnico autônomo — uma profissão com demanda constante na região.
 modulos:
   - nome: "Hardware e Montagem"
     carga_horaria: "24h"
     valor: 200.00
-    descricao: "Componentes do computador, montagem, desmontagem, upgrades, notebooks e perifericos"
+    descricao: "Componentes do computador, montagem, desmontagem, upgrades, notebooks e periféricos"
   - nome: "Software e Sistemas"
     carga_horaria: "24h"
     valor: 200.00
-    descricao: "Formatacao, instalacao de Windows e Linux, drivers, configuracoes e ferramentas de diagnostico"
-  - nome: "Redes e Atendimento Tecnico"
+    descricao: "Formatação, instalação de Windows e Linux, drivers, configurações e ferramentas de diagnóstico"
+  - nome: "Redes e Atendimento Técnico"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Redes Wi-Fi, cabeamento, configuracao de roteadores, backup, seguranca e atendimento ao cliente"
+    descricao: "Redes Wi-Fi, cabeamento, configuração de roteadores, backup, segurança e atendimento ao cliente"
 duracao_total: "5 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos que desejam trabalhar com manutencao de computadores e suporte tecnico"
-prerequisitos: "Conhecimentos basicos de informatica."
+publico_alvo: "Jovens e adultos que desejam trabalhar com manutenção de computadores e suporte técnico"
+prerequisitos: "Conhecimentos básicos de informática."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Pratica em laboratorio com hardware real"
+  - "Prática em laboratório com hardware real"
   - "Material de apoio digital"
 proxima_turma: "2026-04-07"
 vagas: 10
@@ -39,6 +39,6 @@ investimento:
   valor_parcela: null
   bonus_pontualidade: 15.00
   desconto_maximo: "40%"
-imagem_destaque: "/images/courses/manutencao-computadores.webp"
+imagem_destaque: "/images/courses/manutenção-computadores.webp"
 ativo: true
 ordem: 26

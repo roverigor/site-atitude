@@ -64,7 +64,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
   const [formData, setFormData] = useState<FormData>({
     nome: "",
     whatsapp: "",
-    curso: "Nao sei ainda",
+    curso: "Não sei ainda",
   });
   const [errors, setErrors] = useState<FormErrors>({});
   const [touched, setTouched] = useState<Record<string, boolean>>({});
@@ -108,7 +108,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
       if (!digits) {
         newErrors.whatsapp = "Informe seu WhatsApp";
       } else if (!isValidPhone(value)) {
-        newErrors.whatsapp = "WhatsApp invalido";
+        newErrors.whatsapp = "WhatsApp inválido";
       } else {
         delete newErrors.whatsapp;
       }
@@ -160,7 +160,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
               </h1>
             </div>
             <p className="text-[var(--color-foreground-muted)] mb-8">
-              Preencha o formulario e entraremos em contato pelo WhatsApp.
+              Preencha o formulário e entraremos em contato pelo WhatsApp.
             </p>
 
             <form onSubmit={handleSubmit} noValidate className="space-y-5">
@@ -240,7 +240,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                     backgroundPosition: "right 12px center",
                   }}
                 >
-                  <option value="Nao sei ainda">Nao sei ainda</option>
+                  <option value="Não sei ainda">Não sei ainda</option>
                   {courseNames.map((name) => (
                     <option key={name} value={name}>
                       {name}
@@ -257,7 +257,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                 className="w-full sm:w-auto"
               >
                 <Send className="h-5 w-5" />
-                Quero mais informacoes
+                Quero mais informações
               </Button>
             </form>
           </motion.div>
@@ -273,7 +273,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             {/* Contact Card */}
             <div className="p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] dark:bg-[#1a1a1a]">
               <h2 className="text-lg font-semibold text-[var(--color-brand-navy)] dark:text-white mb-6">
-                Informacoes de Contato
+                Informações de Contato
               </h2>
 
               <div className="space-y-5">
@@ -393,7 +393,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
               className="rounded-2xl overflow-hidden border border-[var(--color-border)]"
             >
               <iframe
-                title="Localizacao Atitude Ensino"
+                title="Localização Atitude Ensino"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14500!2d-50.0775!3d-23.8447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="280"

@@ -1,44 +1,44 @@
-slug: designer-grafico
-nome: "Designer Grafico"
+slug: designer-gráfico
+nome: "Designer Gráfico"
 categoria: design
 descricao_curta: "Aprenda Photoshop, Illustrator e CorelDRAW e torne-se um designer profissional requisitado pelo mercado."
 descricao_completa: |
-  O curso de Designer Grafico forma profissionais criativos e tecnicamente preparados para atuar com criacao visual. Voce vai dominar as tres principais ferramentas do mercado: Adobe Photoshop, Adobe Illustrator e CorelDRAW, criando pecas graficas reais do inicio ao fim.
+  O curso de Designer Gráfico forma profissionais criativos e tecnicamente preparados para atuar com criação visual. Você vai dominar as três principais ferramentas do mercado: Adobe Photoshop, Adobe Illustrator e CorelDRAW, criando peças gráficas reais do início ao fim.
 
-  Das aulas praticas em laboratorio saem logos, cartazes, posts para redes sociais, cartoes de visita, flyers e muito mais. Voce aprende os fundamentos do design — cores, tipografia, composicao — e aplica tudo isso em projetos que ja vao para o seu portfolio profissional.
+  Das aulas práticas em laboratório saem logos, cartazes, posts para redes sociais, cartões de visita, flyers e muito mais. Você aprende os fundamentos do design — cores, tipografia, composição — e aplica tudo isso em projetos que já vão para o seu portfólio profissional.
 
-  O designer grafico e um dos profissionais mais procurados na regiao: graficas, agencias, lojas, escritorios e autonomos todos precisam de alguem que saiba criar materiais visuais de qualidade. Esse curso e o seu passaporte para essa carreira.
+  O designer gráfico é um dos profissionais mais procurados na região: gráficas, agências, lojas, escritórios e autônomos, todos precisam de alguém que saiba criar materiais visuais de qualidade. Esse curso é o seu passaporte para essa carreira.
 modulos:
   - nome: "Fundamentos de Design"
     carga_horaria: "16h"
     valor: 180.00
-    descricao: "Teoria das cores, tipografia, composicao, grid e principios visuais essenciais"
+    descricao: "Teoria das cores, tipografia, composição, grid e princípios visuais essenciais"
   - nome: "Adobe Photoshop"
     carga_horaria: "32h"
     valor: 280.00
-    descricao: "Edicao de imagens, tratamento de fotos, montagens, efeitos e criacao de pecas digitais"
+    descricao: "Edição de imagens, tratamento de fotos, montagens, efeitos e criação de peças digitais"
   - nome: "Adobe Illustrator"
     carga_horaria: "28h"
     valor: 260.00
-    descricao: "Criacao vetorial, logos, icones, ilustracoes e identidade visual profissional"
+    descricao: "Criação vetorial, logos, ícones, ilustrações e identidade visual profissional"
   - nome: "CorelDRAW"
     carga_horaria: "24h"
     valor: 240.00
-    descricao: "Layout para impressao, cartoes, banners, panfletos e materiais graficos para graficas"
-  - nome: "Projeto Final e Portfolio"
+    descricao: "Layout para impressão, cartões, banners, panfletos e materiais gráficos para gráficas"
+  - nome: "Projeto Final e Portfólio"
     carga_horaria: "12h"
     valor: 160.00
-    descricao: "Criacao de portfolio profissional com projetos reais para apresentar ao mercado"
+    descricao: "Criação de portfólio profissional com projetos reais para apresentar ao mercado"
 duracao_total: "8 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos criativos que desejam trabalhar com design grafico, comunicacao visual ou midia digital"
-prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse, teclado e navegar em pastas)."
+publico_alvo: "Jovens e adultos criativos que desejam trabalhar com design gráfico, comunicação visual ou mídia digital"
+prerequisitos: "Conhecimentos básicos de informática (saber usar mouse, teclado e navegar em pastas)."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Acesso ao laboratorio com softwares instalados"
-  - "Orientacao para montagem de portfolio"
+  - "Acesso ao laboratório com softwares instalados"
+  - "Orientação para montagem de portfólio"
 proxima_turma: "2026-04-07"
 vagas: 6
 investimento:
@@ -47,6 +47,6 @@ investimento:
   valor_parcela: null
   bonus_pontualidade: 10.00
   desconto_maximo: "50%"
-imagem_destaque: "/images/courses/designer-grafico.webp"
+imagem_destaque: "/images/courses/designer-gráfico.webp"
 ativo: true
 ordem: 4

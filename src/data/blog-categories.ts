@@ -2,20 +2,20 @@ import type { BlogCategoryInfo, BlogCategory } from "@/types/blog";
 
 export const blogCategories: BlogCategoryInfo[] = [
   {
-    nome: "Informatica",
+    nome: "Informática",
     slug: "informatica",
     cor: "blog-informatica",
     corHex: "#2563EB",
     icone: "Monitor",
-    descricao: "Artigos sobre informatica, tecnologia e o mundo digital",
+    descricao: "Artigos sobre informática, tecnologia e o mundo digital",
   },
   {
-    nome: "Ingles",
+    nome: "Inglês",
     slug: "ingles",
     cor: "blog-ingles",
     corHex: "#7C3AED",
     icone: "Globe",
-    descricao: "Dicas e conteudos para aprender ingles de forma pratica",
+    descricao: "Dicas e conteúdos para aprender inglês de forma prática",
   },
   {
     nome: "Carreira",
@@ -23,7 +23,7 @@ export const blogCategories: BlogCategoryInfo[] = [
     cor: "blog-carreira",
     corHex: "#059669",
     icone: "Briefcase",
-    descricao: "Orientacao profissional e dicas para sua carreira",
+    descricao: "Orientação profissional e dicas para sua carreira",
   },
   {
     nome: "Dicas",
@@ -31,7 +31,7 @@ export const blogCategories: BlogCategoryInfo[] = [
     cor: "blog-dicas",
     corHex: "#D97706",
     icone: "Lightbulb",
-    descricao: "Dicas praticas para o dia a dia e produtividade",
+    descricao: "Dicas práticas para o dia a dia e produtividade",
   },
   {
     nome: "Novidades",
@@ -39,7 +39,7 @@ export const blogCategories: BlogCategoryInfo[] = [
     cor: "blog-novidades",
     corHex: "#E11D48",
     icone: "Newspaper",
-    descricao: "Novidades e noticias da Atitude Ensino",
+    descricao: "Novidades e notícias da Atitude Ensino",
   },
 ];
 

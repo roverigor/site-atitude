@@ -1,44 +1,44 @@
 slug: atendente-farmacia
-nome: "Atendente de Farmacia"
+nome: "Atendente de Farmácia"
 categoria: saude
-descricao_curta: "Qualifique-se para atuar em farmacias e drogarias com conhecimento tecnico e atendimento de excelencia."
+descricao_curta: "Qualifique-se para atuar em farmácias e drogarias com conhecimento técnico e atendimento de excelência."
 descricao_completa: |
-  O curso de Atendente de Farmacia forma profissionais qualificados para atuar em farmacias, drogarias e distribuidoras farmaceuticas. Voce vai aprender desde a organizacao do estabelecimento ate o atendimento tecnico ao cliente, incluindo nocoes de farmacologia, legislacao sanitaria e boas praticas.
+  O curso de Atendente de Farmácia forma profissionais qualificados para atuar em farmácias, drogarias e distribuidoras farmacêuticas. Você vai aprender desde a organização do estabelecimento até o atendimento técnico ao cliente, incluindo noções de farmacologia, legislação sanitária e boas práticas.
 
-  O setor farmaceutico e um dos que mais empregam no Brasil, e profissionais qualificados sao cada vez mais valorizados. Com esse curso, voce entende as classes de medicamentos, sabe orientar clientes sobre medicamentos isentos de prescricao, conhece a legislacao vigente e domina o sistema de controle de estoque.
+  O setor farmacêutico é um dos que mais empregam no Brasil, e profissionais qualificados são cada vez mais valorizados. Com esse curso, você entende as classes de medicamentos, sabe orientar clientes sobre medicamentos isentos de prescrição, conhece a legislação vigente e domina o sistema de controle de estoque.
 
-  Alem do conhecimento tecnico, o curso desenvolve habilidades de atendimento humanizado — essencial para lidar com pessoas que buscam ajuda para sua saude. Farmacias da regiao ja procuram nossos alunos antes mesmo da formatura.
+  Além do conhecimento técnico, o curso desenvolve habilidades de atendimento humanizado — essencial para lidar com pessoas que buscam ajuda para sua saúde. Farmácias da região já procuram nossos alunos antes mesmo da formatura.
 modulos:
-  - nome: "Introducao a Farmacia"
+  - nome: "Introdução à Farmácia"
     carga_horaria: "14h"
     valor: 150.00
-    descricao: "Historia da farmacia, tipos de estabelecimentos, organizacao, etica e postura profissional"
-  - nome: "Nocoes de Farmacologia"
+    descricao: "História da farmácia, tipos de estabelecimentos, organização, ética e postura profissional"
+  - nome: "Noções de Farmacologia"
     carga_horaria: "20h"
     valor: 200.00
-    descricao: "Classes de medicamentos, formas farmaceuticas, vias de administracao e cuidados basicos"
-  - nome: "Legislacao e Vigilancia Sanitaria"
+    descricao: "Classes de medicamentos, formas farmacêuticas, vias de administração e cuidados básicos"
+  - nome: "Legislação e Vigilância Sanitária"
     carga_horaria: "12h"
     valor: 140.00
-    descricao: "ANVISA, receituario, medicamentos controlados, descarte correto e boas praticas"
+    descricao: "ANVISA, receituário, medicamentos controlados, descarte correto e boas práticas"
   - nome: "Atendimento e Vendas"
     carga_horaria: "16h"
     valor: 160.00
-    descricao: "Atendimento humanizado, tecnicas de vendas, perfumaria, dermocosmeticos e fidelizacao"
+    descricao: "Atendimento humanizado, técnicas de vendas, perfumaria, dermocosméticos e fidelização"
   - nome: "Controle de Estoque"
     carga_horaria: "10h"
     valor: 130.00
     descricao: "Recebimento de mercadorias, armazenamento, validade, PEPS e sistema de controle"
 duracao_total: "4 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos que desejam trabalhar em farmacias, drogarias ou distribuidoras farmaceuticas"
+publico_alvo: "Jovens e adultos que desejam trabalhar em farmácias, drogarias ou distribuidoras farmacêuticas"
 prerequisitos: "Ensino fundamental completo. Ter 18 anos ou mais."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
   - "Material complementar sobre medicamentos"
-  - "Visita tecnica a farmacia parceira"
+  - "Visita técnica a farmácia parceira"
 proxima_turma: "2026-04-07"
 vagas: 10
 investimento:

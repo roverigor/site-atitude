@@ -188,9 +188,9 @@ export function TestimonialsPage({
           O que nossos alunos dizem
         </h1>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl mx-auto leading-relaxed">
-          Historias reais de pessoas que transformaram suas carreiras com a
-          Atitude Ensino. Cada depoimento e uma prova de que investir em
-          educacao vale a pena.
+          Histórias reais de pessoas que transformaram suas carreiras com a
+          Atitude Ensino. Cada depoimento é uma prova de que investir em
+          educação vale a pena.
         </p>
       </div>
 
@@ -216,7 +216,7 @@ export function TestimonialsPage({
         <div className="flex items-center gap-2 mb-4">
           <Filter className="h-4 w-4 text-[var(--color-foreground-muted)]" />
           <span className="text-sm font-medium text-[var(--color-foreground-muted)]">
-            Filtrar por area:
+            Filtrar por área:
           </span>
         </div>
 
@@ -279,10 +279,10 @@ export function TestimonialsPage({
       {/* CTA */}
       <div className="mt-16 text-center p-8 md:p-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-purple)] text-white">
         <h2 className="text-xl md:text-2xl font-bold mb-3">
-          Voce tambem pode ter sua historia aqui
+          Você também pode ter sua história aqui
         </h2>
         <p className="text-white/80 mb-6 max-w-lg mx-auto">
-          Comece agora sua jornada de transformacao profissional. O proximo
+          Comece agora sua jornada de transformação profissional. O próximo
           depoimento de sucesso pode ser o seu!
         </p>
         <Button

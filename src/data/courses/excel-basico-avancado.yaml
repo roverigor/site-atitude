@@ -1,39 +1,39 @@
-slug: excel-basico-avancado
-nome: "Excel do Basico ao Avancado"
+slug: excel-básico-avançado
+nome: "Excel do Básico ao Avançado"
 categoria: excel
-descricao_curta: "Domine o Excel do zero ate tabelas dinamicas e funcoes avancadas — a habilidade mais pedida em vagas de emprego."
+descricao_curta: "Domine o Excel do zero até tabelas dinâmicas e funções avançadas — a habilidade mais pedida em vagas de emprego."
 descricao_completa: |
-  O Excel e a ferramenta mais exigida em vagas de emprego no Brasil. Esse curso leva voce do basico absoluto ate recursos avancados como tabelas dinamicas, funcoes PROCV/SOMASE, graficos profissionais e automacao de planilhas.
+  O Excel é a ferramenta mais exigida em vagas de emprego no Brasil. Esse curso leva você do básico absoluto até recursos avançados como tabelas dinâmicas, funções PROCV/SOMASE, gráficos profissionais e automação de planilhas.
 
-  Com aulas 100% praticas, voce trabalha com planilhas reais do dia a dia: controle de estoque, folha de pagamento, orcamentos, relatorios de vendas e dashboards visuais. Cada aula tem exercicios que simulam situacoes reais de trabalho.
+  Com aulas 100% práticas, você trabalha com planilhas reais do dia a dia: controle de estoque, folha de pagamento, orçamentos, relatórios de vendas e dashboards visuais. Cada aula tem exercícios que simulam situações reais de trabalho.
 
-  Ao final do curso, voce tera confianca para resolver qualquer desafio com planilhas e se destacar em processos seletivos. O Excel avancado e um diferencial que pode aumentar seu salario em ate 30% segundo pesquisas do mercado.
+  Ao final do curso, você terá confiança para resolver qualquer desafio com planilhas e se destacar em processos seletivos. O Excel avançado é um diferencial que pode aumentar seu salário em até 30% segundo pesquisas do mercado.
 modulos:
-  - nome: "Excel Basico"
+  - nome: "Excel Básico"
     carga_horaria: "16h"
     valor: 160.00
-    descricao: "Interface, celulas, formatacao, formulas basicas (SOMA, MEDIA, SE) e graficos simples"
-  - nome: "Excel Intermediario"
+    descricao: "Interface, células, formatação, fórmulas básicas (SOMA, MÉDIA, SE) e gráficos simples"
+  - nome: "Excel Intermediário"
     carga_horaria: "18h"
     valor: 180.00
-    descricao: "PROCV, SOMASE, CONT.SE, formatacao condicional, validacao de dados e filtros avancados"
-  - nome: "Excel Avancado"
+    descricao: "PROCV, SOMASE, CONT.SE, formatação condicional, validação de dados e filtros avançados"
+  - nome: "Excel Avançado"
     carga_horaria: "20h"
     valor: 200.00
-    descricao: "Tabelas dinamicas, graficos dinamicos, funcoes aninhadas, INDICE/CORRESP e dashboards"
-  - nome: "Excel na Pratica"
+    descricao: "Tabelas dinâmicas, gráficos dinâmicos, funções aninhadas, ÍNDICE/CORRESP e dashboards"
+  - nome: "Excel na Prática"
     carga_horaria: "10h"
     valor: 140.00
-    descricao: "Projetos reais: controle de estoque, fluxo de caixa, relatorio de vendas e folha de pagamento"
+    descricao: "Projetos reais: controle de estoque, fluxo de caixa, relatório de vendas e folha de pagamento"
 duracao_total: "4 meses"
 modalidade: presencial
-publico_alvo: "Profissionais de qualquer area que querem dominar o Excel para melhorar sua performance e empregabilidade"
-prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse e teclado)."
+publico_alvo: "Profissionais de qualquer área que querem dominar o Excel para melhorar sua performance e empregabilidade"
+prerequisitos: "Conhecimentos básicos de informática (saber usar mouse e teclado)."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Acesso ao laboratorio"
+  - "Acesso ao laboratório"
   - "Planilhas modelo para uso profissional"
 proxima_turma: "2026-03-10"
 vagas: 8
@@ -43,6 +43,6 @@ investimento:
   valor_parcela: null
   bonus_pontualidade: 10.00
   desconto_maximo: "50%"
-imagem_destaque: "/images/courses/excel-basico-avancado.webp"
+imagem_destaque: "/images/courses/excel-básico-avançado.webp"
 ativo: true
 ordem: 5

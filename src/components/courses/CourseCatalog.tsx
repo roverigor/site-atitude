@@ -76,7 +76,7 @@ export function CourseCatalog({ courses, categories }: CourseCatalogProps) {
         <SearchInput
           value={searchQuery}
           onChange={setSearchQuery}
-          placeholder="Buscar por nome do curso, descricao ou modulo..."
+          placeholder="Buscar por nome do curso, descrição ou módulo..."
         />
         <CourseFilter
           categories={categoriesWithCount}
@@ -105,8 +105,8 @@ export function CourseCatalog({ courses, categories }: CourseCatalogProps) {
           </h3>
           <p className="text-sm text-[var(--color-foreground-muted)] max-w-sm">
             {searchQuery
-              ? `Nao encontramos cursos para "${searchQuery}". Tente outra busca ou limpe os filtros.`
-              : "Nao ha cursos disponiveis nesta categoria no momento."}
+              ? `Não encontramos cursos para "${searchQuery}". Tente outra busca ou limpe os filtros.`
+              : "Não há cursos disponíveis nesta categoria no momento."}
           </p>
           {(searchQuery || activeCategory !== "all") && (
             <button

@@ -1,40 +1,40 @@
 slug: cabeleireiro
 nome: "Cabeleireiro Profissional"
 categoria: beleza
-descricao_curta: "Domine cortes, coloracao e tratamentos capilares para se tornar um cabeleireiro completo."
+descricao_curta: "Domine cortes, coloração e tratamentos capilares para se tornar um cabeleireiro completo."
 descricao_completa: |
-  O curso de Cabeleireiro Profissional forma profissionais completos para atuar em saloes de beleza, barbearias e como autonomos. Voce vai aprender desde os fundamentos de visagismo e tipos de cabelo ate tecnicas avancadas de corte, coloracao, mechas, alisamentos e tratamentos capilares.
+  O curso de Cabeleireiro Profissional forma profissionais completos para atuar em salões de beleza, barbearias e como autônomos. Você vai aprender desde os fundamentos de visagismo e tipos de cabelo até técnicas avançadas de corte, coloração, mechas, alisamentos e tratamentos capilares.
 
-  Com aulas praticas em modelos reais, voce desenvolve seguranca e habilidade para atender clientes de todos os estilos. O curso aborda tambem quimica capilar, diagnostico do fio, tendencias do mercado e como fidelizar sua clientela.
+  Com aulas práticas em modelos reais, você desenvolve segurança e habilidade para atender clientes de todos os estilos. O curso aborda também química capilar, diagnóstico do fio, tendências do mercado e como fidelizar sua clientela.
 
-  O profissional de cabelo e indispensavel em qualquer cidade, e a demanda por cabeleireiros qualificados so aumenta. Ao concluir o curso, voce estara preparado para trabalhar em saloes ou abrir seu proprio negocio.
+  O profissional de cabelo é indispensável em qualquer cidade, e a demanda por cabeleireiros qualificados só aumenta. Ao concluir o curso, você estará preparado para trabalhar em salões ou abrir seu próprio negócio.
 modulos:
   - nome: "Fundamentos e Visagismo"
     carga_horaria: "20h"
     valor: 180.00
     descricao: "Tipos de cabelo, visagismo, ferramentas, higiene e postura profissional"
-  - nome: "Tecnicas de Corte"
+  - nome: "Técnicas de Corte"
     carga_horaria: "28h"
     valor: 240.00
-    descricao: "Cortes femininos e masculinos, desfiados, camadas, repicados e tendencias atuais"
-  - nome: "Coloracao e Quimica"
+    descricao: "Cortes femininos e masculinos, desfiados, camadas, repicados e tendências atuais"
+  - nome: "Coloração e Química"
     carga_horaria: "24h"
     valor: 220.00
-    descricao: "Tinturas, mechas, balayage, ombrehair, descoloracao, alisamentos e progressivas"
-  - nome: "Tratamentos e Finalizacao"
+    descricao: "Tinturas, mechas, balayage, ombrehair, descoloração, alisamentos e progressivas"
+  - nome: "Tratamentos e Finalização"
     carga_horaria: "16h"
     valor: 160.00
-    descricao: "Hidratacao, cauterizacao, reconstrucao, escova, babyliss e penteados para eventos"
+    descricao: "Hidratação, cauterização, reconstrução, escova, babyliss e penteados para eventos"
 duracao_total: "6 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos que desejam trabalhar como cabeleireiros em saloes ou como autonomos"
+publico_alvo: "Jovens e adultos que desejam trabalhar como cabeleireiros em salões ou como autônomos"
 prerequisitos: "Nenhum. Aberto para iniciantes completos."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Material de pratica incluso"
-  - "Acesso ao salao escola"
+  - "Material de prática incluso"
+  - "Acesso ao salão escola"
 proxima_turma: "2026-04-07"
 vagas: 10
 investimento:

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Atitude Ensino",
   },
   description:
-    "Ha 15 anos transformando vidas em Ibaiti-PR. Cursos de informatica, ingles, administracao, saude, beleza e tecnologia. Matricule-se!",
+    "Há 15 anos transformando vidas em Ibaiti-PR. Cursos de informática, inglês, administração, saúde, beleza e tecnologia. Matricule-se!",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://atitudeensino.com.br"
   ),
@@ -54,7 +54,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} font-[family-name:var(--font-poppins)] antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <a href="#main-content" className="skip-to-content">
-            Pular para o conteudo
+            Pular para o conteúdo
           </a>
           <ConditionalWrapper>
             {children}

@@ -28,7 +28,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
 
           {/* Matricula */}
           <div className="flex items-baseline gap-2 mb-3">
-            <span className="text-sm opacity-80">Matricula:</span>
+            <span className="text-sm opacity-80">Matrícula:</span>
             <span className="text-2xl font-bold">
               {formatCurrency(investimento.matricula)}
             </span>
@@ -41,7 +41,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
               <span>
                 {investimento.valor_parcela
                   ? `${investimento.parcelas}x de ${formatCurrency(investimento.valor_parcela)}`
-                  : `Ate ${investimento.parcelas}x`}
+                  : `Até ${investimento.parcelas}x`}
               </span>
             </div>
           )}
@@ -51,7 +51,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
             <div className="flex items-center gap-2 text-sm mt-2 text-[var(--color-brand-green)]">
               <Gift className="h-4 w-4" />
               <span>
-                Bonus pontualidade: {formatCurrency(investimento.bonus_pontualidade)}/mes
+                Bônus pontualidade: {formatCurrency(investimento.bonus_pontualidade)}/mês
               </span>
             </div>
           )}
@@ -59,7 +59,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
           {/* Desconto maximo */}
           {investimento.desconto_maximo && (
             <div className="mt-3 rounded-lg bg-white/10 px-3 py-2 text-sm text-center">
-              Desconto de ate{" "}
+              Desconto de até{" "}
               <span className="font-bold text-[var(--color-brand-green)]">
                 {investimento.desconto_maximo}
               </span>
@@ -76,7 +76,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
             </div>
             <div>
               <p className="text-xs text-[var(--color-foreground-muted)]">
-                Proxima turma
+                Próxima turma
               </p>
               <p className="font-semibold text-sm text-[var(--color-foreground)]">
                 {formatDate(course.proxima_turma)}
@@ -91,7 +91,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
             </div>
             <div>
               <p className="text-xs text-[var(--color-foreground-muted)]">
-                Vagas disponiveis
+                Vagas disponíveis
               </p>
               <p className="font-semibold text-sm text-[var(--color-foreground)]">
                 {course.vagas} vagas

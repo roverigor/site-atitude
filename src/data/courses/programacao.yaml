@@ -1,30 +1,30 @@
-slug: programacao
-nome: "Programacao Web"
+slug: programação
+nome: "Programação Web"
 categoria: tecnologia
 descricao_curta: "Aprenda a programar do zero com Python, HTML, CSS e JavaScript — o curso que abre as portas da tecnologia."
 descricao_completa: |
-  O curso de Programacao Web e a porta de entrada para o mundo da tecnologia. Voce vai aprender a criar sites, sistemas e aplicacoes usando as linguagens mais requisitadas do mercado: HTML, CSS, JavaScript e Python. Tudo do zero, sem necessidade de experiencia previa.
+  O curso de Programação Web é a porta de entrada para o mundo da tecnologia. Você vai aprender a criar sites, sistemas e aplicações usando as linguagens mais requisitadas do mercado: HTML, CSS, JavaScript e Python. Tudo do zero, sem necessidade de experiência prévia.
 
-  O metodo e interativo: voce aprende no computador com exercicios praticos, projetos guiados e desafios progressivos. Cada modulo constroi sobre o anterior, e ao final voce tera criado projetos reais como um site pessoal, uma calculadora web, um sistema de cadastro e um jogo simples.
+  O método é interativo: você aprende no computador com exercícios práticos, projetos guiados e desafios progressivos. Cada módulo constrói sobre o anterior, e ao final você terá criado projetos reais como um site pessoal, uma calculadora web, um sistema de cadastro e um jogo simples.
 
-  A area de programacao e a que mais cresce no Brasil, com salarios acima da media e oportunidades de trabalho remoto. Mesmo em cidades menores, empresas precisam de sites, sistemas e automacoes. Esse curso e o primeiro passo para uma carreira com enorme potencial de crescimento.
+  A área de programação é a que mais cresce no Brasil, com salários acima da média e oportunidades de trabalho remoto. Mesmo em cidades menores, empresas precisam de sites, sistemas e automações. Esse curso é o primeiro passo para uma carreira com enorme potencial de crescimento.
 modulos:
-  - nome: "Logica de Programacao"
+  - nome: "Lógica de Programação"
     carga_horaria: "20h"
     valor: 200.00
-    descricao: "Pensamento computacional, algoritmos, variaveis, condicionais, lacos e funcoes"
+    descricao: "Pensamento computacional, algoritmos, variáveis, condicionais, laços e funções"
   - nome: "HTML e CSS"
     carga_horaria: "24h"
     valor: 220.00
-    descricao: "Estrutura de paginas web, estilizacao, responsividade e boas praticas de layout"
+    descricao: "Estrutura de páginas web, estilização, responsividade e boas práticas de layout"
   - nome: "JavaScript"
     carga_horaria: "28h"
     valor: 240.00
-    descricao: "Interatividade web, manipulacao do DOM, eventos, formularios e consumo de APIs"
+    descricao: "Interatividade web, manipulação do DOM, eventos, formulários e consumo de APIs"
   - nome: "Python"
     carga_horaria: "24h"
     valor: 220.00
-    descricao: "Fundamentos de Python, automacao de tarefas, manipulacao de dados e projetos praticos"
+    descricao: "Fundamentos de Python, automação de tarefas, manipulação de dados e projetos práticos"
   - nome: "Projeto Integrador"
     carga_horaria: "16h"
     valor: 180.00
@@ -32,14 +32,14 @@ modulos:
 duracao_total: "10 meses"
 modalidade: interativo
 publico_alvo: "Jovens e adultos interessados em tecnologia que desejam aprender a programar do zero"
-prerequisitos: "Conhecimentos basicos de informatica (saber usar mouse, teclado e navegador). Raciocinio logico basico."
+prerequisitos: "Conhecimentos básicos de informática (saber usar mouse, teclado e navegador). Raciocínio lógico básico."
 incluso:
-  - "Material didatico digital"
-  - "Certificado de conclusao"
-  - "Acesso a plataforma interativa"
+  - "Material didático digital"
+  - "Certificado de conclusão"
+  - "Acesso à plataforma interativa"
   - "Acompanhamento individual"
-  - "Acesso ao laboratorio"
-  - "Projetos para portfolio"
+  - "Acesso ao laboratório"
+  - "Projetos para portfólio"
 proxima_turma: "2026-04-07"
 vagas: 8
 investimento:
@@ -48,6 +48,6 @@ investimento:
   valor_parcela: null
   bonus_pontualidade: 10.00
   desconto_maximo: "50%"
-imagem_destaque: "/images/courses/programacao.webp"
+imagem_destaque: "/images/courses/programação.webp"
 ativo: true
 ordem: 10

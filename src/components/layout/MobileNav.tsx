@@ -44,7 +44,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
       <div
         ref={drawerRef}
         role="dialog"
-        aria-label="Menu de navegacao"
+        aria-label="Menu de navegação"
         className="fixed inset-y-0 left-0 w-[80vw] max-w-sm bg-[var(--color-background)] shadow-xl animate-in slide-in-from-left duration-300"
       >
         <div className="flex h-16 items-center justify-between px-4 border-b border-[var(--color-border)]">

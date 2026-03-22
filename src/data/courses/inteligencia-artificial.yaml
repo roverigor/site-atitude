@@ -1,35 +1,35 @@
 slug: inteligencia-artificial
-nome: "Inteligencia Artificial para Iniciantes"
+nome: "Inteligência Artificial para Iniciantes"
 categoria: tecnologia
-descricao_curta: "Entenda e use IA no dia a dia: ChatGPT, automacoes e ferramentas que estao transformando o mercado."
+descricao_curta: "Entenda e use IA no dia a dia: ChatGPT, automações e ferramentas que estão transformando o mercado."
 descricao_completa: |
-  O curso de Inteligencia Artificial para Iniciantes ensina voce a entender e usar as ferramentas de IA que estao revolucionando o mercado de trabalho. Voce vai aprender a usar ChatGPT, Gemini, Copilot e outras IAs para aumentar sua produtividade, criar conteudo, automatizar tarefas e resolver problemas do dia a dia.
+  O curso de Inteligência Artificial para Iniciantes ensina você a entender e usar as ferramentas de IA que estão revolucionando o mercado de trabalho. Você vai aprender a usar ChatGPT, Gemini, Copilot e outras IAs para aumentar sua produtividade, criar conteúdo, automatizar tarefas e resolver problemas do dia a dia.
 
-  Nao e preciso saber programar! O curso e 100% pratico e voltado para quem quer aplicar IA na vida real: redigir textos, criar imagens, analisar dados, automatizar planilhas, gerar apresentacoes e muito mais. Voce tambem aprende sobre etica, limitacoes e como se destacar no mercado usando essas ferramentas.
+  Não é preciso saber programar! O curso é 100% prático e voltado para quem quer aplicar IA na vida real: redigir textos, criar imagens, analisar dados, automatizar planilhas, gerar apresentações e muito mais. Você também aprende sobre ética, limitações e como se destacar no mercado usando essas ferramentas.
 
-  A IA ja esta mudando todas as profissoes, e quem souber usar essas ferramentas vai ter vantagem competitiva enorme. Esse curso e o seu ponto de partida para nao ficar para tras na revolucao tecnologica mais importante da nossa geracao.
+  A IA já está mudando todas as profissões, e quem souber usar essas ferramentas vai ter vantagem competitiva enorme. Esse curso é o seu ponto de partida para não ficar para trás na revolução tecnológica mais importante da nossa geração.
 modulos:
   - nome: "Fundamentos de IA"
     carga_horaria: "16h"
     valor: 160.00
-    descricao: "O que e IA, como funciona, tipos de IA, historia, etica e impacto no mercado de trabalho"
-  - nome: "IA na Pratica — Ferramentas"
+    descricao: "O que é IA, como funciona, tipos de IA, história, ética e impacto no mercado de trabalho"
+  - nome: "IA na Prática — Ferramentas"
     carga_horaria: "24h"
     valor: 200.00
-    descricao: "ChatGPT, Gemini, Copilot, DALL-E, Midjourney: prompts eficientes e aplicacoes reais"
-  - nome: "Automacao e Produtividade com IA"
+    descricao: "ChatGPT, Gemini, Copilot, DALL-E, Midjourney: prompts eficientes e aplicações reais"
+  - nome: "Automação e Produtividade com IA"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Automatizar tarefas com IA, Excel com IA, criacao de conteudo, analise de dados e workflow"
+    descricao: "Automatizar tarefas com IA, Excel com IA, criação de conteúdo, análise de dados e workflow"
 duracao_total: "4 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos de qualquer area que querem aprender a usar inteligencia artificial no dia a dia"
-prerequisitos: "Conhecimentos basicos de informatica (saber usar computador e navegar na internet)."
+publico_alvo: "Jovens e adultos de qualquer área que querem aprender a usar inteligência artificial no dia a dia"
+prerequisitos: "Conhecimentos básicos de informática (saber usar computador e navegar na internet)."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Acesso ao laboratorio"
+  - "Acesso ao laboratório"
   - "Guia de ferramentas de IA atualizado"
 proxima_turma: "2026-03-10"
 vagas: 12

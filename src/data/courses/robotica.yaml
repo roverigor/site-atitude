@@ -1,36 +1,36 @@
 slug: robotica
-nome: "Robotica Educacional"
+nome: "Robótica Educacional"
 categoria: tecnologia
-descricao_curta: "Aprenda robotica na pratica: monte robos, programe sensores e desenvolva raciocinio logico."
+descricao_curta: "Aprenda robótica na prática: monte robôs, programe sensores e desenvolva raciocínio lógico."
 descricao_completa: |
-  O curso de Robotica Educacional combina tecnologia, criatividade e logica para ensinar voce a construir e programar robos de verdade. Usando kits de robotica profissionais, voce vai montar estruturas, conectar sensores e motores, e programar comportamentos inteligentes — tudo de forma pratica e divertida.
+  O curso de Robótica Educacional combina tecnologia, criatividade e lógica para ensinar você a construir e programar robôs de verdade. Usando kits de robótica profissionais, você vai montar estruturas, conectar sensores e motores, e programar comportamentos inteligentes — tudo de forma prática e divertida.
 
-  O curso desenvolve habilidades essenciais para o seculo 21: raciocinio logico, resolucao de problemas, trabalho em equipe e pensamento computacional. Voce aprende eletronica basica, mecanica, programacao em blocos e texto, e participa de desafios que simulam competicoes de robotica.
+  O curso desenvolve habilidades essenciais para o século 21: raciocínio lógico, resolução de problemas, trabalho em equipe e pensamento computacional. Você aprende eletrônica básica, mecânica, programação em blocos e texto, e participa de desafios que simulam competições de robótica.
 
-  A robotica esta cada vez mais presente em industrias, agricultura, saude e educacao. Esse curso e ideal para quem quer ter uma base solida em tecnologia e se preparar para as profissoes do futuro. Alunos ja participaram de competicoes regionais representando a Atitude.
+  A robótica está cada vez mais presente em indústrias, agricultura, saúde e educação. Esse curso é ideal para quem quer ter uma base sólida em tecnologia e se preparar para as profissões do futuro. Alunos já participaram de competições regionais representando a Atitude.
 modulos:
-  - nome: "Fundamentos de Robotica"
+  - nome: "Fundamentos de Robótica"
     carga_horaria: "20h"
     valor: 180.00
-    descricao: "Eletronica basica, mecanica, sensores, motores e montagem de estruturas roboticas"
-  - nome: "Programacao de Robos"
+    descricao: "Eletrônica básica, mecânica, sensores, motores e montagem de estruturas robóticas"
+  - nome: "Programação de Robôs"
     carga_horaria: "28h"
     valor: 220.00
-    descricao: "Programacao em blocos e texto, logica de controle, sensores e tomada de decisao"
+    descricao: "Programação em blocos e texto, lógica de controle, sensores e tomada de decisão"
   - nome: "Projetos e Desafios"
     carga_horaria: "24h"
     valor: 200.00
-    descricao: "Projetos completos: robo seguidor de linha, robo autonomo, desafios de competicao"
+    descricao: "Projetos completos: robô seguidor de linha, robô autônomo, desafios de competição"
 duracao_total: "6 meses"
 modalidade: presencial
-publico_alvo: "Jovens a partir de 12 anos e adultos interessados em tecnologia, robotica e automacao"
+publico_alvo: "Jovens a partir de 12 anos e adultos interessados em tecnologia, robótica e automação"
 prerequisitos: "Nenhum. Aberto para iniciantes completos."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Kit de robotica para aulas"
-  - "Participacao em desafios internos"
+  - "Kit de robótica para aulas"
+  - "Participação em desafios internos"
 proxima_turma: "2026-04-07"
 vagas: 10
 investimento:

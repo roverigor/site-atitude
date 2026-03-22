@@ -42,7 +42,7 @@ export async function generateMetadata({
   const course = getCourseBySlug(slug);
 
   if (!course) {
-    return { title: "Curso nao encontrado" };
+    return { title: "Curso não encontrado" };
   }
 
   return {
@@ -185,7 +185,7 @@ export default async function CoursePage({
               <div>
                 <h2 className="flex items-center gap-2 text-xl font-bold text-[var(--color-foreground)] mb-4">
                   <Target className="h-5 w-5 text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]" />
-                  Modulos do curso
+                  Módulos do curso
                 </h2>
                 <CourseModules modulos={course.modulos} />
               </div>
@@ -194,7 +194,7 @@ export default async function CoursePage({
               <div>
                 <h2 className="flex items-center gap-2 text-xl font-bold text-[var(--color-foreground)] mb-4">
                   <Users className="h-5 w-5 text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]" />
-                  Publico-alvo
+                  Público-alvo
                 </h2>
                 <p className="text-[var(--color-foreground-muted)] leading-relaxed">
                   {course.publico_alvo}
@@ -206,7 +206,7 @@ export default async function CoursePage({
                 <div>
                   <h2 className="flex items-center gap-2 text-xl font-bold text-[var(--color-foreground)] mb-4">
                     <AlertCircle className="h-5 w-5 text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]" />
-                    Pre-requisitos
+                    Pré-requisitos
                   </h2>
                   <p className="text-[var(--color-foreground-muted)] leading-relaxed">
                     {course.prerequisitos}
@@ -218,7 +218,7 @@ export default async function CoursePage({
               <div>
                 <h2 className="flex items-center gap-2 text-xl font-bold text-[var(--color-foreground)] mb-6">
                   <BookOpen className="h-5 w-5 text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]" />
-                  O que esta incluso
+                  O que está incluso
                 </h2>
                 <CourseIncludes incluso={course.incluso} />
               </div>

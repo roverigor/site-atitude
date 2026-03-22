@@ -12,9 +12,9 @@ const messages: Record<string, (ctx: WhatsAppContext) => string> = {
   home: () =>
     "Oi! Vi o site da Atitude Ensino e quero saber mais sobre os cursos.",
   course: (ctx) =>
-    `Oi! Tenho interesse no curso de ${(ctx as { type: "course"; courseName: string }).courseName}. Pode me dar mais informacoes?`,
+    `Oi! Tenho interesse no curso de ${(ctx as { type: "course"; courseName: string }).courseName}. Pode me dar mais informações?`,
   english: () =>
-    "Oi! Quero saber sobre os cursos de ingles da Atitude English School.",
+    "Oi! Quero saber sobre os cursos de inglês da Atitude English School.",
   contact: () => "Oi! Quero falar com a Atitude Ensino.",
   partner: () =>
     "Oi! Tenho interesse em ser parceiro da Atitude Ensino.",

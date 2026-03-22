@@ -202,7 +202,7 @@ export default function InglesPage() {
               <div className="col-span-full text-center py-12">
                 <Globe className="h-12 w-12 mx-auto text-[var(--color-foreground-muted)] mb-4" />
                 <p className="text-[var(--color-foreground-muted)] text-lg mb-4">
-                  Novos cursos de ingles em breve!
+                  Novos cursos de inglês em breve!
                 </p>
                 <Button variant="whatsapp" href={whatsappUrl}>
                   <MessageCircle className="h-4 w-4" />

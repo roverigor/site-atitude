@@ -1,31 +1,31 @@
 slug: manicure-pedicure
 nome: "Manicure e Pedicure"
 categoria: beleza
-descricao_curta: "Aprenda tecnicas profissionais de manicure, pedicure e nail art para iniciar sua carreira."
+descricao_curta: "Aprenda técnicas profissionais de manicure, pedicure e nail art para iniciar sua carreira."
 descricao_completa: |
-  O curso de Manicure e Pedicure forma profissionais preparadas para atuar em saloes de beleza, espacos de estetica ou como autonomas. Voce vai aprender todas as tecnicas essenciais: cutilagem, esmaltacao perfeita, tratamento de unhas, cuidados com os pes e as tendencias mais procuradas de nail art.
+  O curso de Manicure e Pedicure forma profissionais preparadas para atuar em salões de beleza, espaços de estética ou como autônomas. Você vai aprender todas as técnicas essenciais: cutilagem, esmaltação perfeita, tratamento de unhas, cuidados com os pés e as tendências mais procuradas de nail art.
 
-  As aulas praticas garantem que voce desenvolva agilidade e precisao, atendendo clientes reais durante o curso. Voce tambem aprende sobre biosseguranca, esterilizacao de materiais, atendimento ao cliente e como precificar seus servicos.
+  As aulas práticas garantem que você desenvolva agilidade e precisão, atendendo clientes reais durante o curso. Você também aprende sobre biossegurança, esterilização de materiais, atendimento ao cliente e como precificar seus serviços.
 
-  Manicure e uma das profissoes com maior demanda na regiao, e profissionais qualificadas conseguem montar agenda propria rapidamente. Com o certificado da Atitude, voce comeca a atender com confianca e tecnica.
+  Manicure é uma das profissões com maior demanda na região, e profissionais qualificadas conseguem montar agenda própria rapidamente. Com o certificado da Atitude, você começa a atender com confiança e técnica.
 modulos:
   - nome: "Manicure Profissional"
     carga_horaria: "24h"
     valor: 180.00
-    descricao: "Cutilagem, esmaltacao, tratamento de unhas, biosseguranca e esterilizacao de materiais"
+    descricao: "Cutilagem, esmaltação, tratamento de unhas, biossegurança e esterilização de materiais"
   - nome: "Pedicure e Nail Art"
     carga_horaria: "20h"
     valor: 160.00
-    descricao: "Pedicure completa, cuidados com os pes, alongamento de unhas e tecnicas de nail art"
+    descricao: "Pedicure completa, cuidados com os pés, alongamento de unhas e técnicas de nail art"
 duracao_total: "3 meses"
 modalidade: presencial
 publico_alvo: "Jovens e adultas que desejam trabalhar como manicure e pedicure profissional"
 prerequisitos: "Nenhum. Aberto para iniciantes completas."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Kit de pratica para aulas"
+  - "Kit de prática para aulas"
   - "Material de apoio digital"
 proxima_turma: "2026-03-17"
 vagas: 12

@@ -75,7 +75,7 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
                 <button key={i} onClick={() => setCurrent(i)} className={`w-2 h-2 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--color-brand-navy)] dark:focus:ring-[var(--color-brand-green)] ${i === current ? "bg-[var(--color-brand-navy)] dark:bg-[var(--color-brand-green)]" : "bg-[var(--color-border)]"}`} aria-label={`Depoimento ${i + 1} de ${testimonials.length}`} aria-current={i === current ? "true" : undefined} />
               ))}
             </div>
-            <button onClick={next} className="w-10 h-10 rounded-full border border-[var(--color-border)] flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] dark:focus:ring-[var(--color-brand-green)]" aria-label="Proximo depoimento">
+            <button onClick={next} className="w-10 h-10 rounded-full border border-[var(--color-border)] flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] dark:focus:ring-[var(--color-brand-green)]" aria-label="Próximo depoimento">
               <ChevronRight className="h-5 w-5" />
             </button>
           </div>

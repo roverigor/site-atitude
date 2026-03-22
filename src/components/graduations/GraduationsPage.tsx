@@ -22,10 +22,10 @@ const typeColors: Record<string, string> = {
 
 function typeLabel(tipo: string): string {
   const labels: Record<string, string> = {
-    informatica: "Informatica",
-    ingles: "Ingles",
-    administracao: "Administracao",
-    saude: "Saude",
+    informatica: "Informática",
+    ingles: "Inglês",
+    administracao: "Administração",
+    saude: "Saúde",
     beleza: "Beleza",
     tecnologia: "Tecnologia",
   };
@@ -193,7 +193,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
             Nenhuma formatura encontrada
           </h3>
           <p className="text-sm text-[var(--color-foreground-muted)] max-w-sm">
-            Nao ha formaturas para este filtro. Selecione outro tipo ou veja
+            Não há formaturas para este filtro. Selecione outro tipo ou veja
             todos.
           </p>
           <button

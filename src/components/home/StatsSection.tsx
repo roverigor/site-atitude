@@ -40,9 +40,9 @@ function CountUp({ target, suffix = "+" }: { target: number; suffix?: string }) 
 }
 
 const stats = [
-  { icon: Clock, value: siteConfig.stats.years, label: "Anos de historia", suffix: "+" },
+  { icon: Clock, value: siteConfig.stats.years, label: "Anos de história", suffix: "+" },
   { icon: Users, value: siteConfig.stats.students, label: "Alunos formados", suffix: "+" },
-  { icon: BookOpen, value: siteConfig.stats.courses, label: "Cursos disponiveis", suffix: "+" },
+  { icon: BookOpen, value: siteConfig.stats.courses, label: "Cursos disponíveis", suffix: "+" },
   { icon: Building2, value: siteConfig.stats.partners, label: "Empresas parceiras", suffix: "+" },
 ];
 

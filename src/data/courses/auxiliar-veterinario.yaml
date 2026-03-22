@@ -1,36 +1,36 @@
 slug: auxiliar-veterinario
-nome: "Auxiliar de Veterinario"
+nome: "Auxiliar de Veterinário"
 categoria: saude
-descricao_curta: "Prepare-se para trabalhar em clinicas veterinarias com conhecimento tecnico e amor pelos animais."
+descricao_curta: "Prepare-se para trabalhar em clínicas veterinárias com conhecimento técnico e amor pelos animais."
 descricao_completa: |
-  O curso de Auxiliar de Veterinario forma profissionais qualificados para atuar em clinicas veterinarias, pet shops, canis e criadouros. Voce vai aprender anatomia e fisiologia animal, tecnicas de contencao, higiene, primeiros socorros, auxiliar em consultas e procedimentos, alem de cuidados basicos com pequenos e grandes animais.
+  O curso de Auxiliar de Veterinário forma profissionais qualificados para atuar em clínicas veterinárias, pet shops, canis e criadouros. Você vai aprender anatomia e fisiologia animal, técnicas de contenção, higiene, primeiros socorros, auxiliar em consultas e procedimentos, além de cuidados básicos com pequenos e grandes animais.
 
-  As aulas combinam teoria e pratica, com estudos de caso reais e simulacoes de atendimento. Voce aprende a lidar com diferentes especies, reconhecer sinais de emergencia, auxiliar o veterinario em procedimentos e manter o ambiente limpo e organizado conforme as normas sanitarias.
+  As aulas combinam teoria e prática, com estudos de caso reais e simulações de atendimento. Você aprende a lidar com diferentes espécies, reconhecer sinais de emergência, auxiliar o veterinário em procedimentos e manter o ambiente limpo e organizado conforme as normas sanitárias.
 
-  O mercado pet e um dos que mais crescem no Brasil, e clinicas veterinarias da regiao buscam constantemente profissionais qualificados. Esse curso e ideal para quem ama animais e quer transformar essa paixao em uma profissao valorizada.
+  O mercado pet é um dos que mais crescem no Brasil, e clínicas veterinárias da região buscam constantemente profissionais qualificados. Esse curso é ideal para quem ama animais e quer transformar essa paixão em uma profissão valorizada.
 modulos:
-  - nome: "Fundamentos de Veterinaria"
+  - nome: "Fundamentos de Veterinária"
     carga_horaria: "20h"
     valor: 190.00
-    descricao: "Anatomia e fisiologia animal, racas, comportamento, etica profissional e biosseguranca"
-  - nome: "Manejo e Contencao Animal"
+    descricao: "Anatomia e fisiologia animal, raças, comportamento, ética profissional e biossegurança"
+  - nome: "Manejo e Contenção Animal"
     carga_horaria: "24h"
     valor: 220.00
-    descricao: "Tecnicas de contencao, higiene, banho e tosa basicos, vacinacao e primeiros socorros"
-  - nome: "Clinica e Atendimento"
+    descricao: "Técnicas de contenção, higiene, banho e tosa básicos, vacinação e primeiros socorros"
+  - nome: "Clínica e Atendimento"
     carga_horaria: "20h"
     valor: 200.00
-    descricao: "Auxiliar em consultas, administracao de medicamentos, curativos, pos-operatorio e recepcao"
+    descricao: "Auxiliar em consultas, administração de medicamentos, curativos, pós-operatório e recepção"
 duracao_total: "6 meses"
 modalidade: presencial
-publico_alvo: "Jovens e adultos que amam animais e desejam trabalhar em clinicas veterinarias e pet shops"
+publico_alvo: "Jovens e adultos que amam animais e desejam trabalhar em clínicas veterinárias e pet shops"
 prerequisitos: "Ensino fundamental completo. Ter 16 anos ou mais."
 incluso:
   - "Apostila impressa"
-  - "Certificado de conclusao"
+  - "Certificado de conclusão"
   - "Acompanhamento individual"
-  - "Material complementar sobre especies"
-  - "Visita tecnica a clinica veterinaria"
+  - "Material complementar sobre espécies"
+  - "Visita técnica a clínica veterinária"
 proxima_turma: "2026-04-07"
 vagas: 12
 investimento:
