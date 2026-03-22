@@ -15,10 +15,17 @@ export function Hero() {
 
       <Container className="relative z-10">
         <div className="max-w-2xl mx-auto text-center md:mx-0 md:text-left">
-          <h1 className="text-[2rem] md:text-[3.5rem] font-extrabold leading-[1.15] text-white mb-6">
-            15 anos transformando{" "}
+          {/* Trust badge */}
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
+            <span className="text-[var(--color-brand-green)] text-sm font-semibold">✦ Desde 2009</span>
+            <span className="text-white/40">|</span>
+            <span className="text-white/80 text-sm">Ibaiti · PR</span>
+          </div>
+
+          <h1 className="text-[2.25rem] md:text-[4rem] font-extrabold leading-[1.1] text-white mb-6">
+            Transformando{" "}
             <span className="text-[var(--color-brand-green)]">vidas</span>{" "}
-            em Ibaiti
+            através da educação
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-lg mx-auto md:mx-0">
             Cursos profissionalizantes que abrem portas para o seu futuro.
@@ -34,6 +41,11 @@ export function Hero() {
               Conheca nossos cursos
             </Button>
           </div>
+
+          {/* Social proof */}
+          <p className="mt-6 text-sm text-white/50 text-center md:text-left">
+            Mais de <span className="text-white/80 font-semibold">5.000 alunos</span> formados em 15 anos
+          </p>
         </div>
       </Container>
     </section>

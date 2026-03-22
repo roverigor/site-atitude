@@ -32,7 +32,7 @@ function CountUp({ target, suffix = "+" }: { target: number; suffix?: string }) 
       ref={ref}
       aria-live="polite"
       aria-atomic="true"
-      className="text-4xl md:text-5xl font-bold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]"
+      className="text-4xl md:text-5xl font-bold text-[var(--color-brand-green)]"
     >
       0{suffix}
     </span>
@@ -48,13 +48,13 @@ const stats = [
 
 export function StatsSection() {
   return (
-    <section className="py-16 md:py-20 bg-[var(--color-background)]">
+    <section className="py-16 md:py-20 bg-[var(--color-brand-navy)]">
       <Container>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-y md:divide-y-0 md:divide-x divide-white/10">
           {stats.map((stat, i) => (
             <motion.div
               key={i}
-              className="text-center"
+              className="text-center pt-8 md:pt-0 first:pt-0 md:px-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -62,7 +62,7 @@ export function StatsSection() {
             >
               <stat.icon className="h-8 w-8 mx-auto mb-3 text-[var(--color-brand-green)]" />
               <CountUp target={stat.value} suffix={stat.suffix} />
-              <p className="mt-2 text-sm text-[var(--color-foreground-muted)]">{stat.label}</p>
+              <p className="mt-2 text-sm text-white/60">{stat.label}</p>
             </motion.div>
           ))}
         </div>

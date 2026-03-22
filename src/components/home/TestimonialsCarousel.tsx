@@ -35,15 +35,15 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
               const idx = (current + offset) % testimonials.length;
               const t = testimonials[idx];
               return (
-                <div key={idx} className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)]">
+                <div key={idx} className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)]">
                   <Quote className="h-6 w-6 text-[var(--color-brand-green)] mb-3" aria-hidden="true" />
                   <p className="text-sm leading-relaxed mb-4">&ldquo;{t.texto}&rdquo;</p>
-                  <div className="flex items-center justify-between gap-2">
-                    <div className="min-w-0">
-                      <p className="font-semibold text-sm truncate">{t.nome}</p>
+                  <div className="flex flex-col gap-2">
+                    <div>
+                      <p className="font-semibold text-sm">{t.nome}</p>
                       <p className="text-xs text-[var(--color-foreground-muted)]">{t.curso} · {t.ano_conclusao}</p>
                     </div>
-                    <Badge variant="success" size="sm" className="shrink-0 whitespace-nowrap">{t.resultado}</Badge>
+                    <Badge variant="success" size="sm" className="self-start">{t.resultado}</Badge>
                   </div>
                 </div>
               );
@@ -52,14 +52,16 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
 
           {/* Mobile: show 1 */}
           <div className="md:hidden">
-            <div className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)]">
+            <div className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)]">
               <Quote className="h-6 w-6 text-[var(--color-brand-green)] mb-3" aria-hidden="true" />
               <p className="text-sm leading-relaxed mb-4">&ldquo;{testimonials[current].texto}&rdquo;</p>
-              <div>
-                <p className="font-semibold text-sm">{testimonials[current].nome}</p>
-                <p className="text-xs text-[var(--color-foreground-muted)]">{testimonials[current].curso} · {testimonials[current].ano_conclusao}</p>
+              <div className="flex flex-col gap-2">
+                <div>
+                  <p className="font-semibold text-sm">{testimonials[current].nome}</p>
+                  <p className="text-xs text-[var(--color-foreground-muted)]">{testimonials[current].curso} · {testimonials[current].ano_conclusao}</p>
+                </div>
+                <Badge variant="success" size="sm" className="self-start">{testimonials[current].resultado}</Badge>
               </div>
-              <Badge variant="success" size="sm" className="mt-3">{testimonials[current].resultado}</Badge>
             </div>
           </div>
 
