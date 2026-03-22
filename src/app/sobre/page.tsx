@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { MessageCircle, Quote, Users, Rocket, BookOpen, Globe, Handshake, PartyPopper, GraduationCap, Building2 } from "lucide-react";
+import { MessageCircle, Quote, Users, Rocket, BookOpen, Globe, Handshake, PartyPopper, GraduationCap, Building2, Star, Briefcase, TrendingUp, Key } from "lucide-react";
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -12,16 +12,30 @@ import { buildWhatsAppUrl } from "@/lib/whatsapp";
 export const metadata: Metadata = {
   title: "Nossa História | Atitude Ensino",
   description:
-    "Desde 2011 transformando vidas em Ibaiti-PR. Conheça a história da Atitude Ensino: de uma ideia aos 17 anos até 1.500 alunos formados, Atitude Idiomas e parcerias com universidades.",
+    "A história da Atitude Ensino começa em 2010, quando Igor Rover, com 16 anos, se torna aluno da escola que um dia seria sua. De aluno a estagiário, gerente e sócio-proprietário — conheça essa trajetória.",
 };
 
 const milestones = [
   {
-    year: 2011,
-    title: "O começo de tudo",
+    year: 2010,
+    title: "O aluno que mudaria tudo",
     description:
-      "Igor Rover funda a Atitude Ensino aos 17 anos com uma missão clara: que todo jovem de Ibaiti pudesse se qualificar para o mercado de trabalho sem precisar sair da cidade.",
-    icon: Rocket,
+      "Com 16 anos, Igor Rover se torna aluno da escola que, anos depois, passaria a ser a Atitude Ensino. Uma decisão que parecia simples — mas que definiria sua vida.",
+    icon: Star,
+  },
+  {
+    year: 2011,
+    title: "De aluno a estagiário",
+    description:
+      "Aos 17 anos, Igor começa a estagiar na própria escola onde estudou. A paixão pelo ensino já era evidente — e a trajetória dentro da instituição tinha apenas começado.",
+    icon: Briefcase,
+  },
+  {
+    year: 2012,
+    title: "Gerente aos 18 anos",
+    description:
+      "Um ano depois, Igor assume a gerência da escola. Jovem, determinado e com visão de futuro, começa a moldar a cultura e a identidade que marcariam a Atitude Ensino.",
+    icon: TrendingUp,
   },
   {
     year: 2013,
@@ -29,6 +43,13 @@ const milestones = [
     description:
       "As primeiras turmas de informática concluem o curso e ingressam no mercado de trabalho — confirmando que a missão era possível.",
     icon: BookOpen,
+  },
+  {
+    year: 2014,
+    title: "Sócio-proprietário",
+    description:
+      "Igor passa a ser sócio-proprietário da escola, tornando-a oficialmente sua. A missão agora é total: construir a melhor escola profissionalizante do interior do Paraná.",
+    icon: Key,
   },
   {
     year: 2016,
@@ -277,7 +298,7 @@ export default function SobrePage() {
             <div className="relative">
               <Quote className="h-8 w-8 text-[var(--color-brand-green)] mb-4" />
               <blockquote className="text-base md:text-lg leading-relaxed text-[var(--color-foreground)] italic">
-                A Atitude Ensino nasceu de um sonho simples: que todo jovem de Ibaiti tivesse a chance de se qualificar para o mercado de trabalho sem precisar sair da cidade. Comecei com 17 anos, sem experiência em gestão, mas com uma convicção que nunca mudou — educação muda vidas de verdade. Em 15 anos passamos por franquias, parcerias com universidades, aulas online e muitas reinvenções. Mas o propósito é o mesmo desde 2011: cada aluno que conquista um emprego é uma vitória nossa também.
+                Comecei como aluno dessa escola em 2010, com 16 anos. Um ano depois era estagiário, com 18 era gerente, e em 2014 me tornei sócio-proprietário. Não planejei tudo isso — simplesmente amei o que vi e me dediquei completamente. Em todos esses anos passamos por franquias, parcerias com universidades, idiomas e muitas reinvenções. Mas o propósito nunca mudou: que todo jovem de Ibaiti possa se qualificar para o mercado de trabalho sem precisar sair da cidade. Cada aluno que conquista um emprego é uma vitória nossa também.
               </blockquote>
               <p className="mt-6 font-semibold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]">
                 — Igor Rover, CEO &amp; Fundador
