@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { MessageCircle, Quote, Users, Rocket, BookOpen, Globe, Handshake, PartyPopper } from "lucide-react";
+import { MessageCircle, Quote, Users, Rocket, BookOpen, Globe, Handshake, PartyPopper, GraduationCap, Building2 } from "lucide-react";
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -10,52 +10,66 @@ import { getAllTeamMembers } from "@/lib/team";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
-  title: "Sobre Nos",
+  title: "Nossa História | Atitude Ensino",
   description:
-    "Conheca a historia da Atitude Ensino. Ha 15 anos transformando vidas em Ibaiti-PR com cursos profissionalizantes de qualidade.",
+    "Desde 2011 transformando vidas em Ibaiti-PR. Conheça a história da Atitude Ensino: de uma ideia aos 17 anos até 1.500 alunos formados, Atitude Idiomas e parcerias com universidades.",
 };
 
 const milestones = [
   {
     year: 2011,
-    title: "Fundacao",
+    title: "O começo de tudo",
     description:
-      "Igor Rover funda a Atitude Ensino aos 17 anos com a missao de democratizar a educacao profissionalizante",
+      "Igor Rover funda a Atitude Ensino aos 17 anos com uma missão clara: que todo jovem de Ibaiti pudesse se qualificar para o mercado de trabalho sem precisar sair da cidade.",
     icon: Rocket,
   },
   {
     year: 2013,
     title: "Primeiros formandos",
     description:
-      "Primeiras turmas de informatica se formam e ingressam no mercado de trabalho",
+      "As primeiras turmas de informática concluem o curso e ingressam no mercado de trabalho — confirmando que a missão era possível.",
     icon: BookOpen,
   },
   {
     year: 2016,
-    title: "Expansao de cursos",
+    title: "Expansão do catálogo",
     description:
-      "Catalogo cresce para mais de 20 cursos incluindo administracao, saude e beleza",
+      "O portfólio cresce para mais de 20 cursos, expandindo para as áreas de administração, saúde e beleza — atendendo mais perfis e necessidades.",
     icon: Users,
   },
   {
-    year: 2019,
-    title: "Ingles online",
+    year: 2017,
+    title: "Parceria com universidades",
     description:
-      "Lancamento da Atitude English School com aulas ao vivo por Google Meet",
+      "Firmamos parceria com instituições de ensino superior para oferecer cursos de graduação e pós-graduação a distância (EAD), ampliando o acesso à educação de nível superior em Ibaiti.",
+    icon: GraduationCap,
+  },
+  {
+    year: 2018,
+    title: "Experiência com franquia",
+    description:
+      "Vivenciamos a operação de uma franquia educacional — uma jornada que, mesmo encerrada, nos deixou know-how valioso em gestão, metodologia e escala de ensino.",
+    icon: Building2,
+  },
+  {
+    year: 2019,
+    title: "Nasce a Atitude Idiomas",
+    description:
+      "Uma nova porta se abre: parceria com franquia de inglês que dá origem à Atitude Idiomas. O idioma passa a fazer parte do DNA da escola, com metodologia estruturada e professores fluentes.",
     icon: Globe,
   },
   {
     year: 2022,
-    title: "Programa de estagio",
+    title: "Programa de estágio consolidado",
     description:
-      "Parceria com empresas de Ibaiti para encaminhamento de alunos para estagio",
+      "O encaminhamento de alunos ao mercado — que já existia de forma orgânica — se estrutura oficialmente com parcerias formais com empresas da região, garantindo oportunidades reais após a formatura.",
     icon: Handshake,
   },
   {
     year: 2026,
-    title: "15 anos",
+    title: "15 anos transformando vidas",
     description:
-      "Celebracao de 15 anos com mais de 1500 alunos formados e 40+ cursos",
+      "Mais de 1.500 alunos formados, 40+ cursos, inglês presencial e online, parcerias com universidades e empresas. Ibaiti nos viu crescer — e a história continua.",
     icon: PartyPopper,
   },
 ];
@@ -71,10 +85,10 @@ export default function SobrePage() {
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="text-center max-w-3xl mx-auto pt-8 pb-4">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
-              Nossa Historia
+              Nossa História
             </h1>
             <p className="text-lg md:text-xl text-white/80">
-              Ha 15 anos transformando vidas em Ibaiti-PR
+              Desde 2011 transformando vidas em Ibaiti-PR
             </p>
           </div>
         </Container>
@@ -85,10 +99,10 @@ export default function SobrePage() {
         <Container>
           <div className="text-center mb-14">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-              15 Anos de Trajetoria
+              15 Anos de Trajetória
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
-              Cada ano uma conquista, cada aluno uma historia
+              Cada decisão moldou quem somos. Cada aluno formado confirmou que valeu a pena.
             </p>
           </div>
 
@@ -245,7 +259,7 @@ export default function SobrePage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-              Nossa Missao
+              Nossa Missão
             </h2>
           </div>
 
@@ -263,13 +277,7 @@ export default function SobrePage() {
             <div className="relative">
               <Quote className="h-8 w-8 text-[var(--color-brand-green)] mb-4" />
               <blockquote className="text-base md:text-lg leading-relaxed text-[var(--color-foreground)] italic">
-                A Atitude Ensino nasceu de um sonho: que todo jovem de Ibaiti
-                tivesse a chance de se qualificar para o mercado de trabalho sem
-                precisar sair da cidade. Muita gente gasta com celular, com
-                roupa de marca, mas nao investe em educacao. A gente mostra que
-                um curso profissionalizante pode ser a porta para uma vida
-                melhor. Fazemos isso por amor — cada aluno que conquista um
-                emprego e uma vitoria nossa tambem.
+                A Atitude Ensino nasceu de um sonho simples: que todo jovem de Ibaiti tivesse a chance de se qualificar para o mercado de trabalho sem precisar sair da cidade. Comecei com 17 anos, sem experiência em gestão, mas com uma convicção que nunca mudou — educação muda vidas de verdade. Em 15 anos passamos por franquias, parcerias com universidades, aulas online e muitas reinvenções. Mas o propósito é o mesmo desde 2011: cada aluno que conquista um emprego é uma vitória nossa também.
               </blockquote>
               <p className="mt-6 font-semibold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]">
                 — Igor Rover, CEO &amp; Fundador
@@ -287,7 +295,7 @@ export default function SobrePage() {
               Nossa Equipe
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
-              Profissionais dedicados a transformar a educacao em Ibaiti
+              Pessoas que acreditam que educação transforma — e provam isso todos os dias
             </p>
           </div>
 
@@ -337,11 +345,10 @@ export default function SobrePage() {
         <Container>
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold mb-4">
-              Venha conhecer a Atitude Ensino
+              Venha escrever sua história aqui
             </h2>
             <p className="text-lg text-white/80 mb-8">
-              Estamos de portas abertas para voce. Agende uma visita ou fale com
-              a gente pelo WhatsApp!
+              15 anos de trajetória nos ensinaram que o melhor investimento que alguém pode fazer é em si mesmo. Estamos de portas abertas — presencialmente ou online.
             </p>
             <Button
               variant="whatsapp"

@@ -17,7 +17,7 @@ export function Hero() {
         <div className="max-w-2xl mx-auto text-center md:mx-0 md:text-left">
           {/* Trust badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-[var(--color-brand-green)] text-sm font-semibold">✦ Desde 2009</span>
+            <span className="text-[var(--color-brand-green)] text-sm font-semibold">✦ Desde 2011</span>
             <span className="text-white/40">|</span>
             <span className="text-white/80 text-sm">Ibaiti · PR</span>
           </div>
