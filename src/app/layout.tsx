@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
+import { ConditionalWrapper } from "@/components/layout/ConditionalWrapper";
 import { Analytics } from "@/components/shared/Analytics";
 import "./globals.css";
 
@@ -58,10 +56,9 @@ export default function RootLayout({
           <a href="#main-content" className="skip-to-content">
             Pular para o conteudo
           </a>
-          <Header />
-          <main id="main-content">{children}</main>
-          <Footer />
-          <WhatsAppButton />
+          <ConditionalWrapper>
+            {children}
+          </ConditionalWrapper>
           <Analytics />
         </ThemeProvider>
       </body>
