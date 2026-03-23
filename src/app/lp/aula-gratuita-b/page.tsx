@@ -15,19 +15,10 @@ import {
   MapPin,
   Send,
 } from "lucide-react";
+import { trackContact, trackLead, trackViewContent } from "@/lib/analytics";
 
 const WHATSAPP_URL =
   process.env.NEXT_PUBLIC_WHATSAPP_LP_URL || "https://wa.me/PREENCHER";
-
-type FbqFn = (command: string, event: string) => void;
-function trackFbq(event: string) {
-  if (
-    typeof window !== "undefined" &&
-    typeof (window as Window & { fbq?: FbqFn }).fbq === "function"
-  ) {
-    (window as Window & { fbq?: FbqFn }).fbq!("track", event);
-  }
-}
 
 /* ─── FAQ Item ───────────────────────────────── */
 function FaqItem({ q, a }: { q: string; a: string }) {
@@ -98,7 +89,7 @@ function LeadForm({ formRef }: { formRef: React.RefObject<HTMLDivElement | null>
         body: JSON.stringify({ ...form, origem: "lp-b" }),
       });
     } catch { /* continue */ }
-    trackFbq("Lead");
+    trackLead({ campaign: "aula-gratuita", source: "lp-b" });
     router.push("/obrigado");
   }
 
@@ -207,7 +198,7 @@ function LeadForm({ formRef }: { formRef: React.RefObject<HTMLDivElement | null>
         <button
           type="button"
           onClick={() => {
-            trackFbq("Contact");
+            trackContact();
             window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
           }}
           className="w-full flex items-center justify-center gap-2 border-2 border-[#25D366] text-[#25D366] font-bold py-3.5 rounded-2xl hover:bg-[#25D366]/5 active:scale-[0.98] transition-all duration-200 text-sm"
@@ -233,7 +224,7 @@ export default function LpAulaGratuitaB() {
       ([e]) => {
         if (e.intersectionRatio >= 0.5 && !vcFired.current) {
           vcFired.current = true;
-          trackFbq("ViewContent");
+          trackViewContent("lp-b");
           obs.disconnect();
         }
       },
@@ -569,7 +560,7 @@ export default function LpAulaGratuitaB() {
             </a>
             <button
               onClick={() => {
-                trackFbq("Contact");
+                trackContact();
                 window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
               }}
               className="hover:text-[#E91E8C] transition-colors"

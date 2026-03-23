@@ -14,19 +14,10 @@ import {
   MapPin,
   ArrowRight,
 } from "lucide-react";
+import { trackContact, trackViewContent } from "@/lib/analytics";
 
 const WHATSAPP_URL =
   process.env.NEXT_PUBLIC_WHATSAPP_LP_URL || "https://wa.me/PREENCHER";
-
-type FbqFn = (command: string, event: string) => void;
-function trackFbq(event: string) {
-  if (
-    typeof window !== "undefined" &&
-    typeof (window as Window & { fbq?: FbqFn }).fbq === "function"
-  ) {
-    (window as Window & { fbq?: FbqFn }).fbq!("track", event);
-  }
-}
 
 /* ─── CTA Button ─────────────────────────────── */
 function WhatsAppBtn({
@@ -41,7 +32,7 @@ function WhatsAppBtn({
   return (
     <button
       onClick={() => {
-        trackFbq("Contact");
+        trackContact();
         window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
       }}
       className={`group relative inline-flex items-center justify-center gap-2 font-bold rounded-2xl
@@ -107,7 +98,7 @@ export default function LpAulaGratuitaA() {
       ([e]) => {
         if (e.intersectionRatio >= 0.5 && !vcFired.current) {
           vcFired.current = true;
-          trackFbq("ViewContent");
+          trackViewContent("lp-a");
           obs.disconnect();
         }
       },
@@ -511,7 +502,7 @@ export default function LpAulaGratuitaA() {
             </a>
             <button
               onClick={() => {
-                trackFbq("Contact");
+                trackContact();
                 window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
               }}
               className="hover:text-[#E91E8C] transition-colors"
@@ -526,7 +517,7 @@ export default function LpAulaGratuitaA() {
       <div className="fixed bottom-0 inset-x-0 p-4 bg-white/90 backdrop-blur-md border-t border-gray-100 shadow-2xl shadow-black/20 sm:hidden z-50">
         <button
           onClick={() => {
-            trackFbq("Contact");
+            trackContact();
             window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
           }}
           className="w-full flex items-center justify-center gap-2 bg-[#E91E8C] hover:bg-[#d01070] text-white font-bold py-4 rounded-2xl shadow-lg shadow-[#E91E8C]/30 active:scale-[0.98] transition-all"

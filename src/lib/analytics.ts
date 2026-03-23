@@ -1,16 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unnecessary-condition */
-
 /**
  * Analytics utility module
- * Provides type-safe tracking functions that push events to the GTM dataLayer.
- * All functions are safe to call even when dataLayer does not exist (no-op).
+ *
+ * IMPORTANT: All tracking goes through Google Tag Manager (GTM).
+ * Never call window.fbq, gtag, or any platform SDK directly.
+ * Push events to window.dataLayer — GTM fires the appropriate tags.
+ *
+ * GTM is the single source of truth for all tracking configuration.
+ * To add/modify tracking: update GTM workspace, not this file.
  */
 
 declare global {
   interface Window {
     dataLayer?: Record<string, unknown>[];
-    fbq?: (...args: unknown[]) => void;
-    gtag?: (...args: unknown[]) => void;
   }
 }
 
@@ -18,24 +19,41 @@ declare global {
 // Core
 // ---------------------------------------------------------------------------
 
-function pushToDataLayer(event: string, params?: Record<string, string>): void {
+function pushToDataLayer(event: string, params?: Record<string, unknown>): void {
   if (typeof window === "undefined") return;
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event, ...params });
 }
 
-/**
- * Generic event tracker.  Pushes to GTM dataLayer.
- */
 export function trackEvent(
   name: string,
-  params?: Record<string, string>,
+  params?: Record<string, unknown>,
 ): void {
   pushToDataLayer(name, params);
 }
 
 // ---------------------------------------------------------------------------
-// Domain-specific helpers
+// Landing Page events
+// Fires events that GTM listens to and forwards to Meta Pixel, GA4, etc.
+// ---------------------------------------------------------------------------
+
+/** LP-A: usuário clicou no botão WhatsApp → GTM dispara Meta Pixel Contact */
+export function trackContact(): void {
+  pushToDataLayer("contact_click");
+}
+
+/** LP-B: formulário enviado com sucesso → GTM dispara Meta Pixel Lead */
+export function trackLead(params?: { campaign?: string; source?: string }): void {
+  pushToDataLayer("lead_submit", params);
+}
+
+/** LP-A e LP-B: usuário rolou 50% da página → GTM dispara Meta Pixel ViewContent */
+export function trackViewContent(page: string): void {
+  pushToDataLayer("view_content", { page });
+}
+
+// ---------------------------------------------------------------------------
+// Site helpers (main site, not LPs)
 // ---------------------------------------------------------------------------
 
 export function trackWhatsAppClick(page: string, course?: string): void {
@@ -50,10 +68,7 @@ export function trackFormSubmit(courseInterest: string): void {
 }
 
 export function trackCourseView(courseSlug: string, category: string): void {
-  pushToDataLayer("course_view", {
-    course_slug: courseSlug,
-    category,
-  });
+  pushToDataLayer("course_view", { course_slug: courseSlug, category });
 }
 
 export function trackPhoneClick(): void {
