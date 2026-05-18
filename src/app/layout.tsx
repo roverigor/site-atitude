@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Caveat } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { ConditionalWrapper } from "@/components/layout/ConditionalWrapper";
 import { Analytics } from "@/components/shared/Analytics";
@@ -7,8 +7,15 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-poppins",
+  display: "swap",
+});
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-caveat",
   display: "swap",
 });
 
@@ -49,9 +56,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        <meta name="theme-color" content="#00E676" />
+        <meta name="theme-color" content="#252566" />
       </head>
-      <body className={`${poppins.variable} font-[family-name:var(--font-poppins)] antialiased`}>
+      <body className={`${poppins.variable} ${caveat.variable} font-[family-name:var(--font-poppins)] antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <a href="#main-content" className="skip-to-content">
             Pular para o conteúdo

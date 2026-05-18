@@ -87,7 +87,7 @@ export function AboutSection() {
             {/* Mission pill */}
             <div className="bg-[var(--color-brand-green)] rounded-2xl p-6">
               <p className="text-[var(--color-brand-navy)] font-bold text-base leading-snug">
-                "Cada aluno que conquista um emprego é uma vitória nossa também."
+                &ldquo;Cada aluno que conquista um emprego é uma vitória nossa também.&rdquo;
               </p>
               <p className="text-[var(--color-brand-navy)]/70 text-sm mt-2 font-medium">
                 — Missão da Atitude Ensino

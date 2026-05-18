@@ -4,42 +4,108 @@
 
 @theme {
   --font-poppins: "Poppins", system-ui, sans-serif;
+  --font-caveat: "Caveat", cursive;
 
-  --color-brand-navy: #1B1464;
-  --color-brand-green: #7FFF00;
-  --color-brand-pink: #FF1493;
-  --color-brand-orange: #FF6600;
-  --color-brand-purple: #6600FF;
+  /* ===== BRAND CORE — paleta oficial Atitude DS ===== */
+  --color-navy-50:  #F2F2F9;
+  --color-navy-100: #E6E6F2;
+  --color-navy-300: #B7B7DA;
+  --color-navy-500: #6B6BB4;
+  --color-navy-700: #3B3B8C;
+  --color-navy-800: #2E2E78;
+  --color-navy-900: #252566;
 
-  --color-background: #FFFFFF;
-  --color-background-alt: #F5F5F5;
-  --color-foreground: #1A1A1A;
-  --color-foreground-muted: #6B7280;
-  --color-border: #E5E7EB;
+  --color-lime-100: #E4F8D0;
+  --color-lime-300: #B6EE82;
+  --color-lime-500: #6EDD17;
+  --color-lime-600: #5BC112;
+
+  --color-orange-100: #FFE2D2;
+  --color-orange-300: #FF9C73;
+  --color-orange-500: #FF4E09;
+  --color-orange-600: #E64200;
+
+  --color-magenta-100: #FFD2DE;
+  --color-magenta-300: #FF6F94;
+  --color-magenta-500: #FF004A;
+  --color-magenta-600: #D9003F;
+
+  --color-violet-100: #DED2FB;
+  --color-violet-300: #9D78F2;
+  --color-violet-500: #570CE8;
+  --color-violet-600: #4709C2;
+
+  /* ===== SUPERFÍCIES ===== */
+  --color-cream-50:  #FFF8EF;
+  --color-cream-100: #FAEFE0;
+  --color-paper:     #FFFFFF;
+
+  /* ===== PILARES ATITUDE (4) ===== */
+  --color-pillar-ensino:     #6EDD17;
+  --color-pillar-emprego:    #FF4E09;
+  --color-pillar-idiomas:    #FF004A;
+  --color-pillar-tecnologia: #570CE8;
+
+  /* ===== LEGACY ALIASES — mapeados pra paleta DS ===== */
+  --color-brand-navy:   #252566;
+  --color-brand-green:  #6EDD17;
+  --color-brand-pink:   #FF004A;
+  --color-brand-orange: #FF4E09;
+  --color-brand-purple: #570CE8;
+
+  /* ===== SEMÂNTICO ===== */
+  --color-background:        #FFF8EF;
+  --color-background-alt:    #FAEFE0;
+  --color-foreground:        #252566;
+  --color-foreground-muted:  #6B6BB4;
+  --color-border:            #E6E6F2;
 
   --color-whatsapp: #25D366;
-  --color-success: #22C55E;
-  --color-warning: #F59E0B;
-  --color-error: #EF4444;
+  --color-success:  #5BC112;
+  --color-warning:  #FF4E09;
+  --color-error:    #D9003F;
 
-  --color-category-informatica: #1B1464;
-  --color-category-ingles: #FF1493;
-  --color-category-administracao: #16A34A;
-  --color-category-saude: #FF6600;
-  --color-category-beleza: #6600FF;
-  --color-category-tecnologia: #7C3AED;
-  --color-category-carreiras-pro: #1E40AF;
-  --color-category-interativos: #059669;
-  --color-category-design: #EA580C;
-  --color-category-rh-marketing: #0891B2;
-  --color-category-excel: #15803D;
-  --color-category-outros: #6B7280;
+  /* ===== CATEGORIAS (11) — herdam cor do pilar ===== */
+  /* Pilar Ensino (lime) */
+  --color-category-administracao: #6EDD17;
+  --color-category-saude:         #5BC112;
+  --color-category-beleza:        #B6EE82;
+  --color-category-rh-marketing:  #6EDD17;
+  --color-category-carreiras-pro: #5BC112;
 
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-  --shadow-xl: 0 20px 25px rgba(0,0,0,0.15);
-  --shadow-wa: 0 4px 12px rgba(37,211,102,0.3);
+  /* Pilar Idiomas (magenta) */
+  --color-category-ingles: #FF004A;
+
+  /* Pilar Tecnologia (violet) */
+  --color-category-informatica: #570CE8;
+  --color-category-tecnologia:  #4709C2;
+  --color-category-design:      #9D78F2;
+  --color-category-interativos: #570CE8;
+  --color-category-excel:       #4709C2;
+
+  --color-category-outros: #6B6BB4;
+
+  /* ===== SOMBRAS — duas elevações DS ===== */
+  --shadow-sm: 0 1px 2px rgba(37, 37, 102, 0.06), 0 2px 8px rgba(37, 37, 102, 0.06);
+  --shadow-md: 0 8px 24px rgba(37, 37, 102, 0.12);
+  --shadow-lg: 0 16px 40px rgba(37, 37, 102, 0.16);
+  --shadow-xl: 0 24px 56px rgba(37, 37, 102, 0.18);
+  --shadow-wa: 0 4px 12px rgba(37, 211, 102, 0.3);
+  --shadow-focus: 0 0 0 4px rgba(87, 12, 232, 0.25);
+
+  /* ===== RAIOS — motivo capsule ===== */
+  --radius-xs:   6px;
+  --radius-sm:   12px;
+  --radius-md:   16px;
+  --radius-lg:   24px;
+  --radius-xl:   32px;
+  --radius-pill: 999px;
+
+  /* ===== MOTION ===== */
+  --ease-pop:    cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
 }
 
 /* Skip to content */
@@ -62,9 +128,9 @@
   outline-offset: 2px;
 }
 
-/* Global focus-visible styles */
+/* Global focus-visible */
 *:focus-visible {
-  outline: 2px solid var(--color-brand-navy);
+  outline: 2px solid var(--color-brand-purple);
   outline-offset: 2px;
 }
 
@@ -74,11 +140,11 @@
 
 /* Dark mode overrides */
 .dark {
-  --color-background: #0A0A0A;
-  --color-background-alt: #111111;
-  --color-foreground: #F0F0F0;
+  --color-background:       #0A0A0A;
+  --color-background-alt:   #111111;
+  --color-foreground:       #F0F0F0;
   --color-foreground-muted: #9CA3AF;
-  --color-border: #374151;
+  --color-border:           #374151;
 }
 
 body {
@@ -184,14 +250,15 @@ body {
 }
 
 .prose a {
-  color: var(--color-brand-navy);
+  color: var(--color-brand-purple);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
   transition: opacity 0.2s;
 }
 
 .prose a:hover {
   opacity: 0.8;
+  color: var(--color-violet-600);
 }
 
 .dark .prose a {
@@ -199,7 +266,7 @@ body {
 }
 
 .prose code {
-  background-color: var(--color-background-alt);
+  background-color: var(--color-navy-50);
   padding: 0.125rem 0.375rem;
   border-radius: 0.25rem;
   font-size: 0.875em;
