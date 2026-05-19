@@ -35,7 +35,7 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
               const idx = (current + offset) % testimonials.length;
               const t = testimonials[idx];
               return (
-                <div key={idx} className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)]">
+                <div key={idx} className="p-6 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm">
                   <Quote className="h-6 w-6 text-[var(--color-brand-green)] mb-3" aria-hidden="true" />
                   <p className="text-sm leading-relaxed mb-4">&ldquo;{t.texto}&rdquo;</p>
                   <div className="flex flex-col gap-2">
@@ -52,7 +52,7 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
 
           {/* Mobile: show 1 */}
           <div className="md:hidden">
-            <div className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)]">
+            <div className="p-6 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm">
               <Quote className="h-6 w-6 text-[var(--color-brand-green)] mb-3" aria-hidden="true" />
               <p className="text-sm leading-relaxed mb-4">&ldquo;{testimonials[current].texto}&rdquo;</p>
               <div className="flex flex-col gap-2">

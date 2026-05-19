@@ -113,7 +113,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           {filtered.map((event, eventIndex) => (
             <div
               key={`${event.titulo}-${eventIndex}`}
-              className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] overflow-hidden"
+              className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm overflow-hidden"
             >
               {/* Event header */}
               <div className="p-5 md:p-6 border-b border-[var(--color-border)]">

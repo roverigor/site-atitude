@@ -39,7 +39,7 @@ function FeaturedCard({ testimonial }: { testimonial: Testimonial }) {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="relative p-6 md:p-8 rounded-2xl border-2 border-[var(--color-brand-green)]/30 bg-gradient-to-br from-[var(--color-brand-navy)]/5 to-transparent dark:from-[var(--color-brand-green)]/5 dark:to-transparent"
+      className="relative p-6 md:p-8 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm"
     >
       <div className="flex items-start gap-1 mb-4">
         {[...Array(5)].map((_, i) => (
@@ -99,7 +99,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 0.2 }}
-      className="break-inside-avoid mb-4 p-5 rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] hover:shadow-[var(--shadow-md)] transition-shadow"
+      className="break-inside-avoid mb-4 p-5 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md transition-shadow"
     >
       <Quote className="h-5 w-5 text-[var(--color-brand-green)]/50 mb-3" />
 
@@ -277,7 +277,9 @@ export function TestimonialsPage({
       )}
 
       {/* CTA */}
-      <div className="mt-16 text-center p-8 md:p-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-purple)] text-white">
+      <div className="relative mt-16 text-center p-8 md:p-12 rounded-3xl bg-[var(--color-brand-navy)] text-white overflow-hidden">
+        <div className="pointer-events-none absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-[var(--color-brand-purple)]/30 blur-3xl" />
+        <div className="relative z-10">
         <h2 className="text-xl md:text-2xl font-bold mb-3">
           Você também pode ter sua história aqui
         </h2>
@@ -293,6 +295,7 @@ export function TestimonialsPage({
           <MessageCircle className="h-5 w-5" />
           Comece agora
         </Button>
+        </div>
       </div>
     </div>
   );
