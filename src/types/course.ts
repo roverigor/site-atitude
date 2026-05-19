@@ -12,6 +12,19 @@ export type CategorySlug =
   | "excel"
   | "outros";
 
+export type PillarSlug = "ensino" | "emprego" | "idiomas" | "tecnologia";
+
+export interface Pillar {
+  nome: string;
+  slug: PillarSlug;
+  cor: string;
+  corHex: string;
+  icone: string;
+  tagline: string;
+  descricao: string;
+  transversal?: boolean;
+}
+
 export interface CourseModule {
   nome: string;
   carga_horaria: string;
@@ -54,6 +67,7 @@ export interface Category {
   corHex: string;
   icone: string;
   descricao: string;
+  pilar: PillarSlug;
 }
 
 export interface CourseCardProps {
