@@ -198,6 +198,16 @@
   100%     { clip-path: inset(0 100% 0 0); }
 }
 
+/* Brand color band — scrolls horizontally. Applied via class so the
+   animation lives in a real stylesheet rule, not inline (which Tailwind
+   v4 was sometimes clobbering). */
+.brand-marquee-track {
+  animation: marquee 60s linear infinite;
+}
+.brand-marquee:hover .brand-marquee-track {
+  animation-play-state: paused;
+}
+
 /* Caveat handwriting reveal — text appears as if being written
    left-to-right via a clip-path mask. Layout stays stable because the
    element keeps its natural box; only the visible region animates. */
@@ -208,16 +218,12 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .brand-marquee-track,
   .writing {
-    animation: none;
-    clip-path: none;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .animate-marquee,
-  .animate-marquee-reverse {
     animation: none !important;
+  }
+  .writing {
+    clip-path: none !important;
   }
 }
 

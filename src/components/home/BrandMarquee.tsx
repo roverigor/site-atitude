@@ -16,12 +16,9 @@ export function BrandMarquee() {
   return (
     <div
       aria-hidden="true"
-      className="overflow-hidden bg-[var(--color-cream-50)] group"
+      className="brand-marquee overflow-hidden bg-[var(--color-cream-50)]"
     >
-      <div
-        className="flex w-max h-6 md:h-8 motion-reduce:animate-none"
-        style={{ animation: "marquee 60s linear infinite" }}
-      >
+      <div className="brand-marquee-track flex w-max h-6 md:h-8">
         {track.map((bg, i) => (
           <span
             key={i}
