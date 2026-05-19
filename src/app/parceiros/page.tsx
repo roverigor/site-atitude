@@ -111,7 +111,7 @@ export default function ParceirosPage() {
                 {/* Step card */}
                 <div className="flex flex-col items-center text-center w-56">
                   <div
-                    className="w-16 h-16 rounded-2xl flex items-center justify-center mb-4 shadow-md"
+                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md"
                     style={{ backgroundColor: "var(--color-brand-orange)" }}
                   >
                     <step.icon className="h-8 w-8 text-white" />
@@ -171,11 +171,11 @@ export default function ParceirosPage() {
             {partners.map((partner) => (
               <div
                 key={partner.nome}
-                className="group rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] p-5 flex flex-col items-center text-center transition-all duration-200 hover:shadow-lg hover:border-[var(--color-brand-orange)]/30"
+                className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5 flex flex-col items-center text-center transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] hover:shadow-md hover:-translate-y-1"
               >
                 {/* Placeholder logo */}
                 <div
-                  className="w-16 h-16 rounded-xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-200 group-hover:scale-105"
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-200 group-hover:scale-105"
                   style={{
                     backgroundColor:
                       segmentColors[partner.segmento] || "var(--color-brand-navy)",
