@@ -124,13 +124,24 @@ export function Timeline() {
                   {isTreasure ? "× chegada" : `etapa ${i + 1}`}
                 </span>
 
-                <div
+                <motion.div
                   className={cn(
-                    "relative w-[72px] h-[72px] rounded-full flex items-center justify-center ring-8 ring-[var(--color-cream-100)] shadow-md",
+                    "relative w-[72px] h-[72px] rounded-full flex items-center justify-center ring-8 ring-[var(--color-cream-100)] shadow-md cursor-default",
                     isTreasure
                       ? "bg-[var(--color-brand-orange)]"
                       : "bg-[var(--color-brand-green)]"
                   )}
+                  whileHover={{
+                    y: -12,
+                    scale: 1.12,
+                    rotate: [0, -6, 6, -4, 0],
+                    transition: {
+                      y: { type: "spring", stiffness: 380, damping: 11 },
+                      scale: { type: "spring", stiffness: 380, damping: 11 },
+                      rotate: { duration: 0.5, ease: "easeInOut" },
+                    },
+                  }}
+                  whileTap={{ scale: 0.95 }}
                 >
                   <step.icon
                     className={cn(
@@ -147,7 +158,7 @@ export function Timeline() {
                       transition={{ duration: 1.8, repeat: Infinity }}
                     />
                   )}
-                </div>
+                </motion.div>
 
                 <h3 className="mt-4 font-extrabold text-lg text-[var(--color-brand-navy)] leading-tight">
                   {step.title}
@@ -180,7 +191,7 @@ export function Timeline() {
 
                   <motion.div
                     className={cn(
-                      "relative w-14 h-14 rounded-full flex items-center justify-center shrink-0 ring-4 ring-[var(--color-cream-100)] shadow-md",
+                      "relative w-14 h-14 rounded-full flex items-center justify-center shrink-0 ring-4 ring-[var(--color-cream-100)] shadow-md cursor-default",
                       isTreasure
                         ? "bg-[var(--color-brand-orange)]"
                         : "bg-[var(--color-brand-green)]"
@@ -188,6 +199,17 @@ export function Timeline() {
                     initial={{ opacity: 0, scale: 0.4 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={viewport}
+                    whileHover={{
+                      y: -8,
+                      scale: 1.1,
+                      rotate: [0, -6, 6, -4, 0],
+                      transition: {
+                        y: { type: "spring", stiffness: 380, damping: 11 },
+                        scale: { type: "spring", stiffness: 380, damping: 11 },
+                        rotate: { duration: 0.5, ease: "easeInOut" },
+                      },
+                    }}
+                    whileTap={{ scale: 0.95 }}
                     transition={{
                       duration: 0.45,
                       delay: i * 0.45,
