@@ -177,6 +177,22 @@
   --z-sticky:  100;
   --z-modal:   1000;
   --z-toast:   2000;
+
+  /* ===== ANIMATIONS — DS marquee + reverse ===== */
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-marquee-reverse: marquee 44s linear infinite reverse;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-marquee-reverse {
+    animation: none !important;
+  }
 }
 
 /* ============================================================

@@ -1,4 +1,5 @@
 import { Hero } from "@/components/home/Hero";
+import { BrandMarquee } from "@/components/home/BrandMarquee";
 import { PillarsStrip } from "@/components/home/PillarsStrip";
 import { StatsSection } from "@/components/home/StatsSection";
 import { CoursesGrid } from "@/components/home/CoursesGrid";
@@ -19,6 +20,7 @@ export default function Home() {
       <OrganizationSchema />
       <FAQSchema items={faqs} />
       <Hero />
+      <BrandMarquee />
       <PillarsStrip />
       <CoursesGrid />
       <StatsSection />
