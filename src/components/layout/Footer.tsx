@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">{siteConfig.name}</h3>
             <p className="text-sm leading-relaxed">
-              {siteConfig.description}. Cursos de informática, inglês, administração, saúde, beleza e tecnologia.
+              {siteConfig.description}. {siteConfig.tagline}
             </p>
           </div>
 

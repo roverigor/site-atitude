@@ -21,11 +21,11 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Atitude Ensino | Cursos Profissionalizantes em Ibaiti-PR",
+    default: "Atitude Ensino | Cursos profissionalizantes em Ibaiti-PR",
     template: "%s | Atitude Ensino",
   },
   description:
-    "Há 15 anos transformando vidas em Ibaiti-PR. Cursos de informática, inglês, administração, saúde, beleza e tecnologia. Matricule-se!",
+    "Há 15 anos formando profissionais em Ibaiti-PR. Ensino, emprego, idiomas e tecnologia — da primeira matrícula ao primeiro contracheque.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://atitudeensino.com.br"
   ),

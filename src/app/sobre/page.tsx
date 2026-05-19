@@ -10,7 +10,7 @@ import { getAllTeamMembers } from "@/lib/team";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
-  title: "Nossa História | Atitude Ensino",
+  title: "Nossa história",
   description:
     "A história da Atitude Ensino começa em 2010, quando Igor Rover, com 16 anos, se torna aluno da escola que um dia seria sua. De aluno a estagiário, gerente e sócio-proprietário — conheça essa trajetória.",
 };
@@ -106,7 +106,7 @@ export default function SobrePage() {
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="text-center max-w-3xl mx-auto pt-8 pb-4">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
-              Nossa História
+              Nossa história
             </h1>
             <p className="text-lg md:text-xl text-white/80">
               Desde 2011 transformando vidas em Ibaiti-PR
@@ -120,7 +120,7 @@ export default function SobrePage() {
         <Container>
           <div className="text-center mb-14">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-              15 Anos de Trajetória
+              15 anos de trajetória
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
               Cada decisão moldou quem somos. Cada aluno formado confirmou que valeu a pena.
@@ -280,7 +280,7 @@ export default function SobrePage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-              Nossa Missão
+              Nossa missão
             </h2>
           </div>
 
@@ -313,7 +313,7 @@ export default function SobrePage() {
         <Container>
           <div className="text-center mb-12">
             <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-              Nossa Equipe
+              Nossa equipe
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
               Pessoas que acreditam que educação transforma — e provam isso todos os dias

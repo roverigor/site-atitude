@@ -60,10 +60,10 @@ export function CoursesGrid() {
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Nossos Cursos
+            Escolha por onde começar
           </h2>
           <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
-            Mais de 40 cursos para transformar seu futuro. Escolha sua área e comece hoje.
+            Mais de 40 cursos profissionalizantes. Encontre a área que combina com você e comece hoje.
           </p>
         </div>
 

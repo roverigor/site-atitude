@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Atitude Ensino",
   description: "Há 15 anos transformando vidas em Ibaiti-PR",
+  tagline: "Ensino, emprego, idiomas e tecnologia. Da primeira matrícula ao primeiro contracheque.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://atitudeensino.com.br",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "5543999999999",
   phone: "(43) 3546-1234",

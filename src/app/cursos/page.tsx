@@ -9,9 +9,9 @@ import { Container } from "@/components/layout/Container";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Catálogo de Cursos",
+  title: "Catálogo de cursos",
   description:
-    "Mais de 40 cursos profissionalizantes em informática, inglês, administração, saúde, beleza e tecnologia. Encontre o curso ideal para sua carreira.",
+    "Mais de 40 cursos profissionalizantes em ensino, emprego, idiomas e tecnologia. Encontre o seu ponto de partida.",
 };
 
 export default function CursosPage() {
@@ -32,13 +32,13 @@ export default function CursosPage() {
               <GraduationCap className="h-5 w-5 text-white" />
             </div>
             <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
-              Nossos Cursos
+              Nossos cursos
             </h1>
           </div>
           <p className="text-[var(--color-foreground-muted)] max-w-2xl leading-relaxed">
-            Mais de 40 cursos profissionalizantes para transformar seu futuro.
-            Escolha a área que combina com você e dê o próximo passo na sua
-            carreira.
+            Mais de 40 cursos profissionalizantes em quatro pilares: ensino,
+            emprego, idiomas e tecnologia. Escolha o seu ponto de partida e
+            a gente caminha junto.
           </p>
         </div>
 

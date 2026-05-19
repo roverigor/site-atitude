@@ -156,7 +156,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             <div className="flex items-center gap-3 mb-2">
               <Mail className="h-7 w-7 text-[var(--color-brand-green)]" />
               <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white">
-                Fale Conosco
+                Fale com a gente
               </h1>
             </div>
             <p className="text-[var(--color-foreground-muted)] mb-8">

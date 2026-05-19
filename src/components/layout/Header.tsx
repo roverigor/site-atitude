@@ -86,7 +86,7 @@ export function Header() {
                 href={buildWhatsAppUrl({ type: "home" })}
                 className="hidden sm:inline-flex"
               >
-                Fale Conosco
+                Fale com a gente
               </Button>
             </div>
           </div>
