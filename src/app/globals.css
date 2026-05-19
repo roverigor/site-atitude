@@ -179,6 +179,98 @@
   --z-toast:   2000;
 }
 
+/* ============================================================
+   SEMANTIC TYPE CLASSES — port direto do DS colors_and_type.css
+   Aplicar diretamente em qualquer elemento, ex:
+     <h1 class="h-display">Aprender é uma atitude.</h1>
+     <span class="eyebrow">Cursos profissionalizantes</span>
+     <p class="lead">Da matrícula ao primeiro contracheque.</p>
+   ============================================================ */
+
+.h-display {
+  font-family: var(--font-poppins);
+  font-weight: 900;
+  font-size: clamp(48px, 6vw, 84px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--color-foreground);
+}
+
+.h1 {
+  font-family: var(--font-poppins);
+  font-weight: 800;
+  font-size: clamp(36px, 4vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--color-foreground);
+}
+
+.h2 {
+  font-family: var(--font-poppins);
+  font-weight: 800;
+  font-size: clamp(28px, 3vw, 36px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-foreground);
+}
+
+.h3 {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  color: var(--color-foreground);
+}
+
+.h4 {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--color-foreground);
+}
+
+.eyebrow {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-brand-purple);
+}
+
+.lead {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.55;
+  color: var(--color-foreground-muted);
+}
+
+.body {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--color-foreground);
+}
+
+.small {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--color-foreground-muted);
+}
+
+.script {
+  font-family: var(--font-caveat);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  color: var(--color-brand-purple);
+}
+
 /* Skip to content */
 .skip-to-content {
   position: absolute;
