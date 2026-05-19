@@ -124,11 +124,59 @@
   --radius-xl:   32px;
   --radius-pill: 999px;
 
+  /* ===== TYPE SCALE — DS major-third (modesto) ===== */
+  --text-2xs: 11px;
+  --text-xs:  12px;
+  --text-sm:  14px;
+  --text-md:  16px;
+  --text-lg:  18px;
+  --text-xl:  22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+  --text-4xl: 48px;
+  --text-5xl: 64px;
+  --text-6xl: 84px;
+
+  --leading-tight: 1.08;
+  --leading-snug:  1.2;
+  --leading-body:  1.55;
+  --leading-loose: 1.75;
+
+  --tracking-tight:  -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+
+  /* ===== SPACING — DS escala 4px ===== */
+  --spacing-1:  4px;
+  --spacing-2:  8px;
+  --spacing-3:  12px;
+  --spacing-4:  16px;
+  --spacing-5:  20px;
+  --spacing-6:  24px;
+  --spacing-8:  32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-32: 128px;
+
+  --container-gutter-mobile:  24px;
+  --container-gutter-desktop: 80px;
+  --container-content-max:    1240px;
+
   /* ===== MOTION ===== */
   --ease-pop:    cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-linear: linear;
   --duration-fast: 150ms;
   --duration-base: 250ms;
   --duration-slow: 400ms;
+
+  /* ===== Z-INDEX ===== */
+  --z-base:    1;
+  --z-sticky:  100;
+  --z-modal:   1000;
+  --z-toast:   2000;
 }
 
 /* Skip to content */
