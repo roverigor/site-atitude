@@ -2,7 +2,6 @@ import { Hero } from "@/components/home/Hero";
 import { BrandMarquee } from "@/components/home/BrandMarquee";
 import { PillarsStrip } from "@/components/home/PillarsStrip";
 import { StatsSection } from "@/components/home/StatsSection";
-import { CoursesGrid } from "@/components/home/CoursesGrid";
 import { AboutSection } from "@/components/home/AboutSection";
 import { Timeline } from "@/components/home/Timeline";
 import { TestimonialsCarousel } from "@/components/home/TestimonialsCarousel";
@@ -22,7 +21,6 @@ export default function Home() {
       <Hero />
       <BrandMarquee />
       <PillarsStrip />
-      <CoursesGrid />
       <StatsSection />
       <AboutSection />
       <Timeline />
