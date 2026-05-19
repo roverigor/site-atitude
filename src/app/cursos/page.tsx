@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { GraduationCap } from "lucide-react";
 import { getAllCourses } from "@/lib/courses";
 import { categories } from "@/data/categories";
+import { pillars } from "@/data/pillars";
 import { CourseCatalog } from "@/components/courses/CourseCatalog";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
@@ -43,7 +44,7 @@ export default function CursosPage() {
 
         {/* Catalog with client-side filtering */}
         <Suspense fallback={<CatalogSkeleton />}>
-          <CourseCatalog courses={courses} categories={categories} />
+          <CourseCatalog courses={courses} categories={categories} pillars={pillars} />
         </Suspense>
       </Container>
     </>
