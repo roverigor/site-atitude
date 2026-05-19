@@ -1,39 +1,27 @@
-// Decorative color pills inspired by the four logo accents.
-// Varied widths give the band a visual rhythm without any text.
-const pillSpec = [
-  { bg: "var(--color-brand-green)",  w: "w-32" },
-  { bg: "var(--color-brand-orange)", w: "w-20" },
-  { bg: "var(--color-brand-pink)",   w: "w-28" },
-  { bg: "var(--color-brand-purple)", w: "w-16" },
-  { bg: "var(--color-brand-green)",  w: "w-20" },
-  { bg: "var(--color-brand-pink)",   w: "w-24" },
-  { bg: "var(--color-brand-purple)", w: "w-32" },
-  { bg: "var(--color-brand-orange)", w: "w-28" },
+// Single contiguous strip of the four brand colors looping horizontally.
+const segments = [
+  "var(--color-brand-green)",
+  "var(--color-brand-orange)",
+  "var(--color-brand-pink)",
+  "var(--color-brand-purple)",
 ];
 
-// 3 copies of the spec so translateX(-50%) tiles seamlessly on ultrawide.
-const track = [...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec];
-
-const maskStyle: React.CSSProperties = {
-  maskImage:
-    "linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent)",
-  WebkitMaskImage:
-    "linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent)",
-};
+// Repeat the pattern enough times for the translateX(-50%) loop to tile
+// seamlessly on ultrawide screens.
+const track = Array.from({ length: 12 }, () => segments).flat();
 
 export function BrandMarquee() {
   return (
     <div
       aria-hidden="true"
-      className="overflow-hidden bg-[var(--color-cream-50)] py-5 md:py-6 group"
-      style={maskStyle}
+      className="overflow-hidden bg-[var(--color-cream-50)] group"
     >
-      <div className="flex gap-3 w-max animate-marquee group-hover:[animation-play-state:paused]">
-        {track.map((p, i) => (
+      <div className="flex w-max h-6 md:h-8 animate-marquee group-hover:[animation-play-state:paused]">
+        {track.map((bg, i) => (
           <span
             key={i}
-            className={`${p.w} h-6 md:h-7 shrink-0 rounded-full`}
-            style={{ backgroundColor: p.bg }}
+            className="w-32 md:w-48 h-full shrink-0"
+            style={{ backgroundColor: bg }}
           />
         ))}
       </div>
