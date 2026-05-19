@@ -1,41 +1,18 @@
-import { GraduationCap, Briefcase, Languages, Cpu, type LucideIcon } from "lucide-react";
-
-type Pill = {
-  label: string;
-  icon: LucideIcon;
-  bg: string;
-  fg: string;
-};
-
-const pills: Pill[] = [
-  {
-    label: "Ensino",
-    icon: GraduationCap,
-    bg: "var(--color-brand-green)",
-    fg: "var(--color-brand-navy)",
-  },
-  {
-    label: "Emprego",
-    icon: Briefcase,
-    bg: "var(--color-brand-orange)",
-    fg: "#FFFFFF",
-  },
-  {
-    label: "Idiomas",
-    icon: Languages,
-    bg: "var(--color-brand-pink)",
-    fg: "#FFFFFF",
-  },
-  {
-    label: "Tecnologia",
-    icon: Cpu,
-    bg: "var(--color-brand-purple)",
-    fg: "#FFFFFF",
-  },
+// Decorative color pills inspired by the four logo accents.
+// Varied widths give the band a visual rhythm without any text.
+const pillSpec = [
+  { bg: "var(--color-brand-green)",  w: "w-32" },
+  { bg: "var(--color-brand-orange)", w: "w-20" },
+  { bg: "var(--color-brand-pink)",   w: "w-28" },
+  { bg: "var(--color-brand-purple)", w: "w-16" },
+  { bg: "var(--color-brand-green)",  w: "w-20" },
+  { bg: "var(--color-brand-pink)",   w: "w-24" },
+  { bg: "var(--color-brand-purple)", w: "w-32" },
+  { bg: "var(--color-brand-orange)", w: "w-28" },
 ];
 
-// 4 copies so translateX(-50%) wraps seamlessly even on ultrawide screens
-const track = [...pills, ...pills, ...pills, ...pills];
+// 3 copies of the spec so translateX(-50%) tiles seamlessly on ultrawide.
+const track = [...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec, ...pillSpec];
 
 const maskStyle: React.CSSProperties = {
   maskImage:
@@ -46,27 +23,20 @@ const maskStyle: React.CSSProperties = {
 
 export function BrandMarquee() {
   return (
-    <section
-      aria-label="Pilares Atitude — Ensino, Emprego, Idiomas, Tecnologia"
+    <div
+      aria-hidden="true"
       className="overflow-hidden bg-[var(--color-cream-50)] py-5 md:py-6 group"
       style={maskStyle}
     >
-      <div className="flex gap-4 w-max animate-marquee group-hover:[animation-play-state:paused]">
-        {track.map((p, i) => {
-          const Icon = p.icon;
-          return (
-            <div
-              key={i}
-              className="shrink-0 inline-flex items-center gap-3 px-6 py-2.5 md:px-8 md:py-3 rounded-full font-extrabold text-base md:text-xl tracking-tight"
-              style={{ backgroundColor: p.bg, color: p.fg }}
-              aria-hidden={i >= pills.length ? true : undefined}
-            >
-              <Icon className="w-5 h-5" aria-hidden="true" />
-              <span>{p.label}</span>
-            </div>
-          );
-        })}
+      <div className="flex gap-3 w-max animate-marquee group-hover:[animation-play-state:paused]">
+        {track.map((p, i) => (
+          <span
+            key={i}
+            className={`${p.w} h-6 md:h-7 shrink-0 rounded-full`}
+            style={{ backgroundColor: p.bg }}
+          />
+        ))}
       </div>
-    </section>
+    </div>
   );
 }
