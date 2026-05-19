@@ -56,7 +56,7 @@ const courseCount: Partial<Record<CategorySlug, number>> = {
 
 export function CoursesGrid() {
   return (
-    <Section variant="alt">
+    <Section variant="default">
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">

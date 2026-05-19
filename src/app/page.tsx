@@ -20,8 +20,8 @@ export default function Home() {
       <FAQSchema items={faqs} />
       <Hero />
       <PillarsStrip />
-      <StatsSection />
       <CoursesGrid />
+      <StatsSection />
       <AboutSection />
       <Timeline />
       <TestimonialsCarousel testimonials={testimonials} />

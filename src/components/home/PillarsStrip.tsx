@@ -23,7 +23,7 @@ export function PillarsStrip() {
 
   return (
     <section
-      className="py-12 md:py-16 bg-[var(--color-cream-50)]"
+      className="py-12 md:py-16 bg-[var(--color-cream-100)]"
       aria-labelledby="pillars-heading"
     >
       <Container>
