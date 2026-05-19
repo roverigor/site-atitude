@@ -26,6 +26,9 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
             O que nossos alunos dizem
           </h2>
+          <p className="script mt-1 text-2xl md:text-3xl">
+            histórias de quem passou por aqui
+          </p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">

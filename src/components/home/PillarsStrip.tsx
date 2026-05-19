@@ -35,8 +35,11 @@ export function PillarsStrip() {
             Os quatro pilares da Atitude
           </span>
           <h2 className="mt-2 text-2xl md:text-3xl font-extrabold text-[var(--color-brand-navy)] leading-tight">
-            Da matrícula ao primeiro contracheque, a gente caminha junto.
+            Da matrícula ao primeiro contracheque,
           </h2>
+          <p className="script mt-1 text-[1.75rem] md:text-[2.25rem] leading-tight">
+            a gente caminha junto.
+          </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

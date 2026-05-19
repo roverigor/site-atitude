@@ -89,8 +89,8 @@ export function AboutSection() {
               <p className="text-[var(--color-brand-navy)] font-bold text-base leading-snug">
                 &ldquo;Cada aluno que conquista um emprego é uma vitória nossa também.&rdquo;
               </p>
-              <p className="text-[var(--color-brand-navy)]/70 text-sm mt-2 font-medium">
-                — Missão da Atitude Ensino
+              <p className="script !text-[var(--color-brand-navy)]/80 mt-3 text-2xl leading-none">
+                — nossa missão
               </p>
             </div>
           </div>

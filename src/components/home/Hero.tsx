@@ -22,6 +22,9 @@ export function Hero() {
             <span className="text-white/80 text-sm">Ibaiti · PR</span>
           </div>
 
+          <p className="script !text-[var(--color-brand-green)] text-[2.25rem] md:text-[3rem] leading-none mb-3 md:mb-4">
+            Aprender é uma atitude.
+          </p>
           <h1 className="text-[2.25rem] md:text-[4rem] font-extrabold leading-[1.1] text-white mb-6">
             Aqui, o certificado vem com{" "}
             <span className="text-[var(--color-brand-green)]">emprego incluso</span>
