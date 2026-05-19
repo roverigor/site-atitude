@@ -15,59 +15,64 @@ type Step = {
   icon: typeof ClipboardList;
   title: string;
   desc: string;
-  x: number;
-  y: number;
+  x: number;          // viewBox x (0–1000)
+  y: number;          // viewBox y (0–500)
+  textBelow: boolean; // true → text card sits below the icon
 };
 
-// Coordinates inside a 1000 × 420 viewBox — a deliberately wavy "treasure
-// map" path. y values alternate high/low to break the boring straight line.
+// 5 stops along a hand-drawn treasure-map path inside a 1000 × 500 viewBox.
+// Top stops put text BELOW, bottom stops put text ABOVE — guarantees text
+// cards never overlap each other (icons stay on the curve, text floats away
+// from the path on the side that has room).
 const steps: Step[] = [
   {
     icon: ClipboardList,
     title: "Matrícula",
     desc: "Sem burocracia — RG, CPF e endereço. Feita na hora.",
     x: 100,
-    y: 320,
+    y: 340,
+    textBelow: false,
   },
   {
     icon: BookOpen,
     title: "Curso",
     desc: "Aulas práticas com apostila inclusa, no seu ritmo.",
-    x: 300,
-    y: 110,
+    x: 310,
+    y: 150,
+    textBelow: true,
   },
   {
     icon: HeartHandshake,
     title: "Acompanhamento",
-    desc: "Suporte individual do início ao fim — ninguém fica pra trás.",
-    x: 500,
-    y: 260,
+    desc: "Suporte do início ao fim — ninguém fica pra trás.",
+    x: 510,
+    y: 330,
+    textBelow: false,
   },
   {
     icon: GraduationCap,
     title: "Formatura",
-    desc: "Certificado reconhecido pelo mercado, no peito com orgulho.",
+    desc: "Certificado reconhecido pelo mercado, com orgulho.",
     x: 720,
-    y: 100,
+    y: 170,
+    textBelow: true,
   },
   {
     icon: Briefcase,
     title: "Emprego",
     desc: "Encaminhamento real pra vagas em empresas parceiras.",
-    x: 920,
-    y: 290,
+    x: 910,
+    y: 340,
+    textBelow: false,
   },
 ];
 
-// Smooth cubic-bezier path that threads through every stop. Control
-// points roughly midway between consecutive stops, biased toward the
-// next y so curves feel natural.
 const pathD = [
   `M ${steps[0].x} ${steps[0].y}`,
-  `C 180 260, 220 80, ${steps[1].x} ${steps[1].y}`,
-  `C 380 140, 420 200, ${steps[2].x} ${steps[2].y}`,
-  `C 580 320, 660 100, ${steps[3].x} ${steps[3].y}`,
-  `C 800 100, 860 240, ${steps[4].x} ${steps[4].y}`,
+  `C 200 280, 240 100, ${steps[1].x} ${steps[1].y}`,
+  `C 390 200, 420 320, ${steps[2].x} ${steps[2].y}`,
+  `C 600 340, 650 90, ${steps[3].x} ${steps[3].y}`,
+  `C 800 250, 850 290, ${steps[4].x} ${steps[4].y}`,
 ].join(" ");
 
 const TRAIL_DURATION = 2.8;
@@ -105,9 +110,9 @@ export function Timeline() {
         </div>
 
         {/* Desktop: treasure map */}
-        <div className="hidden md:block relative" style={{ aspectRatio: "1000 / 420" }}>
+        <div className="hidden md:block relative" style={{ aspectRatio: "1000 / 500" }}>
           <svg
-            viewBox="0 0 1000 420"
+            viewBox="0 0 1000 500"
             preserveAspectRatio="none"
             className="absolute inset-0 w-full h-full"
             aria-hidden="true"
@@ -138,48 +143,36 @@ export function Timeline() {
 
           {steps.map((step, i) => {
             const isTreasure = i === steps.length - 1;
-            return (
-              <motion.div
-                key={i}
-                className="absolute flex flex-col items-center text-center w-44 -translate-x-1/2 -translate-y-1/2"
-                style={{
-                  left: `${(step.x / 1000) * 100}%`,
-                  top: `${(step.y / 420) * 100}%`,
-                }}
-                initial={{ opacity: 0, scale: 0.3 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={viewport}
-                transition={{
-                  duration: 0.5,
-                  delay: i * ICON_STAGGER,
-                  ease: [0.2, 0.8, 0.2, 1],
-                }}
-              >
-                <span
-                  className={cn(
-                    "text-[10px] font-bold tracking-[0.15em] uppercase mb-1.5",
-                    isTreasure
-                      ? "text-[var(--color-brand-orange)]"
-                      : "text-[var(--color-foreground-muted)]"
-                  )}
-                >
-                  {isTreasure ? "× chegada" : `etapa ${i + 1}`}
-                </span>
+            const xPct = (step.x / 1000) * 100;
+            const yPct = (step.y / 500) * 100;
+            const textTransform = step.textBelow
+              ? "translate(-50%, 48px)"
+              : "translate(-50%, calc(-100% - 48px))";
 
-                <div
+            return (
+              <div key={i}>
+                {/* Icon — sits exactly on the curve */}
+                <motion.div
                   className={cn(
-                    "relative w-16 h-16 rounded-full flex items-center justify-center ring-8 ring-[var(--color-cream-100)] shadow-md",
+                    "absolute -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full flex items-center justify-center ring-8 ring-[var(--color-cream-100)] shadow-md",
                     isTreasure
                       ? "bg-[var(--color-brand-orange)]"
                       : "bg-[var(--color-brand-green)]"
                   )}
+                  style={{ left: `${xPct}%`, top: `${yPct}%` }}
+                  initial={{ opacity: 0, scale: 0.3 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={viewport}
+                  transition={{
+                    duration: 0.5,
+                    delay: i * ICON_STAGGER,
+                    ease: [0.2, 0.8, 0.2, 1],
+                  }}
                 >
                   <step.icon
                     className={cn(
                       "h-7 w-7",
-                      isTreasure
-                        ? "text-white"
-                        : "text-[var(--color-brand-navy)]"
+                      isTreasure ? "text-white" : "text-[var(--color-brand-navy)]"
                     )}
                     strokeWidth={2.2}
                   />
@@ -191,20 +184,51 @@ export function Timeline() {
                       transition={{ duration: 1.8, repeat: Infinity }}
                     />
                   )}
-                </div>
+                </motion.div>
 
-                <h3 className="mt-3 font-extrabold text-base text-[var(--color-brand-navy)] leading-tight">
-                  {step.title}
-                </h3>
-                <p className="text-xs text-[var(--color-foreground-muted)] mt-1 leading-snug max-w-[170px]">
-                  {step.desc}
-                </p>
-              </motion.div>
+                {/* Text card — positioned above OR below the icon */}
+                <div
+                  className="absolute w-40 text-center"
+                  style={{
+                    left: `${xPct}%`,
+                    top: `${yPct}%`,
+                    transform: textTransform,
+                  }}
+                >
+                  <motion.div
+                    initial={{ opacity: 0, y: step.textBelow ? -8 : 8 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={viewport}
+                    transition={{
+                      duration: 0.5,
+                      delay: i * ICON_STAGGER + 0.1,
+                      ease: [0.2, 0.8, 0.2, 1],
+                    }}
+                  >
+                    <span
+                      className={cn(
+                        "text-[10px] font-bold tracking-[0.15em] uppercase block mb-1",
+                        isTreasure
+                          ? "text-[var(--color-brand-orange)]"
+                          : "text-[var(--color-foreground-muted)]"
+                      )}
+                    >
+                      {isTreasure ? "× chegada" : `etapa ${i + 1}`}
+                    </span>
+                    <h3 className="font-extrabold text-base text-[var(--color-brand-navy)] leading-tight">
+                      {step.title}
+                    </h3>
+                    <p className="text-xs text-[var(--color-foreground-muted)] mt-1 leading-snug">
+                      {step.desc}
+                    </p>
+                  </motion.div>
+                </div>
+              </div>
             );
           })}
         </div>
 
-        {/* Mobile: vertical zig-zag with the same dashed-trail aesthetic */}
+        {/* Mobile: vertical zig-zag */}
         <div className="md:hidden">
           {steps.map((step, i) => {
             const isTreasure = i === steps.length - 1;
@@ -248,9 +272,7 @@ export function Timeline() {
                     <step.icon
                       className={cn(
                         "h-6 w-6",
-                        isTreasure
-                          ? "text-white"
-                          : "text-[var(--color-brand-navy)]"
+                        isTreasure ? "text-white" : "text-[var(--color-brand-navy)]"
                       )}
                       strokeWidth={2.2}
                     />
