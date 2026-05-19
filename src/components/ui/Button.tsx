@@ -26,10 +26,10 @@ export function Button({
   target,
   rel,
 }: ButtonProps) {
-  const baseStyles = "inline-flex items-center justify-center gap-2 font-semibold rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+  const baseStyles = "inline-flex items-center justify-center gap-2 font-semibold rounded-full transition-all duration-200 ease-[cubic-bezier(0.2,0.8,0.2,1)] hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100";
 
   const variants = {
-    primary: "bg-[var(--color-brand-green)] text-[var(--color-brand-navy)] hover:brightness-110 focus:ring-[var(--color-brand-green)]",
+    primary: "bg-[var(--color-brand-green)] text-[var(--color-brand-navy)] hover:bg-[var(--color-lime-600)] focus:ring-[var(--color-brand-green)]",
     secondary: "border-2 border-[var(--color-brand-navy)] text-[var(--color-brand-navy)] hover:bg-[var(--color-brand-navy)] hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-[var(--color-brand-navy)] focus:ring-[var(--color-brand-navy)]",
     "secondary-inverted": "border-2 border-white text-white hover:bg-white hover:text-[var(--color-brand-navy)] focus:ring-white",
     whatsapp: "bg-[var(--color-whatsapp)] text-white hover:brightness-110 focus:ring-[var(--color-whatsapp)]",
