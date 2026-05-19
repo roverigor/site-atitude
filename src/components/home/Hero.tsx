@@ -93,10 +93,18 @@ export function Hero() {
                 Próxima turma
               </p>
               <div>
-                <p className="font-black leading-none tracking-[-0.02em] text-2xl md:text-3xl text-[var(--color-brand-navy)]">
-                  Matrículas
+                <p
+                  className="font-[family-name:var(--font-caveat)] font-bold leading-[1] text-[2.5rem] md:text-[3rem] text-[var(--color-brand-purple)]"
+                  aria-label="Matrículas abertas"
+                >
+                  <span className="writing">Matrículas</span>
                   <br />
-                  abertas
+                  <span
+                    className="writing"
+                    style={{ animationDelay: "1.5s" }}
+                  >
+                    abertas
+                  </span>
                 </p>
                 <a
                   href={buildWhatsAppUrl({ type: "home" })}

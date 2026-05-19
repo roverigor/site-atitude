@@ -186,6 +186,32 @@
     from { transform: translateX(0); }
     to   { transform: translateX(-50%); }
   }
+
+  @keyframes writing {
+    0%, 4%   { width: 0; }
+    22%      { width: 100%; }   /* hand finishes writing */
+    80%      { width: 100%; }   /* long pause, fully readable */
+    94%      { width: 0; }      /* quick erase */
+    100%     { width: 0; }
+  }
+}
+
+/* Caveat handwriting reveal — text appears as if being written
+   left-to-right. Pair with `.font-caveat` and a max-width container. */
+.writing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  width: 0;
+  animation: writing 9s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .writing {
+    animation: none;
+    width: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
