@@ -181,36 +181,36 @@
   /* ===== ANIMATIONS — DS marquee + reverse ===== */
   --animate-marquee: marquee 32s linear infinite;
   --animate-marquee-reverse: marquee 44s linear infinite reverse;
+}
 
-  @keyframes marquee {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
-  }
+/* Global keyframes outside @theme so they're always emitted in production CSS,
+   not gated on having a matching --animate-* token. */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
 
-  @keyframes writing {
-    0%, 4%   { width: 0; }
-    22%      { width: 100%; }   /* hand finishes writing */
-    80%      { width: 100%; }   /* long pause, fully readable */
-    94%      { width: 0; }      /* quick erase */
-    100%     { width: 0; }
-  }
+@keyframes writing-reveal {
+  0%, 5%   { clip-path: inset(0 100% 0 0); }   /* hidden, ready to start */
+  25%      { clip-path: inset(0 0% 0 0); }     /* hand finishes writing */
+  78%      { clip-path: inset(0 0% 0 0); }     /* long pause, fully readable */
+  92%      { clip-path: inset(0 100% 0 0); }   /* quick erase */
+  100%     { clip-path: inset(0 100% 0 0); }
 }
 
 /* Caveat handwriting reveal — text appears as if being written
-   left-to-right. Pair with `.font-caveat` and a max-width container. */
+   left-to-right via a clip-path mask. Layout stays stable because the
+   element keeps its natural box; only the visible region animates. */
 .writing {
   display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  vertical-align: bottom;
-  width: 0;
-  animation: writing 9s ease-in-out infinite;
+  animation: writing-reveal 9s ease-in-out infinite;
+  clip-path: inset(0 100% 0 0);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .writing {
     animation: none;
-    width: auto;
+    clip-path: none;
   }
 }
 
