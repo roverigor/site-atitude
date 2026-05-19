@@ -57,7 +57,7 @@ export function AboutSection() {
           {/* Right — Visual card */}
           <div className="flex flex-col gap-6">
             {/* Founder card */}
-            <div className="relative bg-white/5 border border-white/10 rounded-2xl p-8 overflow-hidden">
+            <div className="relative bg-white/5 border border-white/10 rounded-3xl p-8 overflow-hidden">
               {/* Decorative circle */}
               <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-[var(--color-brand-green)]/10" />
 
@@ -85,7 +85,7 @@ export function AboutSection() {
             </div>
 
             {/* Mission pill */}
-            <div className="bg-[var(--color-brand-green)] rounded-2xl p-6">
+            <div className="bg-[var(--color-brand-green)] rounded-3xl p-6">
               <p className="text-[var(--color-brand-navy)] font-bold text-base leading-snug">
                 &ldquo;Cada aluno que conquista um emprego é uma vitória nossa também.&rdquo;
               </p>
