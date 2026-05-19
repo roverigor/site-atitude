@@ -6,8 +6,10 @@ import { siteConfig } from "@/data/site";
 
 export function CTAFinal() {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-[var(--color-brand-navy)] to-[var(--color-brand-purple)] text-white">
-      <Container>
+    <section className="relative py-16 md:py-24 bg-[var(--color-brand-navy)] text-white overflow-hidden">
+      {/* Decorative violet orb — atmosphere only */}
+      <div className="pointer-events-none absolute -bottom-32 -right-32 w-96 h-96 rounded-full bg-[var(--color-brand-purple)]/30 blur-3xl" />
+      <Container className="relative z-10">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold mb-4">
             O mercado está contratando. Você está pronto?

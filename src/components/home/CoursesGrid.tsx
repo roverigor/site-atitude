@@ -83,22 +83,19 @@ export function CoursesGrid() {
               >
                 <Link
                   href={href}
-                  className="group relative flex flex-col justify-between h-full min-h-[200px] sm:min-h-[160px] rounded-2xl overflow-hidden p-8 sm:p-6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
-                  style={{ background: `linear-gradient(135deg, ${cat.corHex}ee 0%, ${cat.corHex}99 100%)` }}
+                  className="group relative flex flex-col justify-between h-full min-h-[200px] sm:min-h-[160px] rounded-3xl overflow-hidden p-8 sm:p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                  style={{ backgroundColor: cat.corHex }}
                   aria-label={`Ver cursos de ${cat.nome}`}
                 >
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-200" />
-
-                  {/* Decorative circle */}
+                  {/* Decorative pill — capsule motif */}
                   <div
-                    className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full opacity-20"
+                    className="absolute -bottom-6 -right-6 w-28 h-28 rounded-full opacity-20"
                     style={{ background: "white" }}
                   />
 
-                  {/* Icon */}
+                  {/* Icon — capsule container */}
                   <div className="relative z-10">
-                    <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center mb-4 group-hover:bg-white/30 transition-colors duration-200">
+                    <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-4 group-hover:bg-white/30 transition-colors duration-200">
                       <Icon className="h-6 w-6 text-white" aria-hidden="true" />
                     </div>
                   </div>
