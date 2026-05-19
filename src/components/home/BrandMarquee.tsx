@@ -1,6 +1,5 @@
-// Single contiguous strip of the four brand colors looping horizontally.
-// Each segment is 25vw, so only one of each color fits in the viewport
-// at any given moment — green → orange → pink → purple, then loops.
+// Contiguous strip of the four brand colors looping horizontally.
+// Everything inline so no Tailwind tree-shaking can drop the rule.
 const segments = [
   "var(--color-brand-green)",
   "var(--color-brand-orange)",
@@ -8,22 +7,36 @@ const segments = [
   "var(--color-brand-purple)",
 ];
 
-// Two copies (8 segments) so the translateX(-50%) loop tiles seamlessly
-// without ever showing the same color twice on screen at once.
+// Two cycles of four colors: total width 200vw, translateX(-50%) loops.
 const track = [...segments, ...segments];
 
 export function BrandMarquee() {
   return (
     <div
       aria-hidden="true"
-      className="brand-marquee overflow-hidden bg-[var(--color-cream-50)]"
+      style={{
+        overflow: "hidden",
+        backgroundColor: "var(--color-cream-50)",
+      }}
     >
-      <div className="brand-marquee-track flex w-max h-6 md:h-8">
+      <div
+        style={{
+          display: "flex",
+          width: "200vw",
+          height: "28px",
+          animation: "marquee 60s linear infinite",
+          willChange: "transform",
+        }}
+      >
         {track.map((bg, i) => (
-          <span
+          <div
             key={i}
-            className="w-[25vw] h-full shrink-0"
-            style={{ backgroundColor: bg }}
+            style={{
+              width: "25vw",
+              height: "100%",
+              backgroundColor: bg,
+              flexShrink: 0,
+            }}
           />
         ))}
       </div>
