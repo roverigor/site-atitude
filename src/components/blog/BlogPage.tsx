@@ -310,7 +310,7 @@ export function BlogPage({
 
           {/* Recent posts */}
           <div className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5">
-            <h3 className="font-semibold text-[var(--color-foreground)] mb-4">Posts Recentes</h3>
+            <h3 className="font-semibold text-[var(--color-foreground)] mb-4">Posts recentes</h3>
             <ul className="space-y-4">
               {recentPosts.map((post) => (
                 <li key={post.slug}>

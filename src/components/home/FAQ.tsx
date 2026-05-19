@@ -14,7 +14,7 @@ export function FAQ() {
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Perguntas Frequentes
+            Perguntas frequentes
           </h2>
         </div>
 

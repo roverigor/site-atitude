@@ -67,7 +67,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
             <GraduationCap className="h-5 w-5 text-white" />
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Galeria de Formaturas
+            Galeria de formaturas
           </h1>
         </div>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl leading-relaxed">

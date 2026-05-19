@@ -18,7 +18,7 @@ export function Timeline() {
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Da Matrícula ao Emprego
+            Da matrícula ao emprego
           </h2>
           <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
             Você não estuda sozinho — acompanhamos cada etapa até sua contratação
