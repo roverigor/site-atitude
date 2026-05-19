@@ -1,4 +1,6 @@
 // Single contiguous strip of the four brand colors looping horizontally.
+// Each segment is 25vw, so only one of each color fits in the viewport
+// at any given moment — green → orange → pink → purple, then loops.
 const segments = [
   "var(--color-brand-green)",
   "var(--color-brand-orange)",
@@ -6,9 +8,9 @@ const segments = [
   "var(--color-brand-purple)",
 ];
 
-// Repeat the pattern enough times for the translateX(-50%) loop to tile
-// seamlessly on ultrawide screens.
-const track = Array.from({ length: 12 }, () => segments).flat();
+// Two copies (8 segments) so the translateX(-50%) loop tiles seamlessly
+// without ever showing the same color twice on screen at once.
+const track = [...segments, ...segments];
 
 export function BrandMarquee() {
   return (
@@ -18,12 +20,12 @@ export function BrandMarquee() {
     >
       <div
         className="flex w-max h-6 md:h-8 motion-reduce:animate-none"
-        style={{ animation: "marquee 32s linear infinite" }}
+        style={{ animation: "marquee 60s linear infinite" }}
       >
         {track.map((bg, i) => (
           <span
             key={i}
-            className="w-32 md:w-48 h-full shrink-0"
+            className="w-[25vw] h-full shrink-0"
             style={{ backgroundColor: bg }}
           />
         ))}
