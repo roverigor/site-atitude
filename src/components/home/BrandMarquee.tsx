@@ -16,7 +16,10 @@ export function BrandMarquee() {
       aria-hidden="true"
       className="overflow-hidden bg-[var(--color-cream-50)] group"
     >
-      <div className="flex w-max h-6 md:h-8 animate-marquee group-hover:[animation-play-state:paused]">
+      <div
+        className="flex w-max h-6 md:h-8 motion-reduce:animate-none"
+        style={{ animation: "marquee 32s linear infinite" }}
+      >
         {track.map((bg, i) => (
           <span
             key={i}
