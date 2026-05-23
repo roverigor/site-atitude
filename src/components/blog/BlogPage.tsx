@@ -274,7 +274,7 @@ export function BlogPage({
                       <span className="flex-1 group-hover:text-[var(--color-foreground)] transition-colors">
                         {cat.nome}
                       </span>
-                      <span className="text-xs bg-[var(--color-background-alt)] dark:bg-[#252525] rounded-full px-2 py-0.5">
+                      <span className="text-xs bg-[var(--color-background-alt)] rounded-full px-2 py-0.5">
                         {cat.count}
                       </span>
                     </Link>
