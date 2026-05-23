@@ -175,7 +175,7 @@ export default function ParceirosPage() {
               >
                 {/* Placeholder logo */}
                 <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-200 group-hover:scale-105"
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-[var(--duration-fast)] group-hover:scale-105"
                   style={{
                     backgroundColor:
                       segmentColors[partner.segmento] || "var(--color-brand-navy)",
