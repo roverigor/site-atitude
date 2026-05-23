@@ -5,7 +5,7 @@ import { Home, Search } from "lucide-react";
 export default function NotFound() {
   return (
     <Container className="py-24 text-center">
-      <h1 className="text-6xl font-bold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)] mb-4">404</h1>
+      <h1 className="h-display text-[var(--color-brand-navy)] dark:text-white mb-4">404</h1>
       <h2 className="text-2xl font-semibold mb-4">Página não encontrada</h2>
       <p className="text-[var(--color-foreground-muted)] mb-8 max-w-md mx-auto">
         A página que você procura não existe ou foi removida. Que tal voltar para a home?
