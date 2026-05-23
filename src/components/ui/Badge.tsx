@@ -9,7 +9,7 @@ interface BadgeProps {
 }
 
 export function Badge({ children, variant = "info", color, size = "sm", className }: BadgeProps) {
-  const baseStyles = "inline-flex items-center font-semibold rounded";
+  const baseStyles = "inline-flex items-center font-semibold rounded-full";
 
   const sizes = {
     sm: "px-2 py-0.5 text-xs",

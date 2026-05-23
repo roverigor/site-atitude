@@ -1,49 +1,123 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/layout/Container";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
-import { MessageCircle, BookOpen } from "lucide-react";
+import { MessageCircle, BookOpen, ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[80vh] md:min-h-[70vh] flex items-center bg-[var(--color-brand-navy)] overflow-hidden">
-      {/* Background gradient pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-brand-navy)] via-[var(--color-brand-navy)]/95 to-[var(--color-brand-purple)]/50" />
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-[var(--color-brand-green)] blur-3xl" />
-        <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-[var(--color-brand-purple)] blur-3xl" />
+    <section className="relative bg-[var(--color-cream-50)] pt-12 md:pt-20 pb-16 md:pb-24 overflow-hidden">
+      {/* Decorative pill orbs — atmosphere only, far behind content */}
+      <div className="pointer-events-none absolute inset-0 opacity-25">
+        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-[var(--color-brand-green)] blur-3xl" />
+        <div className="absolute -bottom-32 -left-20 w-96 h-96 rounded-full bg-[var(--color-brand-purple)]/40 blur-3xl" />
       </div>
 
       <Container className="relative z-10">
-        <div className="max-w-2xl mx-auto text-center md:mx-0 md:text-left">
-          {/* Trust badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-[var(--color-brand-green)] text-sm font-semibold">✦ Desde 2011</span>
-            <span className="text-white/40">|</span>
-            <span className="text-white/80 text-sm">Ibaiti · PR</span>
+        <div className="grid lg:grid-cols-[1.4fr_1fr] gap-10 lg:gap-12 items-stretch">
+          {/* Left — copy */}
+          <div className="flex flex-col justify-center">
+            <span className="eyebrow">
+              Cursos profissionalizantes · Ibaiti-PR
+            </span>
+
+            <p className="script mt-4 text-[2rem] md:text-[2.5rem] leading-none">
+              Aprender é uma atitude.
+            </p>
+
+            <h1 className="mt-3 mb-6 font-black text-[2.5rem] md:text-[4rem] lg:text-[5rem] leading-[0.96] tracking-[-0.035em] text-[var(--color-brand-navy)]">
+              Aqui, o certificado vem com{" "}
+              <span className="relative inline-block">
+                <span className="relative z-10">emprego incluso</span>
+                <span
+                  aria-hidden="true"
+                  className="absolute -left-1 -right-1 bottom-1 md:bottom-2 h-3 md:h-4 rounded-full bg-[var(--color-brand-green)] z-0"
+                />
+              </span>
+            </h1>
+
+            <p className="lead max-w-[540px] mb-8">
+              Inglês aumenta seu salário em até 60%. TI com mais de 11 mil
+              vagas abertas. Da matrícula ao primeiro contracheque, a gente
+              caminha junto.
+            </p>
+
+            <div className="flex flex-wrap gap-3 items-center">
+              <Button
+                variant="whatsapp"
+                size="lg"
+                href={buildWhatsAppUrl({ type: "home" })}
+              >
+                <MessageCircle className="h-5 w-5" />
+                Garantir minha vaga
+              </Button>
+              <Button variant="secondary" size="lg" href="/cursos">
+                <BookOpen className="h-5 w-5" />
+                Ver os cursos
+              </Button>
+              <span className="text-sm text-[var(--color-foreground-muted)] ml-1">
+                <b className="text-[var(--color-brand-navy)]">+1.500</b> alunos
+                formados desde 2011
+              </span>
+            </div>
           </div>
 
-          <h1 className="text-[2.25rem] md:text-[4rem] font-extrabold leading-[1.1] text-white mb-6">
-            Aqui, o certificado vem com{" "}
-            <span className="text-[var(--color-brand-green)]">emprego incluso</span>
-          </h1>
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-lg mx-auto md:mx-0">
-            Inglês aumenta seu salário em até 60%. TI tem mais de 11 mil vagas abertas. Administração, Saúde e Beleza em alta no interior do PR. Escolha sua área e comece hoje.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <Button variant="whatsapp" size="lg" href={buildWhatsAppUrl({ type: "home" })}>
-              <MessageCircle className="h-5 w-5" />
-              Garantir minha vaga
-            </Button>
-            <Button variant="secondary-inverted" size="lg" href="/cursos">
-              <BookOpen className="h-5 w-5" />
-              Ver os cursos
-            </Button>
-          </div>
+          {/* Right — bento stats */}
+          <div className="grid grid-cols-2 grid-rows-2 gap-3 min-h-[420px]">
+            {/* Big navy tile — spans both rows */}
+            <div className="row-span-2 rounded-3xl bg-[var(--color-brand-navy)] text-white p-6 flex flex-col justify-between shadow-sm">
+              <p className="text-sm font-semibold leading-snug text-white/70">
+                Aumento médio de
+                <br />
+                salário depois do inglês
+              </p>
+              <p className="font-black leading-[0.9] tracking-[-0.04em] text-[var(--color-brand-green)] text-[5rem] md:text-[5.5rem]">
+                +60<span className="text-3xl align-top ml-1">%</span>
+              </p>
+            </div>
 
-          {/* Social proof */}
-          <p className="mt-6 text-sm text-white/50 text-center md:text-left">
-            Mais de <span className="text-white/80 font-semibold">1.500 alunos formados</span> e encaminhados para o mercado desde 2009
-          </p>
+            {/* Lime tile — alumni count */}
+            <div className="rounded-3xl bg-[var(--color-brand-green)] text-[var(--color-brand-navy)] p-5 flex flex-col justify-between shadow-sm">
+              <p className="font-black leading-[0.9] tracking-[-0.04em] text-4xl md:text-5xl">
+                +1,5k
+              </p>
+              <p className="text-xs font-semibold leading-snug opacity-90">
+                alunos formados
+                <br />
+                desde 2011
+              </p>
+            </div>
+
+            {/* Paper tile — next intake */}
+            <div className="rounded-3xl bg-white p-5 flex flex-col justify-between shadow-sm">
+              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-foreground-muted)]">
+                Próxima turma
+              </p>
+              <div>
+                <p
+                  className="font-[family-name:var(--font-caveat)] font-bold leading-[1] text-[2.5rem] md:text-[3rem] text-[var(--color-brand-purple)]"
+                  aria-label="Matrículas abertas"
+                >
+                  <span className="writing">Matrículas</span>
+                  <br />
+                  <span
+                    className="writing"
+                    style={{ animationDelay: "1.5s" }}
+                  >
+                    abertas
+                  </span>
+                </p>
+                <a
+                  href={buildWhatsAppUrl({ type: "home" })}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-[var(--color-brand-orange)] hover:underline"
+                >
+                  fale com a gente
+                  <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     </section>

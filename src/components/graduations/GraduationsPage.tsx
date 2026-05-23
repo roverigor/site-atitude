@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Image from "next/image";
 import { Camera, GraduationCap } from "lucide-react";
 import { Lightbox } from "@/components/ui/Lightbox";
 import { Badge } from "@/components/ui/Badge";
@@ -12,16 +13,18 @@ interface GraduationsPageProps {
 }
 
 const typeColors: Record<string, string> = {
-  informatica: "#1B1464",
-  ingles: "#FF1493",
-  administracao: "#16A34A",
-  saude: "#FF6600",
-  beleza: "#6600FF",
-  tecnologia: "#7C3AED",
+  geral:        "var(--color-brand-navy)",
+  informatica:  "var(--color-brand-purple)",
+  ingles:       "var(--color-brand-pink)",
+  administracao:"var(--color-brand-green)",
+  saude:        "var(--color-brand-green)",
+  beleza:       "var(--color-brand-green)",
+  tecnologia:   "var(--color-brand-purple)",
 };
 
 function typeLabel(tipo: string): string {
   const labels: Record<string, string> = {
+    geral: "Todas as turmas",
     informatica: "Informática",
     ingles: "Inglês",
     administracao: "Administração",
@@ -67,7 +70,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
             <GraduationCap className="h-5 w-5 text-white" />
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
-            Galeria de Formaturas
+            Galeria de formaturas
           </h1>
         </div>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl leading-relaxed">
@@ -113,7 +116,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           {filtered.map((event, eventIndex) => (
             <div
               key={`${event.titulo}-${eventIndex}`}
-              className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] overflow-hidden"
+              className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm overflow-hidden"
             >
               {/* Event header */}
               <div className="p-5 md:p-6 border-b border-[var(--color-border)]">
@@ -144,37 +147,19 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
                     <button
                       key={fotoIndex}
                       onClick={() => openLightbox(event.fotos, fotoIndex)}
-                      className="group relative aspect-square overflow-hidden rounded-lg bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] focus:ring-offset-2"
+                      className="group relative aspect-square overflow-hidden rounded-2xl bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:ring-offset-2"
                       aria-label={`Abrir foto ${fotoIndex + 1} de ${event.titulo}`}
                     >
-                      {/* Placeholder - colored div with Camera icon */}
-                      <div
-                        className="absolute inset-0 flex flex-col items-center justify-center gap-2 transition-all duration-200 group-hover:scale-105"
-                        style={{
-                          backgroundColor: `color-mix(in srgb, ${
-                            typeColors[event.tipo] || "var(--color-brand-navy)"
-                          }, transparent 85%)`,
-                        }}
-                      >
-                        <Camera
-                          className="h-8 w-8 opacity-40"
-                          style={{
-                            color: typeColors[event.tipo] || "var(--color-brand-navy)",
-                          }}
-                        />
-                        <span
-                          className="text-xs font-medium opacity-50"
-                          style={{
-                            color: typeColors[event.tipo] || "var(--color-brand-navy)",
-                          }}
-                        >
-                          Foto {fotoIndex + 1}
-                        </span>
-                      </div>
-
-                      {/* Hover overlay */}
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 flex items-center justify-center">
-                        <Camera className="h-6 w-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                      <Image
+                        src={foto}
+                        alt={`${event.titulo} — foto ${fotoIndex + 1}`}
+                        fill
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                        className="object-cover transition-transform duration-[400ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:scale-105"
+                      />
+                      {/* Hover overlay with camera icon */}
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-200 flex items-center justify-center">
+                        <Camera className="h-7 w-7 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                       </div>
                     </button>
                   ))}

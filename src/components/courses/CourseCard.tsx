@@ -34,8 +34,7 @@ export function CourseCard({ course, index = 0 }: CourseCardProps) {
     >
       <Link
         href={`/cursos/${course.slug}`}
-        className="group flex flex-col h-full rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] border border-[var(--color-border)] hover:shadow-lg transition-all duration-200 overflow-hidden"
-        style={{ borderLeftWidth: "4px", borderLeftColor: categoryColor }}
+        className="group flex flex-col h-full rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] hover:-translate-y-1 overflow-hidden"
       >
         <div className="flex flex-col flex-1 p-5">
           {/* Category badge */}

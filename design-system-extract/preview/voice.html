@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--cream-50);font-family:var(--font-body);color:var(--fg);}
+  .card{padding:28px;display:flex;flex-direction:column;gap:20px;}
+  .slogan{font-family:var(--font-display);font-weight:900;font-size:44px;line-height:1.04;letter-spacing:-0.025em;color:var(--navy-900);max-width:740px;}
+  .slogan .accent{color:var(--violet-500);}
+  .slogan .underline{position:relative;display:inline-block;}
+  .slogan .underline::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:14px;background:var(--lime-500);z-index:-1;border-radius:999px;}
+  .tag-label{font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--violet-500);}
+  .supporting{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{font-family:var(--font-display);font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px;background:var(--paper);box-shadow:var(--shadow-1);color:var(--navy-900);}
+  .chip.l{background:var(--lime-100);}
+  .chip.o{background:var(--orange-100);color:var(--orange-600);}
+  .chip.m{background:var(--magenta-100);color:var(--magenta-600);}
+  .chip.v{background:var(--violet-100);color:var(--violet-600);}
+  .rules{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;line-height:1.45;color:var(--fg-muted);border-top:1px solid var(--border);padding-top:14px;}
+  .rules b{color:var(--fg);}
+</style></head><body>
+<div class="card">
+  <span class="tag-label">Tagline oficial</span>
+  <div class="slogan"><span class="underline">Atitude</span> que você precisa<br>para <span class="accent">mudar o seu futuro.</span></div>
+
+  <div>
+    <span class="tag-label" style="display:block;margin-bottom:8px;">Variações por pilar</span>
+    <div class="supporting">
+      <span class="chip l">A atitude para começar.</span>
+      <span class="chip o">A atitude para crescer.</span>
+      <span class="chip m">A atitude para falar com o mundo.</span>
+      <span class="chip v">A atitude para se reinventar.</span>
+    </div>
+  </div>
+
+  <div class="rules">
+    <div><b>Você</b> · informal, direto</div>
+    <div><b>Frase curta</b> · ritmo de áudio do WhatsApp</div>
+    <div><b>Emoção primeiro</b>, depois argumento</div>
+    <div><b>Verbos no presente</b> · "muda", "começa", "cresce"</div>
+    <div><b>Sem "excelência"</b>, "soluções", "metodologia"</div>
+    <div><b>Sentence case</b> · um <i>!</i> por parágrafo, no máximo</div>
+  </div>
+</div>
+</body></html>

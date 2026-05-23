@@ -5,7 +5,7 @@ import { Container } from "@/components/layout/Container";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Galeria de Formaturas",
+  title: "Galeria de formaturas",
   description:
     "Momentos especiais das formaturas da Atitude Ensino. Celebrando as conquistas dos nossos alunos.",
 };

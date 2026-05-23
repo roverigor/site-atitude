@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">{siteConfig.name}</h3>
             <p className="text-sm leading-relaxed">
-              {siteConfig.description}. Cursos de informática, inglês, administração, saúde, beleza e tecnologia.
+              {siteConfig.description}. {siteConfig.tagline}
             </p>
           </div>
 
@@ -77,12 +77,12 @@ export function Footer() {
 
           {/* Social */}
           <div>
-            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Redes Sociais</h4>
+            <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Redes sociais</h4>
             <div className="flex gap-3">
-              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/10 hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50" aria-label="Seguir no Instagram">
+              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 hover:scale-110 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] focus:outline-none focus:ring-2 focus:ring-white/50" aria-label="Seguir no Instagram">
                 <Instagram className="h-5 w-5" aria-hidden="true" />
               </a>
-              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-lg bg-white/10 hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50" aria-label="Seguir no Facebook">
+              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 hover:scale-110 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] focus:outline-none focus:ring-2 focus:ring-white/50" aria-label="Seguir no Facebook">
                 <Facebook className="h-5 w-5" aria-hidden="true" />
               </a>
             </div>

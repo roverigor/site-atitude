@@ -156,7 +156,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             <div className="flex items-center gap-3 mb-2">
               <Mail className="h-7 w-7 text-[var(--color-brand-green)]" />
               <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white">
-                Fale Conosco
+                Fale com a gente
               </h1>
             </div>
             <p className="text-[var(--color-foreground-muted)] mb-8">
@@ -180,7 +180,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   onChange={handleChange}
                   onBlur={() => handleBlur("nome")}
                   placeholder="Seu nome completo"
-                  className={`w-full px-4 py-3 rounded-xl border bg-[var(--color-background)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
+                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
                     errors.nome && touched.nome
                       ? "border-red-500 focus:ring-2 focus:ring-red-500/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
@@ -207,7 +207,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   onChange={handleChange}
                   onBlur={() => handleBlur("whatsapp")}
                   placeholder="(43) 99999-9999"
-                  className={`w-full px-4 py-3 rounded-xl border bg-[var(--color-background)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
+                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
                     errors.whatsapp && touched.whatsapp
                       ? "border-red-500 focus:ring-2 focus:ring-red-500/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
@@ -233,7 +233,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   name="curso"
                   value={formData.curso}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] text-[var(--color-foreground)] transition-all duration-200 outline-none focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)] appearance-none"
+                  className="w-full px-4 py-3 rounded-md border border-[var(--color-border)] bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] transition-all duration-200 outline-none focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)] appearance-none"
                   style={{
                     backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 24 24' stroke='%23888' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`,
                     backgroundRepeat: "no-repeat",
@@ -271,9 +271,9 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             className="space-y-6"
           >
             {/* Contact Card */}
-            <div className="p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] dark:bg-[#1a1a1a]">
+            <div className="p-6 md:p-8 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm">
               <h2 className="text-lg font-semibold text-[var(--color-brand-navy)] dark:text-white mb-6">
-                Informações de Contato
+                Informações de contato
               </h2>
 
               <div className="space-y-5">
@@ -390,7 +390,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
               animate="visible"
               variants={fadeUp}
               custom={3}
-              className="rounded-2xl overflow-hidden border border-[var(--color-border)]"
+              className="rounded-3xl overflow-hidden shadow-sm"
             >
               <iframe
                 title="Localização Atitude Ensino"

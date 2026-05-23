@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  html,body{margin:0;padding:0;background:var(--cream-50);font-family:var(--font-body);color:var(--fg);}
+  .card{padding:24px;}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+  .tile{border-radius:16px;overflow:hidden;display:flex;flex-direction:column;}
+  .tile .top{padding:18px 16px 16px;color:#fff;display:flex;flex-direction:column;gap:6px;min-height:84px;}
+  .tile .name{font-family:var(--font-display);font-weight:800;font-size:20px;line-height:1.1;letter-spacing:-0.01em;}
+  .tile .role{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;opacity:.85;}
+  .tile .meta{background:var(--paper);padding:8px 12px;font-size:11px;color:var(--fg-muted);display:flex;justify-content:space-between;align-items:center;}
+  .tile .meta b{color:var(--fg);font-weight:700;font-family:var(--font-mono);}
+  .tile.lime .top{color:var(--navy-900);}
+</style></head><body>
+<div class="card">
+  <div class="grid">
+    <div class="tile lime" style="background:#5BC112;">
+      <div class="top"><span class="role">Pilar 01</span><span class="name">Ensino</span></div>
+      <div class="meta"><span>--ensino</span><b>#5BC112</b></div>
+    </div>
+    <div class="tile" style="background:#FF4E09;">
+      <div class="top"><span class="role">Pilar 02</span><span class="name">Emprego</span></div>
+      <div class="meta"><span>--emprego</span><b>#FF4E09</b></div>
+    </div>
+    <div class="tile" style="background:#D9003F;">
+      <div class="top"><span class="role">Pilar 03</span><span class="name">Idiomas</span></div>
+      <div class="meta"><span>--idiomas</span><b>#D9003F</b></div>
+    </div>
+    <div class="tile" style="background:#570CE8;">
+      <div class="top"><span class="role">Pilar 04</span><span class="name">Tecnologia</span></div>
+      <div class="meta"><span>--tecnologia</span><b>#570CE8</b></div>
+    </div>
+  </div>
+</div>
+</body></html>

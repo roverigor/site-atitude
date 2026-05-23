@@ -44,7 +44,7 @@ export function SearchInput({
         value={localValue}
         onChange={(e) => handleChange(e.target.value)}
         placeholder={placeholder}
-        className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] focus:border-transparent transition-all duration-200"
+        className="w-full pl-10 pr-10 py-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-transparent transition-all duration-200"
         aria-label="Buscar cursos"
       />
       {localValue && (

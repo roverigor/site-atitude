@@ -124,7 +124,7 @@ export function BlogPage({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Buscar artigos..."
-              className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] focus:border-transparent transition-all duration-200"
+              className="w-full pl-10 pr-10 py-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-transparent transition-all duration-200"
               aria-label="Buscar artigos"
             />
             {searchQuery && (
@@ -259,7 +259,7 @@ export function BlogPage({
         {/* Sidebar — desktop only */}
         <aside className="hidden lg:block w-72 flex-shrink-0 space-y-8">
           {/* Categories */}
-          <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] dark:bg-[#1a1a1a] p-5">
+          <div className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5">
             <h3 className="font-semibold text-[var(--color-foreground)] mb-4">Categorias</h3>
             <ul className="space-y-2">
               {categoriesWithCount.map((cat) => {
@@ -286,7 +286,7 @@ export function BlogPage({
 
           {/* Tags */}
           {allTags.length > 0 && (
-            <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] dark:bg-[#1a1a1a] p-5">
+            <div className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5">
               <h3 className="font-semibold text-[var(--color-foreground)] mb-4 flex items-center gap-2">
                 <Tag className="h-4 w-4" />
                 Tags
@@ -309,8 +309,8 @@ export function BlogPage({
           )}
 
           {/* Recent posts */}
-          <div className="rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] dark:bg-[#1a1a1a] p-5">
-            <h3 className="font-semibold text-[var(--color-foreground)] mb-4">Posts Recentes</h3>
+          <div className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5">
+            <h3 className="font-semibold text-[var(--color-foreground)] mb-4">Posts recentes</h3>
             <ul className="space-y-4">
               {recentPosts.map((post) => (
                 <li key={post.slug}>
@@ -357,7 +357,7 @@ function BlogCard({ post, categories, index }: BlogCardProps) {
     >
       <Link
         href={`/blog/${post.slug}`}
-        className="group flex flex-col h-full rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] hover:shadow-lg transition-all duration-200 overflow-hidden"
+        className="group flex flex-col h-full rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] overflow-hidden"
       >
         {/* Thumbnail placeholder */}
         <div

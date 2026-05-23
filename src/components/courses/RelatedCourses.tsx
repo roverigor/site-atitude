@@ -20,7 +20,7 @@ export function RelatedCourses({ courses, currentSlug }: RelatedCoursesProps) {
         <Link
           key={course.slug}
           href={`/cursos/${course.slug}`}
-          className="group rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] p-6 transition-all duration-200 hover:shadow-[var(--shadow-md)] hover:border-[var(--color-brand-navy)] dark:hover:border-[var(--color-brand-green)]"
+          className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)]"
         >
           <h3 className="font-semibold text-[var(--color-foreground)] group-hover:text-[var(--color-brand-navy)] dark:group-hover:text-[var(--color-brand-green)] transition-colors mb-2">
             {course.nome}

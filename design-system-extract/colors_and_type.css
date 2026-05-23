@@ -1,0 +1,281 @@
+/* ============================================================
+   Atitude Design System — Tokens
+   Drop-in stylesheet. @import this once, use the vars everywhere.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap');
+
+/* ───── Poppins — the official Atitude type family ─────────── */
+@font-face { font-family: 'Poppins'; font-weight: 100; font-style: normal;  src: url('fonts/Poppins-Thin.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 100; font-style: italic;  src: url('fonts/Poppins-ThinItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 200; font-style: normal;  src: url('fonts/Poppins-ExtraLight.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 200; font-style: italic;  src: url('fonts/Poppins-ExtraLightItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 300; font-style: normal;  src: url('fonts/Poppins-Light.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 300; font-style: italic;  src: url('fonts/Poppins-LightItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 400; font-style: normal;  src: url('fonts/Poppins-Regular.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 400; font-style: italic;  src: url('fonts/Poppins-Italic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 500; font-style: normal;  src: url('fonts/Poppins-Medium.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 500; font-style: italic;  src: url('fonts/Poppins-MediumItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 600; font-style: normal;  src: url('fonts/Poppins-SemiBold.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 600; font-style: italic;  src: url('fonts/Poppins-SemiBoldItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 700; font-style: normal;  src: url('fonts/Poppins-Bold.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 700; font-style: italic;  src: url('fonts/Poppins-BoldItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 800; font-style: normal;  src: url('fonts/Poppins-ExtraBold.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 800; font-style: italic;  src: url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 900; font-style: normal;  src: url('fonts/Poppins-Black.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Poppins'; font-weight: 900; font-style: italic;  src: url('fonts/Poppins-BlackItalic.ttf') format('truetype'); font-display: swap; }
+
+:root {
+  /* ───── BRAND CORE ─────────────────────────────────────── */
+  --navy-900: #252566;   /* primary ink, primary buttons, logo */
+  --navy-800: #2E2E78;
+  --navy-700: #3B3B8C;
+  --navy-500: #6B6BB4;
+  --navy-300: #B7B7DA;
+  --navy-100: #E6E6F2;
+  --navy-50:  #F2F2F9;
+
+  --lime-600: #5BC112;
+  --lime-500: #6EDD17;   /* logo accent A */
+  --lime-300: #B6EE82;
+  --lime-100: #E4F8D0;
+
+  --orange-600: #E64200;
+  --orange-500: #FF4E09;  /* logo accent B */
+  --orange-300: #FF9C73;
+  --orange-100: #FFE2D2;
+
+  --magenta-600: #D9003F;
+  --magenta-500: #FF004A;  /* logo accent C */
+  --magenta-300: #FF6F94;
+  --magenta-100: #FFD2DE;
+
+  --violet-600: #4709C2;
+  --violet-500: #570CE8;   /* logo accent D */
+  --violet-300: #9D78F2;
+  --violet-100: #DED2FB;
+
+  /* ───── SURFACES ────────────────────────────────────────── */
+  --cream-50:  #FFF8EF;    /* page background, warmer than white */
+  --cream-100: #FAEFE0;
+  --paper:     #FFFFFF;    /* card background on cream */
+  --ink-overlay: rgba(37, 37, 102, 0.45);  /* modal scrim */
+
+  /* ───── SEMANTIC ROLES ─────────────────────────────────── */
+  --bg:         var(--cream-50);
+  --bg-elevated: var(--paper);
+  --bg-inverse: var(--navy-900);
+
+  --fg:        var(--navy-900);    /* primary text */
+  --fg-muted:  var(--navy-500);    /* secondary text */
+  --fg-subtle: var(--navy-300);    /* tertiary, hints */
+  --fg-on-accent: var(--paper);    /* text on orange/magenta/violet */
+  --fg-on-lime:   var(--navy-900); /* text on lime — exception */
+  --fg-inverse: var(--cream-50);   /* text on navy */
+
+  --border:        var(--navy-100);
+  --border-strong: var(--navy-300);
+  --focus-ring:    var(--violet-500);
+
+  --accent:        var(--violet-500); /* default accent — pages may override */
+  --accent-on:     var(--paper);
+
+  /* Atitude product pillars — each pillar owns one accent color.
+     Use these tokens when you mean "this UI is about idiomas" etc. */
+  --ensino:     var(--lime-500);     /* #6EDD17 — Ensino / cursos profissionalizantes */
+  --emprego:    var(--orange-500);   /* #FF4E09 — Emprego / colocação no mercado */
+  --idiomas:    var(--magenta-500);  /* #FF004A — Idiomas */
+  --tecnologia: var(--violet-500);   /* #570CE8 — Tecnologia */
+
+  /* Generic status (use sparingly — prefer pillar colors when relevant) */
+  --success: var(--lime-600);
+  --warning: var(--orange-500);
+  --danger:  var(--magenta-600);
+  --info:    var(--violet-500);
+
+  /* ───── TYPOGRAPHY ─────────────────────────────────────── */
+  --font-display: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body:    'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-accent:  'Caveat', 'Comic Sans MS', cursive;
+  --font-mono:    'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+  /* Type scale — major-third, modest */
+  --text-2xs: 11px;
+  --text-xs:  12px;
+  --text-sm:  14px;
+  --text-md:  16px;
+  --text-lg:  18px;
+  --text-xl:  22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+  --text-4xl: 48px;
+  --text-5xl: 64px;
+  --text-6xl: 84px;
+
+  --lh-tight: 1.08;
+  --lh-snug:  1.2;
+  --lh-body:  1.55;
+  --lh-loose: 1.75;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:  0.04em;
+
+  /* ───── SPACING ────────────────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  --gutter-mobile:  24px;
+  --gutter-desktop: 80px;
+  --content-max:    1240px;
+
+  /* ───── RADII ──────────────────────────────────────────── */
+  --radius-xs:  6px;   /* inputs */
+  --radius-sm:  12px;  /* chips, small cards */
+  --radius-md:  16px;
+  --radius-lg:  24px;  /* cards, modals */
+  --radius-xl:  32px;
+  --radius-pill: 999px;
+
+  /* ───── SHADOWS ────────────────────────────────────────── */
+  --shadow-1: 0 1px 2px rgba(37, 37, 102, 0.06), 0 2px 8px rgba(37, 37, 102, 0.06);
+  --shadow-2: 0 8px 24px rgba(37, 37, 102, 0.12);
+  --shadow-3: 0 24px 56px rgba(37, 37, 102, 0.18);
+  --shadow-focus: 0 0 0 4px rgba(87, 12, 232, 0.25);
+
+  /* ───── MOTION ─────────────────────────────────────────── */
+  --ease-pop:    cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-linear: linear;
+  --dur-fast:    150ms;
+  --dur-base:    250ms;
+  --dur-slow:    400ms;
+
+  /* ───── LAYOUT / Z ─────────────────────────────────────── */
+  --z-base:    1;
+  --z-sticky:  100;
+  --z-modal:   1000;
+  --z-toast:   2000;
+}
+
+/* ============================================================
+   SEMANTIC TYPE CLASSES — apply directly OR use the element
+   selectors below if you're working in a clean document.
+   ============================================================ */
+
+.h-display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(48px, 6vw, var(--text-6xl));
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg);
+}
+
+.h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(36px, 4vw, var(--text-4xl));
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg);
+}
+
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(28px, 3vw, var(--text-3xl));
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg);
+}
+
+.h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-2xl);
+  line-height: var(--lh-snug);
+  color: var(--fg);
+}
+
+.h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  line-height: var(--lh-snug);
+  color: var(--fg);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--accent);
+}
+
+.lead {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--text-xl);
+  line-height: var(--lh-body);
+  color: var(--fg-muted);
+}
+
+.body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--text-md);
+  line-height: var(--lh-body);
+  color: var(--fg);
+}
+
+.small {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--text-sm);
+  line-height: var(--lh-body);
+  color: var(--fg-muted);
+}
+
+.script {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: var(--text-3xl);
+  line-height: 1;
+  color: var(--accent);
+}
+
+/* ============================================================
+   ELEMENT DEFAULTS — when you want zero-config setup
+   ============================================================ */
+
+body.atitude {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body.atitude h1 { font: 800 var(--text-4xl)/var(--lh-tight) var(--font-display); letter-spacing: var(--tracking-tight); }
+body.atitude h2 { font: 800 var(--text-3xl)/var(--lh-snug) var(--font-display); letter-spacing: var(--tracking-tight); }
+body.atitude h3 { font: 700 var(--text-2xl)/var(--lh-snug) var(--font-display); }
+body.atitude h4 { font: 700 var(--text-xl)/var(--lh-snug) var(--font-display); }
+body.atitude p  { margin: 0 0 var(--space-4); text-wrap: pretty; }
+body.atitude a  { color: var(--violet-500); text-decoration: underline; text-underline-offset: 3px; }
+body.atitude a:hover { color: var(--violet-600); }
+body.atitude code { font-family: var(--font-mono); font-size: 0.92em; background: var(--navy-50); padding: 2px 6px; border-radius: var(--radius-xs); }

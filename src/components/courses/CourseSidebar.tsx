@@ -19,7 +19,7 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
 
   return (
     <div className="sticky top-24">
-      <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] shadow-[var(--shadow-lg)] overflow-hidden">
+      <div className="rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-md overflow-hidden">
         {/* Investment header */}
         <div className="bg-[var(--color-brand-navy)] p-6 text-white">
           <h3 className="text-sm font-medium uppercase tracking-wider opacity-80 mb-1">

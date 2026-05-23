@@ -177,7 +177,7 @@ export default async function BlogPostPage({
                   <Link
                     key={related.slug}
                     href={`/blog/${related.slug}`}
-                    className="group flex flex-col rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] hover:shadow-lg transition-all duration-200 overflow-hidden"
+                    className="group flex flex-col rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] overflow-hidden"
                   >
                     <div
                       className="h-28 w-full flex items-center justify-center"
