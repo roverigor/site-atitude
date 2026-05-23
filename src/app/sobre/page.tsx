@@ -119,7 +119,7 @@ export default function SobrePage() {
       <Section variant="default">
         <Container>
           <div className="text-center mb-14">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               15 anos de trajetória
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
@@ -279,7 +279,7 @@ export default function SobrePage() {
       <Section variant="alt">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               Nossa missão
             </h2>
           </div>
@@ -312,7 +312,7 @@ export default function SobrePage() {
       <Section variant="default">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               Nossa equipe
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
@@ -365,7 +365,7 @@ export default function SobrePage() {
       <Section variant="gradient">
         <Container>
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold mb-4">
+            <h2 className="h2 mb-4">
               Venha escrever sua história aqui
             </h2>
             <p className="text-lg text-white/80 mb-8">
