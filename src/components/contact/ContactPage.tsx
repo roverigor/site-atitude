@@ -177,6 +177,8 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   id="nome"
                   name="nome"
                   required
+                  aria-invalid={!!(errors.nome && touched.nome)}
+                  aria-describedby={errors.nome && touched.nome ? "nome-error" : undefined}
                   value={formData.nome}
                   onChange={handleChange}
                   onBlur={() => handleBlur("nome")}
@@ -188,7 +190,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   }`}
                 />
                 {errors.nome && touched.nome && (
-                  <p className="mt-1.5 text-sm text-[var(--color-error)]">{errors.nome}</p>
+                  <p id="nome-error" role="alert" className="mt-1.5 text-sm text-[var(--color-error)]">{errors.nome}</p>
                 )}
               </div>
 
@@ -205,6 +207,8 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   id="whatsapp"
                   name="whatsapp"
                   required
+                  aria-invalid={!!(errors.whatsapp && touched.whatsapp)}
+                  aria-describedby={errors.whatsapp && touched.whatsapp ? "whatsapp-error" : undefined}
                   value={formData.whatsapp}
                   onChange={handleChange}
                   onBlur={() => handleBlur("whatsapp")}
@@ -216,7 +220,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   }`}
                 />
                 {errors.whatsapp && touched.whatsapp && (
-                  <p className="mt-1.5 text-sm text-[var(--color-error)]">
+                  <p id="whatsapp-error" role="alert" className="mt-1.5 text-sm text-[var(--color-error)]">
                     {errors.whatsapp}
                   </p>
                 )}
