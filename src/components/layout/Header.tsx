@@ -40,7 +40,7 @@ export function Header() {
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileOpen(true)}
-              className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-black/5 dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-navy)] dark:focus:ring-[var(--color-brand-green)]"
+              className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-black/5 dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] dark:focus:ring-[var(--color-brand-green)]"
               aria-label="Abrir menu de navegação"
             >
               <Menu className="h-6 w-6" />
