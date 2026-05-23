@@ -345,7 +345,7 @@ interface BlogCardProps {
 
 function BlogCard({ post, categories, index }: BlogCardProps) {
   const category = categories.find((c) => c.slug === post.category);
-  const categoryColor = category?.corHex || "#6B7280";
+  const categoryColor = category?.corHex || "var(--color-foreground-muted)";
   const categoryName = category?.nome || post.category;
 
   return (
