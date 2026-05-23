@@ -176,6 +176,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   type="text"
                   id="nome"
                   name="nome"
+                  required
                   value={formData.nome}
                   onChange={handleChange}
                   onBlur={() => handleBlur("nome")}
@@ -203,6 +204,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   type="tel"
                   id="whatsapp"
                   name="whatsapp"
+                  required
                   value={formData.whatsapp}
                   onChange={handleChange}
                   onBlur={() => handleBlur("whatsapp")}
