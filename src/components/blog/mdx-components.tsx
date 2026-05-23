@@ -10,27 +10,15 @@ interface CalloutProps {
 const calloutConfig = {
   info: {
     icon: Info,
-    borderColor: "#2563EB",
-    bgLight: "bg-blue-50",
-    bgDark: "dark:bg-blue-950/20",
-    textColor: "text-blue-700 dark:text-blue-400",
-    iconColor: "text-blue-600 dark:text-blue-400",
+    accentVar: "var(--color-brand-purple)",
   },
   warning: {
     icon: AlertTriangle,
-    borderColor: "#D97706",
-    bgLight: "bg-amber-50",
-    bgDark: "dark:bg-amber-950/20",
-    textColor: "text-amber-700 dark:text-amber-400",
-    iconColor: "text-amber-600 dark:text-amber-400",
+    accentVar: "var(--color-warning)",
   },
   tip: {
     icon: Lightbulb,
-    borderColor: "#059669",
-    bgLight: "bg-green-50",
-    bgDark: "dark:bg-green-950/20",
-    textColor: "text-green-700 dark:text-green-400",
-    iconColor: "text-green-600 dark:text-green-400",
+    accentVar: "var(--color-success)",
   },
 } as const;
 
@@ -40,12 +28,17 @@ export function Callout({ type = "info", children }: CalloutProps) {
 
   return (
     <div
-      className={`my-6 rounded-lg border-l-4 p-4 ${config.bgLight} ${config.bgDark}`}
-      style={{ borderLeftColor: config.borderColor }}
+      className="my-6 rounded-lg border-l-4 p-4 bg-[var(--color-background-alt)]"
+      style={{ borderLeftColor: config.accentVar }}
     >
       <div className="flex gap-3">
-        <Icon className={`h-5 w-5 mt-0.5 flex-shrink-0 ${config.iconColor}`} />
-        <div className={`text-sm leading-relaxed ${config.textColor}`}>
+        <Icon
+          className="h-5 w-5 mt-0.5 flex-shrink-0"
+          style={{ color: config.accentVar }}
+        />
+        <div
+          className="text-sm leading-relaxed text-[var(--color-foreground-muted)]"
+        >
           {children}
         </div>
       </div>
@@ -83,7 +76,7 @@ export function CourseCard({ slug, nome }: CourseCardProps) {
   return (
     <Link
       href={`/cursos/${slug}`}
-      className="my-6 flex items-center gap-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] p-4 transition-all duration-200 hover:shadow-md hover:border-[var(--color-brand-navy)] dark:bg-[#1a1a1a] group"
+      className="my-6 flex items-center gap-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-background)] p-4 transition-all duration-200 hover:shadow-md hover:border-[var(--color-brand-navy)] dark:bg-[var(--color-background-alt)] group"
     >
       <div
         className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
