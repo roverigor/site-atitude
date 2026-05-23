@@ -280,7 +280,7 @@ export function TestimonialsPage({
       <div className="relative mt-16 text-center p-8 md:p-12 rounded-3xl bg-[var(--color-brand-navy)] text-white overflow-hidden">
         <div className="pointer-events-none absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-[var(--color-brand-purple)]/30 blur-3xl" />
         <div className="relative z-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-3">
+        <h2 className="h2 mb-3">
           Você também pode ter sua história aqui
         </h2>
         <p className="text-white/80 mb-6 max-w-lg mx-auto">
