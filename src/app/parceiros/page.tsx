@@ -33,11 +33,17 @@ function getInitials(name: string): string {
     .toUpperCase();
 }
 
+// DS-aligned segment colors (hex literals required by Badge color prop + opacity suffix mechanism)
+// Comércio  → --color-brand-green / --color-pillar-ensino (#6EDD17)
+// Saúde     → --color-brand-orange / --color-pillar-emprego (#FF4E09)
+// Governo   → --color-navy-900 / --color-brand-navy (#252566)
+// Serviços  → --color-violet-300 (#9D78F2) — lighter violet, distinct from Tecnologia
+// Tecnologia→ --color-brand-purple / --color-pillar-tecnologia (#570CE8) — already aligned
 const segmentColors: Record<string, string> = {
-  Comércio: "#16A34A",
-  Saúde: "#FF6600",
-  Governo: "#1B1464",
-  Serviços: "#6600FF",
+  Comércio: "#6EDD17",
+  Saúde: "#FF4E09",
+  Governo: "#252566",
+  Serviços: "#9D78F2",
   Tecnologia: "#570CE8",
 };
 
