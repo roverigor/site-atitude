@@ -111,7 +111,7 @@ export default function ParceirosPage() {
                 {/* Step card */}
                 <div className="flex flex-col items-center text-center w-56">
                   <div
-                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md"
+                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-[var(--shadow-md)]"
                     style={{ backgroundColor: "var(--color-brand-orange)" }}
                   >
                     <step.icon className="h-8 w-8 text-white" />
