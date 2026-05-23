@@ -105,7 +105,7 @@ export default function SobrePage() {
         <Container>
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="text-center max-w-3xl mx-auto pt-8 pb-4">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+            <h1 className="h1 mb-4">
               Nossa história
             </h1>
             <p className="text-lg md:text-xl text-white/80">
