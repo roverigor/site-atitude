@@ -147,7 +147,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
                     <button
                       key={fotoIndex}
                       onClick={() => openLightbox(event.fotos, fotoIndex)}
-                      className="group relative aspect-square overflow-hidden rounded-2xl bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:ring-offset-2"
+                      className="group relative aspect-square overflow-hidden rounded-2xl bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-pillar-ensino)] focus:ring-offset-2"
                       aria-label={`Abrir foto ${fotoIndex + 1} de ${event.titulo}`}
                     >
                       <Image
