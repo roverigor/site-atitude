@@ -18,7 +18,7 @@ Plan: [2026-05-23-ds-rollout.md](../superpowers/plans/2026-05-23-ds-rollout.md)
 | 08 | /sobre | [08-page-sobre.md](08-page-sobre.md) | ✅ done | 4 |
 | 09 | /ingles | [09-page-ingles.md](09-page-ingles.md) | ✅ done | 2 |
 | 10 | /parceiros | [10-page-parceiros.md](10-page-parceiros.md) | ✅ done | 5 |
-| 11 | /contato | [11-page-contato.md](11-page-contato.md) | ⬜ pending | 0 |
+| 11 | /contato | [11-page-contato.md](11-page-contato.md) | ✅ done | 3 |
 
 Legend: ⬜ pending · 🟦 audited · ✅ done
 
