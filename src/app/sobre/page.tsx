@@ -173,7 +173,7 @@ export default function SobrePage() {
                         className={`w-10 h-10 rounded-full flex items-center justify-center border-4 ${
                           isCurrentYear
                             ? "bg-[var(--color-brand-green)] border-[var(--color-brand-green)]/30"
-                            : "bg-[var(--color-brand-navy)] border-[var(--color-background)] dark:border-[#0A0A0A]"
+                            : "bg-[var(--color-brand-navy)] border-[var(--color-background)] dark:border-[var(--color-brand-navy)]"
                         }`}
                       >
                         <Icon
