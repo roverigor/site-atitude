@@ -69,7 +69,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           >
             <GraduationCap className="h-5 w-5 text-white" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+          <h1 className="h1">
             Galeria de formaturas
           </h1>
         </div>
@@ -121,7 +121,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
               {/* Event header */}
               <div className="p-5 md:p-6 border-b border-[var(--color-border)]">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <h2 className="text-lg md:text-xl font-bold text-[var(--color-foreground)]">
+                  <h2 className="h2">
                     {event.titulo}
                   </h2>
                   <Badge
