@@ -184,7 +184,7 @@ export function TestimonialsPage({
     <div>
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white mb-3">
+        <h1 className="h1 text-[var(--color-brand-navy)] dark:text-white mb-3">
           O que nossos alunos dizem
         </h1>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl mx-auto leading-relaxed">
