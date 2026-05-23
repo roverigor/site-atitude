@@ -170,11 +170,11 @@ export default function InglesPage() {
 
                   {/* Meta info */}
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="inline-flex items-center gap-1 text-xs rounded-full bg-pink-50 dark:bg-pink-950/20 text-[var(--color-brand-pink)] px-2.5 py-1">
+                    <span className="inline-flex items-center gap-1 text-xs rounded-full bg-[var(--color-magenta-100)] dark:bg-[var(--color-magenta-600)]/20 text-[var(--color-brand-pink)] px-2.5 py-1">
                       <Clock className="h-3 w-3" />
                       {course.duracao_total}
                     </span>
-                    <span className="inline-flex items-center gap-1 text-xs rounded-full bg-pink-50 dark:bg-pink-950/20 text-[var(--color-brand-pink)] px-2.5 py-1">
+                    <span className="inline-flex items-center gap-1 text-xs rounded-full bg-[var(--color-magenta-100)] dark:bg-[var(--color-magenta-600)]/20 text-[var(--color-brand-pink)] px-2.5 py-1">
                       {course.modalidade === "online" ? (
                         <Monitor className="h-3 w-3" />
                       ) : (
@@ -234,7 +234,7 @@ export default function InglesPage() {
                   key={index}
                   className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-background)] p-6 transition-all duration-200 hover:shadow-[var(--shadow-md)]"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-50 dark:bg-pink-950/20 mb-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-magenta-100)] dark:bg-[var(--color-magenta-600)]/20 mb-4">
                     <Icon className="h-6 w-6 text-[var(--color-brand-pink)]" />
                   </div>
                   <h3 className="font-bold text-[var(--color-foreground)] mb-2">
