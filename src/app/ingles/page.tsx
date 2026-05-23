@@ -76,7 +76,7 @@ export default function InglesPage() {
   return (
     <>
       {/* Hero - Pink gradient */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[var(--color-brand-pink)] via-[#C2185B] to-[var(--color-brand-purple)] text-white py-20 md:py-28">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[var(--color-brand-pink)] via-[var(--color-magenta-600)] to-[var(--color-brand-purple)] text-white py-20 md:py-28">
         {/* Background decoration */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-1/2 -right-1/4 h-[600px] w-[600px] rounded-full bg-white/5 blur-3xl" />
