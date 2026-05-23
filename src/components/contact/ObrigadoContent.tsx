@@ -47,7 +47,7 @@ export function ObrigadoContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white mb-4">
+            <h1 className="h1 dark:text-white mb-4">
               Obrigado pelo contato!
             </h1>
 
