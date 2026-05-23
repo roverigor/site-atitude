@@ -132,7 +132,7 @@
 
 ## Out of scope
 - Copy / partner names / segment label text
-- Segment colors for Comércio, Saúde, Governo, Serviços (categorical data colors, not brand/pillar tokens)
+- ~~Segment colors for Comércio, Saúde, Governo, Serviços (categorical data colors, not brand/pillar tokens)~~ — resolved in follow-up (see below)
 - `h1`/`h2` DS class upgrade (YELLOW — undersized but not broken; type-scale refactor is structural)
 - `.eyebrow` class adoption for "Passo N" label (YELLOW — conflicts with pilar accent color)
 - `bg-white` → `bg-[var(--color-background)]` on partner card (YELLOW — light-mode only, dark mode covered)
@@ -140,3 +140,22 @@
 - Structural rewrites (pipeline layout, partner grid data source)
 - New features
 - `globals.css`, SEO, metadata
+
+---
+
+## Follow-up
+
+Spec review identified 4 additional REDs in the `segmentColors` map that were incorrectly scoped as "out of scope" in the original Task 11 audit. These are presentation-layer colors for Atitude's internal segment taxonomy badges/cards — not external partner brand colors — and per spec §10 success criterion #3 (zero raw hex outside JsonLd and SVG fills) they require DS-token values.
+
+**Resolved in follow-up commit `77a8b56`:**
+
+| Segment | Old hex | New hex | DS token |
+|---------|---------|---------|----------|
+| Comércio | `#16A34A` (Tailwind green-600) | `#6EDD17` | `--color-brand-green` / `--color-pillar-ensino` |
+| Saúde | `#FF6600` (off-brand orange) | `#FF4E09` | `--color-brand-orange` / `--color-pillar-emprego` |
+| Governo | `#1B1464` (non-DS dark navy) | `#252566` | `--color-navy-900` / `--color-brand-navy` |
+| Serviços | `#6600FF` (no DS token) | `#9D78F2` | `--color-violet-300` (distinct from Tecnologia's `--color-violet-500`) |
+
+Note: hex literals are required (not `var(...)`) because the Badge component appends `+20` opacity suffix to the `color` prop value as an inline style.
+
+**Total fix commits for /parceiros: 5** (original 4 from Task 11 + this follow-up).
