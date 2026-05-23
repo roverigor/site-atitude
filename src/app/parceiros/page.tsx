@@ -38,7 +38,7 @@ const segmentColors: Record<string, string> = {
   Saúde: "#FF6600",
   Governo: "#1B1464",
   Serviços: "#6600FF",
-  Tecnologia: "#7C3AED",
+  Tecnologia: "#570CE8",
 };
 
 export default function ParceirosPage() {
