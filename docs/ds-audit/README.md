@@ -7,7 +7,7 @@ Plan: [2026-05-23-ds-rollout.md](../superpowers/plans/2026-05-23-ds-rollout.md)
 
 | # | Piece | Doc | State | Fix commits |
 |---|---|---|---|---|
-| 00 | Header | [00-layout-header.md](00-layout-header.md) | ⬜ pending | 0 |
+| 00 | Header | [00-layout-header.md](00-layout-header.md) | ✅ done | 3 |
 | 01 | Footer | [01-layout-footer.md](01-layout-footer.md) | ⬜ pending | 0 |
 | 02 | MobileNav | [02-layout-mobilenav.md](02-layout-mobilenav.md) | ⬜ pending | 0 |
 | 03 | /obrigado | [03-page-obrigado.md](03-page-obrigado.md) | ⬜ pending | 0 |
