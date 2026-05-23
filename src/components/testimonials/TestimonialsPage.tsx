@@ -223,7 +223,7 @@ export function TestimonialsPage({
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setActiveCategory("all")}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
               activeCategory === "all"
                 ? "bg-[var(--color-brand-navy)] text-white dark:bg-[var(--color-brand-green)] dark:text-[var(--color-brand-navy)]"
                 : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -236,7 +236,7 @@ export function TestimonialsPage({
             <button
               key={cat.slug}
               onClick={() => setActiveCategory(cat.slug)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
                 activeCategory === cat.slug
                   ? "text-white"
                   : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
