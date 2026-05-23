@@ -324,7 +324,7 @@ export default function SobrePage() {
             {teamMembers.map((member) => (
               <div
                 key={member.nome}
-                className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] text-center hover:shadow-[var(--shadow-md)] transition-shadow"
+                className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-brand-navy)] border border-[var(--color-border)] text-center hover:shadow-[var(--shadow-md)] transition-shadow"
               >
                 {/* Photo placeholder */}
                 <div className="w-20 h-20 rounded-full bg-[var(--color-brand-navy)]/10 dark:bg-[var(--color-brand-green)]/10 mx-auto mb-4 flex items-center justify-center overflow-hidden">
