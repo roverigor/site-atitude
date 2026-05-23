@@ -82,7 +82,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
       <div className="flex flex-wrap gap-2 mb-10">
         <button
           onClick={() => setActiveFilter("todos")}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
             activeFilter === "todos"
               ? "bg-[var(--color-brand-navy)] text-white shadow-md"
               : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -94,7 +94,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           <button
             key={tipo}
             onClick={() => setActiveFilter(tipo)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
               activeFilter === tipo
                 ? "text-white shadow-md"
                 : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -155,11 +155,11 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
                         alt={`${event.titulo} — foto ${fotoIndex + 1}`}
                         fill
                         sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                        className="object-cover transition-transform duration-[400ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:scale-105"
+                        className="object-cover transition-transform duration-[var(--duration-slow)] ease-[var(--ease-pop)] group-hover:scale-105"
                       />
                       {/* Hover overlay with camera icon */}
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-200 flex items-center justify-center">
-                        <Camera className="h-7 w-7 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-fast flex items-center justify-center">
+                        <Camera className="h-7 w-7 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-fast" />
                       </div>
                     </button>
                   ))}
