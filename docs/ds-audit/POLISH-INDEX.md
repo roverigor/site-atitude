@@ -14,7 +14,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 | 04 | /not-found | [04-page-notfound.md](04-page-notfound.md) | 4 | ✅ done | 0 |
 | 05 | /blog (all) | [05-page-blog.md](05-page-blog.md) | 4 | ⏸ still-deferred | 3 |
 | 06 | /depoimentos | [06-page-depoimentos.md](06-page-depoimentos.md) | 3 | ⏸ still-deferred | 0 |
-| 07 | /formaturas | [07-page-formaturas.md](07-page-formaturas.md) | 3 | ⬜ pending | 0 |
+| 07 | /formaturas | [07-page-formaturas.md](07-page-formaturas.md) | 2 | ⏸ still-deferred | 1 |
 | 08 | /sobre | [08-page-sobre.md](08-page-sobre.md) | 8 | ⬜ pending | 0 |
 | 09 | /ingles | [09-page-ingles.md](09-page-ingles.md) | 1 | ⬜ pending | 0 |
 | 10 | /parceiros | [10-page-parceiros.md](10-page-parceiros.md) | 13 | ⬜ pending | 0 |
