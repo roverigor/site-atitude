@@ -51,7 +51,7 @@
 ### `src/app/blog/[slug]/page.tsx`
 
 #### 1. Type scale
-- 🟡 Article title at line 111 uses `text-3xl md:text-4xl font-bold` instead of DS `.h1` class. Fix: apply `className="h1 mb-4"` and drop inline font/size utilities. Deferred — cursos/[slug]/page.tsx also uses custom inline heading styles, making this a pervasive cross-pattern issue not scoped to blog.
+- ✅ Article title at line 111 uses `text-3xl md:text-4xl font-bold` instead of DS `.h1` class. Fix: apply `className="h1 mb-4"` and drop inline font/size utilities. Deferred — cursos/[slug]/page.tsx also uses custom inline heading styles, making this a pervasive cross-pattern issue not scoped to blog. — Resolved in 5c0fc55
 
 #### 2. Spacing
 - 🟢 Container/Section usage consistent with DS reference pages.
@@ -60,14 +60,14 @@
 - 🔴 Line 175: `const relColor = relCat?.corHex || "#6B7280"` — fallback `#6B7280` is a raw Tailwind gray hex, not a DS token. DS muted color is `--color-foreground-muted` (#6B6BB4). Fix: replace with `"var(--color-foreground-muted)"`.
 
 #### 4. Motion
-- 🟡 Related-post cards use inline `transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)]` — same pattern as CourseCard, acceptable but slightly verbose. Deferred — cross-component pattern.
+- ✅ Related-post cards use inline `transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)]` — same pattern as CourseCard, acceptable but slightly verbose. Deferred — cross-component pattern. — Resolved in 7ce0412
 
 ---
 
 ### `src/components/blog/BlogPage.tsx`
 
 #### 1. Type scale
-- 🟡 Page `<h1>` at line 106 uses `text-2xl md:text-3xl font-bold` instead of `.h2` or `.h1` DS classes. Fix: swap to `.h2`. Deferred — functional, not a token violation.
+- ✅ Page `<h1>` at line 106 uses `text-2xl md:text-3xl font-bold` instead of `.h2` or `.h1` DS classes. Fix: swap to `.h2`. Deferred — functional, not a token violation. — Resolved in 697847f
 
 #### 2. Spacing
 - 🟢 Grid gap, container padding, and section spacing use DS-consistent Tailwind scale values.
@@ -77,7 +77,7 @@
 - 🔴 Line 348 in `BlogCard`: `const categoryColor = category?.corHex || "#6B7280"` — same wrong fallback as `[slug]/page.tsx`. Fix: replace with `"var(--color-foreground-muted)"`.
 
 #### 4. Motion
-- 🟡 `BlogCard` motion uses raw `transition={{ duration: 0.35, delay: index * 0.05 }}` instead of DS `--duration-slow` (400ms) or `--duration-base` (250ms). Same raw values used in `CourseCard` — consistent cross-component pattern. Deferred.
+- 🟡 `BlogCard` motion uses raw `transition={{ duration: 0.35, delay: index * 0.05 }}` instead of DS `--duration-slow` (400ms) or `--duration-base` (250ms). Same raw values used in `CourseCard` — consistent cross-component pattern. Deferred. — **Still deferred:** raw 0.35 falls between DS --duration-base (0.25) and --duration-slow (0.4); picking requires visual judgment + cross-component decision (CourseCard uses same value)
 
 ---
 
