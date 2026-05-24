@@ -35,7 +35,7 @@
 
 ### 4. Animações framer-motion
 - 🟢 No framer-motion used. Header uses CSS transitions only (`transition-all duration-200`).
-- 🟡 **Duration token mismatch** (line 32): `duration-200` (200ms) is not a DS motion token. DS defines `--duration-fast: 150ms` and `--duration-base: 250ms`. For a scroll-state background transition, `--duration-base` (250ms) is the right fit. No fix required this PR (cosmetic), but recommended follow-up.
+- ✅ **Duration token mismatch** (line 32): `duration-200` → `duration-[var(--duration-base)]` — Resolved in 07266c7
 - 🔴 **Z-index token** (line 32): `z-40` (Tailwind = 40) instead of the DS sticky z-index token. DS defines `--z-sticky: 100`. The header is a `sticky` element and must use the DS sticky layer. MobileNav correctly sits at `z-50` (Tailwind 50). Fix: replace `z-40` → `z-[var(--z-sticky)]`.
 
 ## Fix Plan
