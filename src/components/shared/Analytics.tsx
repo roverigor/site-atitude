@@ -6,20 +6,60 @@ const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "";
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
 /**
- * Analytics component — loads Google Tag Manager only.
- * All tracking tags (Meta Pixel, GA4, Google Ads, etc.)
- * are managed exclusively inside GTM. Do NOT add tracking
- * scripts directly to this file or anywhere in the codebase.
+ * Analytics — loads GTM only. All tracking tags (Meta Pixel, GA4,
+ * Google Ads, etc.) live INSIDE the GTM container and must be configured
+ * with "Require additional consent" (see docs/lgpd-gtm-setup.md).
  *
- * GTM snippet: head script + body noscript iframe.
- * Only renders in production so dev/preview builds stay clean.
+ * Pipeline:
+ *   1. beforeInteractive: push gtag('consent', 'default', denied) + replay
+ *      any persisted consent from localStorage. Runs BEFORE GTM loads.
+ *   2. afterInteractive: GTM bootstrap snippet. Tags respect consent state.
+ *   3. noscript iframe: fallback for JS-disabled clients.
+ *
+ * Dev/preview builds skip everything (IS_PRODUCTION guard).
  */
 export function Analytics() {
   if (!IS_PRODUCTION || !GTM_ID) return null;
 
   return (
     <>
-      {/* GTM — head script */}
+      {/* 1. Consent default + persisted update — runs BEFORE GTM */}
+      <Script
+        id="gtm-consent-default"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('consent', 'default', {
+              'analytics_storage': 'denied',
+              'ad_storage': 'denied',
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied',
+              'functionality_storage': 'granted',
+              'security_storage': 'granted',
+              'wait_for_update': 500
+            });
+            try {
+              var raw = localStorage.getItem('atitude-cookie-consent');
+              if (raw) {
+                var parsed = JSON.parse(raw);
+                if (parsed && parsed.version === 1 && parsed.state) {
+                  gtag('consent', 'update', {
+                    'analytics_storage': parsed.state.analytics,
+                    'ad_storage': parsed.state.ad,
+                    'ad_user_data': parsed.state.ad,
+                    'ad_personalization': parsed.state.ad
+                  });
+                }
+              }
+            } catch (e) { /* localStorage blocked — defaults stay denied */ }
+          `,
+        }}
+      />
+
+      {/* 2. GTM bootstrap */}
       <Script
         id="gtm-script"
         strategy="afterInteractive"
@@ -34,7 +74,7 @@ export function Analytics() {
         }}
       />
 
-      {/* GTM — body noscript fallback */}
+      {/* 3. noscript fallback */}
       <noscript>
         <iframe
           src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
