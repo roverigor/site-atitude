@@ -8,7 +8,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 
 | # | Piece | Audit doc | YELLOWs | State | Polish commits |
 |---|---|---|---|---|---|
-| 00 | Header | [00-layout-header.md](00-layout-header.md) | 2 | ⬜ pending | 0 |
+| 00 | Header | [00-layout-header.md](00-layout-header.md) | 1 | ✅ done | 1 |
 | 02 | MobileNav | [02-layout-mobilenav.md](02-layout-mobilenav.md) | 4 | ⬜ pending | 0 |
 | 03 | /obrigado | [03-page-obrigado.md](03-page-obrigado.md) | 1 | ⬜ pending | 0 |
 | 04 | /not-found | [04-page-notfound.md](04-page-notfound.md) | 7 | ⬜ pending | 0 |
