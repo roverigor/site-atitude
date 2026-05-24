@@ -22,19 +22,19 @@
 ### 2. Spacing + rhythm
 - 🟢 `Section` + `Container` layout primitives used — consistent with DS layout system.
 - 🟢 `space-y-5` form rhythm, `gap-10 lg:gap-16` grid gap — reasonable use of Tailwind scale.
-- 🟡 `shadow-sm` (Tailwind built-in) on contact card (line 274) vs `--shadow-sm` DS token — Fix: use `shadow-[var(--shadow-sm)]` (cosmetic only, YELLOW, not fixed this PR).
+- ✅ `shadow-sm` (Tailwind built-in) on contact card (line 274) vs `--shadow-sm` DS token — Fix: use `shadow-[var(--shadow-sm)]` (cosmetic only, YELLOW, not fixed this PR). — Resolved in e2c69fb
 
 ### 3. Color treatment
 - 🔴 `text-red-500` (error paragraph text) at ContactPage.tsx line 190, 217 — Fix: `text-[var(--color-error)]`
 - 🔴 `border-red-500` (error input border) at ContactPage.tsx line 185, 212 — Fix: `border-[var(--color-error)]`
 - 🔴 `focus:ring-red-500/30` (error input focus ring) at ContactPage.tsx line 185, 212 — Fix: `focus:ring-[var(--color-error)]/30`
 - 🟢 All other colors use DS tokens: `--color-brand-navy`, `--color-brand-green`, `--color-foreground`, `--color-foreground-muted`, `--color-border`, `--color-paper`, `--color-background-alt`, `--color-whatsapp`.
-- 🟡 `bg-white` hardcoded on contact info card (line 274) — Fix: use `bg-[var(--color-paper)]` for full dark-mode coverage (cosmetic, YELLOW, not fixed this PR).
+- ✅ `bg-white` hardcoded on contact info card (line 274) — Fix: use `bg-[var(--color-paper)]` for full dark-mode coverage (cosmetic, YELLOW, not fixed this PR). — Resolved in dfc306f
 
 ### 4. Animações framer-motion
 - 🟢 `framer-motion` used for `fadeUp` entrance animation — consistent with other pages.
-- 🟡 `duration: 0.5` raw float in `fadeUp` transition (line 57) vs `--duration-base` DS token — Fix: use `var(--duration-base)` (cosmetic, YELLOW, not fixed this PR).
-- 🟡 `duration-200` Tailwind class on inputs/links (lines 183, 210, 354, 363, 372) vs `duration-[var(--duration-fast)]` — cosmetic, YELLOW, not fixed this PR.
+- 🟡 `duration: 0.5` raw float in `fadeUp` transition (line 57) vs `--duration-base` DS token — Fix: use `var(--duration-base)` (cosmetic, YELLOW, not fixed this PR). — **Still deferred:** framer-motion props cannot consume CSS vars; inline numeric is established constraint
+- ✅ `duration-200` Tailwind class on inputs/links (lines 183, 210, 354, 363, 372) vs `duration-[var(--duration-fast)]` — cosmetic, YELLOW, not fixed this PR. — Resolved in a24d704
 
 ### 5. Form-specific (a11y + UX)
 - 🟢 All inputs have associated `<label>` with matching `htmlFor` / `id` pairs (lines 169–170, 196–197, 225–226).
@@ -43,7 +43,7 @@
 - 🔴 Inputs missing `aria-invalid` attribute in error state — screen readers cannot announce validation failure. Both `nome` (line 175) and `whatsapp` (line 202) inputs omit `aria-invalid={!!(errors.X && touched.X)}`. Fix: add `aria-invalid` attribute.
 - 🔴 Error `<p>` elements have no `id`; inputs have no `aria-describedby` — error message is not programmatically linked to its field. Fix: add `id="nome-error"` / `id="whatsapp-error"` to error paragraphs; add `aria-describedby="nome-error"` / `aria-describedby="whatsapp-error"` to inputs.
 - 🔴 Required fields (`nome`, `whatsapp`) have no `required` attribute — screen readers and form validators cannot identify required fields. Fix: add `required` attribute to both inputs.
-- 🟡 `prefers-reduced-motion` not observed by `framer-motion` `fadeUp` animation — the global CSS rule at globals.css line 220 only covers CSS transitions; framer-motion JS animations bypass it. Fix: use `useReducedMotion()` from framer-motion (YELLOW — pattern not enforced on any other page in the codebase, out of scope this PR).
+- 🟡 `prefers-reduced-motion` not observed by `framer-motion` `fadeUp` animation — the global CSS rule at globals.css line 220 only covers CSS transitions; framer-motion JS animations bypass it. Fix: use `useReducedMotion()` from framer-motion (YELLOW — pattern not enforced on any other page in the codebase, out of scope this PR). — **Still deferred:** pattern not enforced site-wide; out of scope for polish PR
 
 ## Fix Plan
 (ONLY 🔴 RED items)
