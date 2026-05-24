@@ -19,7 +19,7 @@
 - 🟢 Address block: `text-sm` (line 80) — DS `--text-sm`. Correct for secondary info.
 
 ### 2. Spacing + rhythm
-- 🟡 Address block uses `px-8` (line 80) while all other drawer sections use `px-4` (lines 50, 61, 74) — inconsistent horizontal rhythm. Minor cosmetic; no fix this PR (no DS spacing violation, just inconsistency).
+- ✅ Address block uses `px-8` (line 80) while all other drawer sections use `px-4` (lines 50, 61, 74) — inconsistent horizontal rhythm. Minor cosmetic; no fix this PR (no DS spacing violation, just inconsistency). — Resolved in b88499fdd2056c76bde69c2b264781b65c47ccd3
 - 🟢 Vertical spacing: `py-6 space-y-1` for nav, `pt-4` / `pt-6` for CTA/address — reasonable rhythm.
 
 ### 3. Color treatment
@@ -39,7 +39,7 @@
 - 🔴 Focus trap not implemented (line 16–26) — The `useEffect` only moves focus to the first button on open; Tab and Shift+Tab freely exit the drawer into background content. WCAG 2.1 SC 2.1.2 (No Keyboard Trap) requires focus to remain in the dialog while it is open. **Fix: add keyboard Tab/Shift+Tab intercept within the drawer's focusable elements using `drawerRef`.**
 - 🟢 ESC key closes drawer (lines 28–34) — `keydown` listener for `Escape` calls `onClose`. Correct.
 - 🟢 Body scroll lock (lines 18–26) — `document.body.style.overflow = "hidden"` on open, cleared on close/unmount. Correct.
-- 🟡 Focus restoration on close — no ref to the trigger button; focus is not returned to the hamburger after drawer closes. Cosmetic (browser may restore naturally in some flows). No fix this PR.
+- 🟡 Focus restoration on close — no ref to the trigger button; focus is not returned to the hamburger after drawer closes. Cosmetic (browser may restore naturally in some flows). No fix this PR. — **Still deferred:** requires triggerRef from Header.tsx (structural cross-component refactor, out of scope for polish PR)
 
 ## Fix Plan
 1. Add `aria-modal="true"` to the `role="dialog"` div (line 44).
