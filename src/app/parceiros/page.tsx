@@ -93,7 +93,7 @@ export default function ParceirosPage() {
             >
               <Building2 className="h-5 w-5 text-white" />
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h1 className="h1 text-[var(--color-brand-navy)] dark:text-white">
               Empresas Parceiras
             </h1>
           </div>
