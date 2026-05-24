@@ -216,7 +216,7 @@ Pra cada commit grande (3+ linhas tocadas):
    ```
    grep -rEn '(bg|text|border|from|to|via|ring|shadow)-(red|pink|blue|green|yellow|purple|gray|slate|zinc|neutral|stone|amber|lime|emerald|teal|cyan|sky|indigo|violet|fuchsia|rose)-[0-9]' src/ --include='*.tsx'
    ```
-   deve retornar vazio. Cores DS usam `var(--color-*)` ou semânticos via `bg-[var(--color-...)]`.
+   deve retornar vazio. Cores DS usam `var(--color-*)` em arbitrary-value Tailwind (ex.: `bg-[var(--color-background)]`).
 5. `npm run lint` passa sem warnings novos
 6. `npm run build` passa sem errors
 7. Páginas testadas manual no dev server, screenshots no PR description
