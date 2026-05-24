@@ -18,10 +18,10 @@ export function Badge({ children, variant = "info", color, size = "sm", classNam
 
   const variants = {
     category: "",
-    success: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400",
-    warning: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400",
-    error: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400",
-    info: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400",
+    success: "bg-[var(--color-success)]/15 text-[var(--color-success)] dark:bg-[var(--color-success)]/25",
+    warning: "bg-[var(--color-warning)]/15 text-[var(--color-warning)] dark:bg-[var(--color-warning)]/25",
+    error: "bg-[var(--color-error)]/15 text-[var(--color-error)] dark:bg-[var(--color-error)]/25",
+    info: "bg-[var(--color-info)]/15 text-[var(--color-info)] dark:bg-[var(--color-info)]/25",
   };
 
   const style = variant === "category" && color ? { backgroundColor: `${color}20`, color } : undefined;
