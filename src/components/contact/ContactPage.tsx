@@ -183,7 +183,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   onChange={handleChange}
                   onBlur={() => handleBlur("nome")}
                   placeholder="Seu nome completo"
-                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
+                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-[var(--duration-fast)] outline-none ${
                     errors.nome && touched.nome
                       ? "border-[var(--color-error)] focus:ring-2 focus:ring-[var(--color-error)]/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
@@ -213,7 +213,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   onChange={handleChange}
                   onBlur={() => handleBlur("whatsapp")}
                   placeholder="(43) 99999-9999"
-                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
+                  className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-[var(--duration-fast)] outline-none ${
                     errors.whatsapp && touched.whatsapp
                       ? "border-[var(--color-error)] focus:ring-2 focus:ring-[var(--color-error)]/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
@@ -239,7 +239,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   name="curso"
                   value={formData.curso}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-md border border-[var(--color-border)] bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] transition-all duration-200 outline-none focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)] appearance-none"
+                  className="w-full px-4 py-3 rounded-md border border-[var(--color-border)] bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] transition-all duration-[var(--duration-fast)] outline-none focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)] appearance-none"
                   style={{
                     backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 24 24' stroke='%23888' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`,
                     backgroundRepeat: "no-repeat",
@@ -357,7 +357,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                     href={siteConfig.social.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-200"
+                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-[var(--duration-fast)]"
                     aria-label="Instagram"
                   >
                     <Instagram className="h-5 w-5" />
@@ -366,7 +366,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                     href={siteConfig.social.facebook}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-200"
+                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-[var(--duration-fast)]"
                     aria-label="Facebook"
                   >
                     <Facebook className="h-5 w-5" />
@@ -375,7 +375,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                     href={siteConfig.social.tiktok}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-200"
+                    className="w-10 h-10 rounded-full bg-[var(--color-background-alt)] flex items-center justify-center text-[var(--color-foreground-muted)] hover:bg-[var(--color-brand-green)] hover:text-[var(--color-brand-navy)] transition-all duration-[var(--duration-fast)]"
                     aria-label="TikTok"
                   >
                     <svg
