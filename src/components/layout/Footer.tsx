@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Instagram, Facebook, Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { siteConfig } from "@/data/site";
+import { ConsentLink } from "@/components/consent/ConsentLink";
 
 export function Footer() {
   return (
@@ -92,6 +93,13 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-white/10 py-6 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Todos os direitos reservados.</p>
+          <p className="mt-2 flex items-center justify-center gap-2 flex-wrap">
+            <Link href="/politica-privacidade" className="underline hover:text-[var(--color-brand-green)] text-sm text-white/80">
+              Política de privacidade
+            </Link>
+            <span aria-hidden="true">·</span>
+            <ConsentLink className="underline hover:text-[var(--color-brand-green)] text-sm text-white/80" />
+          </p>
         </div>
       </Container>
     </footer>
