@@ -277,7 +277,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             className="space-y-6"
           >
             {/* Contact Card */}
-            <div className="p-6 md:p-8 rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)]">
+            <div className="p-6 md:p-8 rounded-3xl bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)]">
               <h2 className="text-lg font-semibold text-[var(--color-brand-navy)] dark:text-white mb-6">
                 Informações de contato
               </h2>
