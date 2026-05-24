@@ -138,7 +138,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
               </Button>
             </div>
 
-            <div className="px-8 pt-6 text-sm text-[var(--color-foreground-muted)]">
+            <div className="px-4 pt-6 text-sm text-[var(--color-foreground-muted)]">
               <p>{siteConfig.address.street}</p>
               <p>{siteConfig.address.city} - {siteConfig.address.state}</p>
               <p className="mt-2">{siteConfig.hours.weekdays}</p>
