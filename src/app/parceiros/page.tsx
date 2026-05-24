@@ -106,7 +106,7 @@ export default function ParceirosPage() {
       {/* Pipeline Section */}
       <Section variant="alt">
         <Container>
-          <h2 className="text-xl md:text-2xl font-bold text-center text-[var(--color-brand-navy)] dark:text-white mb-12">
+          <h2 className="h2 text-center text-[var(--color-brand-navy)] dark:text-white mb-12">
             Da Sala de Aula ao Mercado de Trabalho
           </h2>
 
