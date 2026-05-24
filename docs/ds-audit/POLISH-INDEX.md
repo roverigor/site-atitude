@@ -12,7 +12,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 | 02 | MobileNav | [02-layout-mobilenav.md](02-layout-mobilenav.md) | 2 | ⏸ still-deferred | 1 |
 | 03 | /obrigado | [03-page-obrigado.md](03-page-obrigado.md) | 0 | ✅ done | 0 |
 | 04 | /not-found | [04-page-notfound.md](04-page-notfound.md) | 4 | ✅ done | 0 |
-| 05 | /blog (all) | [05-page-blog.md](05-page-blog.md) | 4 | ⬜ pending | 0 |
+| 05 | /blog (all) | [05-page-blog.md](05-page-blog.md) | 4 | ⏸ still-deferred | 3 |
 | 06 | /depoimentos | [06-page-depoimentos.md](06-page-depoimentos.md) | 3 | ⬜ pending | 0 |
 | 07 | /formaturas | [07-page-formaturas.md](07-page-formaturas.md) | 3 | ⬜ pending | 0 |
 | 08 | /sobre | [08-page-sobre.md](08-page-sobre.md) | 8 | ⬜ pending | 0 |
