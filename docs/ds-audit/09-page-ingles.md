@@ -85,7 +85,7 @@
 #### 3. Color treatment
 - 🟢 L254 — `bg-gradient-to-r from-[var(--color-brand-pink)] to-[var(--color-brand-purple)]` — clean, DS token only.
 - 🟢 L262 — `text-[var(--color-brand-green)]` — correct highlight token.
-- 🟡 L281 — `border-white text-white hover:bg-white/10` raw Tailwind white on outline Button. Technically `white` is not in the semantic token scale, but `white` is used idiomatically on colored hero overlays across the site as an intentional overlay pattern (see `/sobre`, `/formaturas` CTAs). Low risk, no token for `#FFFFFF` in DS scale. — Fix: no change this PR; acceptable as overlay idiom consistent with site-wide pattern.
+- 🟡 L281 — `border-white text-white hover:bg-white/10` raw Tailwind white on outline Button. Technically `white` is not in the semantic token scale, but `white` is used idiomatically on colored hero overlays across the site as an intentional overlay pattern (see `/sobre`, `/formaturas` CTAs). Low risk, no token for `#FFFFFF` in DS scale. — Fix: no change this PR; acceptable as overlay idiom consistent with site-wide pattern. — **Still deferred:** accepted overlay idiom (used in /sobre, /formaturas CTAs too); no .btn-overlay DS class exists; introducing one is out of scope for polish PR
 
 #### 4. Motion
 - 🟢 No non-standard motion.

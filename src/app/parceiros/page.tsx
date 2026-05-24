@@ -93,7 +93,7 @@ export default function ParceirosPage() {
             >
               <Building2 className="h-5 w-5 text-white" />
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h1 className="h1 text-[var(--color-brand-navy)] dark:text-white">
               Empresas Parceiras
             </h1>
           </div>
@@ -106,7 +106,7 @@ export default function ParceirosPage() {
       {/* Pipeline Section */}
       <Section variant="alt">
         <Container>
-          <h2 className="text-xl md:text-2xl font-bold text-center text-[var(--color-brand-navy)] dark:text-white mb-12">
+          <h2 className="h2 text-center text-[var(--color-brand-navy)] dark:text-white mb-12">
             Da Sala de Aula ao Mercado de Trabalho
           </h2>
 
@@ -168,7 +168,7 @@ export default function ParceirosPage() {
       {/* Partner Grid Section */}
       <Section variant="default">
         <Container>
-          <h2 className="text-xl md:text-2xl font-bold text-center text-[var(--color-brand-navy)] dark:text-white mb-10">
+          <h2 className="h2 text-center text-[var(--color-brand-navy)] dark:text-white mb-10">
             Onde nossos alunos trabalham
           </h2>
 
@@ -177,7 +177,7 @@ export default function ParceirosPage() {
             {partners.map((partner) => (
               <div
                 key={partner.nome}
-                className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)] p-5 flex flex-col items-center text-center transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] hover:shadow-[var(--shadow-md)] hover:-translate-y-1"
+                className="group rounded-3xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)] p-5 flex flex-col items-center text-center transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] hover:shadow-[var(--shadow-md)] hover:-translate-y-1"
               >
                 {/* Placeholder logo */}
                 <div

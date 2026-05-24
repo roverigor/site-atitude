@@ -103,7 +103,7 @@ export function BlogPage({
           >
             <Newspaper className="h-5 w-5 text-white" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+          <h1 className="h2">
             {pageTitle}
           </h1>
         </div>
@@ -357,7 +357,7 @@ function BlogCard({ post, categories, index }: BlogCardProps) {
     >
       <Link
         href={`/blog/${post.slug}`}
-        className="group flex flex-col h-full rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] overflow-hidden"
+        className="group flex flex-col h-full rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] overflow-hidden"
       >
         {/* Thumbnail placeholder */}
         <div

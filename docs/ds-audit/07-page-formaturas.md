@@ -16,7 +16,7 @@
 ### 1. Type scale + hierarquia
 - 🔴 **h1 heading raw sizing** (`GraduationsPage.tsx:72`) — `text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)]` bypasses `.h1` DS class (`clamp(36px, 4vw, 48px)`, weight 800, tracking −0.02em). — Fix: replace with `<h1 className="h1">`
 - 🔴 **h2 event heading raw sizing** (`GraduationsPage.tsx:124`) — `text-lg md:text-xl font-bold text-[var(--color-foreground)]` bypasses `.h2` DS class (`clamp(28px, 3vw, 36px)`, weight 800). — Fix: replace with `<h2 className="h2">`
-- 🟡 **h3 empty-state heading** (`GraduationsPage.tsx:177`) — `text-lg font-semibold` is an 18px heading; DS `.h3` is 28px which would be disproportionate in this empty-state context. — Fix: leave as-is; acceptable at this size for contextual empty-state
+- 🟡 **h3 empty-state heading** (`GraduationsPage.tsx:177`) — `text-lg font-semibold` is an 18px heading; DS `.h3` is 28px which would be disproportionate in this empty-state context. — **Still deferred:** intentional 18px size for empty-state context; .h3 28px would be disproportionate
 
 ### 2. Spacing + rhythm
 - 🟢 All spacing uses multiples of 4 (mb-2, mb-3, mb-4, mb-10, p-4, p-5, p-6, py-12, etc.) — consistent with DS 4px grid.
@@ -24,7 +24,7 @@
 
 ### 3. Color treatment
 - 🔴 **Focus ring pilar mismatch** (`GraduationsPage.tsx:150`) — photo button uses `focus:ring-[var(--color-brand-purple)]` (violet, pilar tecnologia) instead of the ensino pilar color `var(--color-pillar-ensino)` or `var(--color-brand-green)`. — Fix: replace with `focus:ring-[var(--color-pillar-ensino)]`
-- 🟡 **`typeColors` category mapping** (`GraduationsPage.tsx:16-23`) — `saude`, `beleza`, `administracao` all map to `--color-brand-green` instead of dedicated `--color-category-saude` (#5BC112), `--color-category-beleza` (#B6EE82), `--color-category-administracao` (#6EDD17). Functional but semantically loose. — Fix: update to category tokens in a follow-up; out of scope for this PR.
+- ✅ **`typeColors` category mapping** (`GraduationsPage.tsx:16-23`) — `saude`, `beleza`, `administracao` all map to `--color-brand-green` instead of dedicated `--color-category-saude` (#5BC112), `--color-category-beleza` (#B6EE82), `--color-category-administracao` (#6EDD17). Functional but semantically loose. — Resolved in `b1aa3ef`
 
 ### 4. Animações framer-motion
 - 🟢 No framer-motion used in GraduationsPage (only Lightbox primitive, which is DS-validated).

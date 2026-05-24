@@ -25,7 +25,7 @@
 - 🟢 `text-white/80` for subtitle — acceptable in `Section variant="dark"` context
 
 #### 4. Motion
-- 🟡 No entrance animation on Hero heading/subtitle — Timeline.tsx uses framer-motion. Structural addition; out of scope this PR.
+- 🟡 No entrance animation on Hero heading/subtitle — Timeline.tsx uses framer-motion. Structural addition; out of scope this PR. — **Still deferred:** structural framer-motion addition (new feature, out of scope for DS-compliance polish)
 
 ---
 
@@ -33,7 +33,7 @@
 
 #### 1. Type scale
 - 🔴 L122 — Section `h2` uses raw `text-[1.75rem] md:text-[2.5rem] font-bold`; DS semantic class `.h2` (clamp 28–36px, fw-800, tracking-tight) should be applied. — Fix: replace with `.h2` class
-- 🟡 L160/206 — Milestone `h3` uses bare `text-lg font-semibold`; ideally `.h3` but these are small repeated inline items — cosmetic divergence. Fix: none this PR.
+- 🟡 L160/206 — Milestone `h3` uses bare `text-lg font-semibold`; ideally `.h3` but these are small repeated inline items — cosmetic divergence. Fix: none this PR. — **Still deferred:** intentional smaller scale for repeating inline items per audit author
 
 #### 2. Spacing
 - 🟢 `space-y-12` desktop / `space-y-8` mobile — standard 4px scale
@@ -43,7 +43,7 @@
 - 🟢 Year labels use `var(--color-brand-navy)` and `var(--color-brand-green)` tokens correctly
 
 #### 4. Motion
-- 🟡 Milestone entries have no entrance animation (static), while `Timeline.tsx` uses `framer-motion` `whileInView`. Adding motion requires structural change (client component + framer dependency). Out of scope this PR.
+- 🟡 Milestone entries have no entrance animation (static), while `Timeline.tsx` uses `framer-motion` `whileInView`. Adding motion requires structural change (client component + framer dependency). Out of scope this PR. — **Still deferred:** structural framer-motion addition (new feature)
 
 ---
 
@@ -51,7 +51,7 @@
 
 #### 1. Type scale
 - 🔴 L282 — `h2` uses raw `text-[1.75rem] md:text-[2.5rem] font-bold`; DS `.h2` should be used. — Fix: replace with `.h2` class
-- 🟡 L300 — `blockquote` uses bare `text-base md:text-lg leading-relaxed italic` rather than DS `.body` class. AboutSection uses a border-left treatment and `.lead` — cosmetic divergence, no structural change needed. Fix: none this PR.
+- ✅ L300 — `blockquote` uses bare `text-base md:text-lg leading-relaxed italic` rather than DS `.body` class. AboutSection uses a border-left treatment and `.lead` — cosmetic divergence, no structural change needed. Fix: none this PR. — Resolved in 21e078e
 
 #### 2. Spacing
 - 🟢 `mb-12`, `gap-8 md:gap-12` — standard DS scale
@@ -78,7 +78,7 @@
 - 🟢 Other token usage clean: `var(--color-background)`, `var(--color-border)`, `var(--color-brand-navy)`, `var(--color-brand-green)`
 
 #### 4. Motion
-- 🟡 Team cards have `transition-shadow` without DS duration token (`--duration-base: 250ms`). — Fix: `transition-[box-shadow] duration-[var(--duration-base)]`. Cosmetic; promote to RED only if motion tokens are strictly enforced this PR.
+- ✅ Team cards have `transition-shadow` without DS duration token (`--duration-base: 250ms`). — Fix: `transition-[box-shadow] duration-[var(--duration-base)]`. Cosmetic; promote to RED only if motion tokens are strictly enforced this PR. — Resolved in 7e4906e
 
 ---
 

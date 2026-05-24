@@ -18,13 +18,13 @@
 ### Section: Hero (lines 79–98)
 
 #### 1. Type scale
-- 🟡 `h1` at line 90 uses inline Tailwind utilities (`text-2xl md:text-3xl font-bold`) instead of the `.h1` DS class (clamp 36–48px, weight 800). The page-level heading is undersized vs. DS spec. Fix: apply `className="h1"` (or `.h2` per page hierarchy), drop inline `text-*` and `font-*`.
+- ✅ `h1` at line 90 uses inline Tailwind utilities (`text-2xl md:text-3xl font-bold`) instead of the `.h1` DS class (clamp 36–48px, weight 800). The page-level heading is undersized vs. DS spec. Fix: apply `className="h1"` (or `.h2` per page hierarchy), drop inline `text-*` and `font-*`. — Resolved in d2c11f3
 
 #### 2. Spacing
 - 🟢 `pb-10 pt-6` — acceptable compact hero spacing for inner page.
 
 #### 3. Color
-- 🟡 `text-[var(--color-brand-navy)] dark:text-white` (line 90) — acceptable semantic token pair; minor: `dark:text-white` could be `dark:text-[var(--color-foreground)]` for consistency, but not a blocker.
+- 🟡 `text-[var(--color-brand-navy)] dark:text-white` (line 90) — acceptable semantic token pair; minor: `dark:text-white` could be `dark:text-[var(--color-foreground)]` for consistency, but not a blocker. — **Still deferred:** semantic equivalence in dark mode; not a blocker per audit author
 - 🟢 `text-[var(--color-foreground-muted)]` (line 94) — correct DS token.
 - 🟢 Icon container uses `var(--color-brand-orange)` (line 86–88) — orange pilar accent, acceptable (maps to emprego/general CTA convention).
 
@@ -36,8 +36,8 @@
 ### Section: Pipeline / Steps (lines 100–160)
 
 #### 1. Type scale
-- 🟡 `h2` at line 103 uses inline `text-xl md:text-2xl font-bold` instead of `.h2` DS class (clamp 28–36px, weight 800). Fix: apply `className="h2"` and drop `text-*`/`font-*` utilities.
-- 🟡 "Passo N" label at lines 120–124 manually recreates `.eyebrow` pattern (`text-xs font-bold uppercase tracking-wider`) with inline style color. Fix: use `className="eyebrow"` — the `.eyebrow` class is defined in globals.css and uses `var(--color-brand-purple)`. However, pilar = violet here, so orange accent conflicts with DS eyebrow color. Acceptable as YELLOW: keep manual override but note it.
+- ✅ `h2` at line 103 uses inline `text-xl md:text-2xl font-bold` instead of `.h2` DS class (clamp 28–36px, weight 800). Fix: apply `className="h2"` and drop `text-*`/`font-*` utilities. — Resolved in 8c674fa
+- 🟡 "Passo N" label at lines 120–124 manually recreates `.eyebrow` pattern (`text-xs font-bold uppercase tracking-wider`) with inline style color. Fix: use `className="eyebrow"` — the `.eyebrow` class is defined in globals.css and uses `var(--color-brand-purple)`. However, pilar = violet here, so orange accent conflicts with DS eyebrow color. Acceptable as YELLOW: keep manual override but note it. — **Still deferred:** risk of visual regression on deliberately styled "Passo N" label; .eyebrow color may conflict with section context
 
 #### 2. Spacing
 - 🟢 `mb-12`, `gap-4 md:gap-0`, `w-56` — reasonable, no DS violation.
@@ -54,7 +54,7 @@
 ### Section: Partner Grid (lines 162–244)
 
 #### 1. Type scale
-- 🟡 `h2` at line 165 uses inline `text-xl md:text-2xl font-bold` — same issue as Pipeline h2 (YELLOW, same fix).
+- ✅ `h2` at line 165 uses inline `text-xl md:text-2xl font-bold` — same issue as Pipeline h2 (YELLOW, same fix). — Resolved in 44c63b6
 
 #### 2. Spacing
 - 🟢 `gap-4 md:gap-6`, `p-5`, `mb-3`, `mb-10` — acceptable.
@@ -71,15 +71,15 @@
   
   **Net RED:** `Tecnologia` hex `#7C3AED` must become `--color-pillar-tecnologia` (`#570CE8`). The four other segment colors (`Comércio`, `Saúde`, `Governo`, `Serviços`) are data-domain categorical colors — out of scope.
 
-- 🟡 `bg-white` at line 174 (partner card) — `bg-white` is a static value; should use `bg-[var(--color-background)]` for theme consistency. The `dark:bg-[var(--color-background-alt)]` is present but the light-mode base is bare white instead of `var(--color-background)`.
+- ✅ `bg-white` at line 174 (partner card) — `bg-white` is a static value; should use `bg-[var(--color-background)]` for theme consistency. The `dark:bg-[var(--color-background-alt)]` is present but the light-mode base is bare white instead of `var(--color-background)`. — Resolved in 1165edb
 
 #### 4. Motion
 - 🔴 Partner card (line 174): `duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)]` — raw values should use DS tokens `[var(--duration-base)]` and `[var(--ease-pop)]`. The `PillarsStrip.tsx` reference component uses the same raw values (accepted pattern in that file); however the DS defines `--duration-base: 250ms` and `--ease-pop: cubic-bezier(0.2,0.8,0.2,1)` as tokens. Policy from previous tasks: replace raw literals with `[var(--duration-base)]` and `[var(--ease-pop)]`.
 - 🔴 Logo avatar (line 178): `duration-200` — bare numeric; should use `[var(--duration-fast)]` (150ms) or `[var(--duration-base)]` (250ms). 200ms is not a DS duration token.
 
 #### 5. Shadow
-- 🟡 `shadow-sm` and `hover:shadow-md` (line 174) — Tailwind utility shadows, not DS `shadow-[var(--shadow-sm)]` / `hover:shadow-[var(--shadow-md)]`. Previous tasks consistently fixed this pattern.
-- 🟡 `shadow-md` (line 114, Pipeline step icon) — bare Tailwind shadow.
+- ✅ `shadow-sm` and `hover:shadow-md` (line 174) — Tailwind utility shadows, not DS `shadow-[var(--shadow-sm)]` / `hover:shadow-[var(--shadow-md)]`. Previous tasks consistently fixed this pattern. — Pre-applied during rollout (already using DS tokens in current file)
+- ✅ `shadow-md` (line 114, Pipeline step icon) — bare Tailwind shadow. — Pre-applied during rollout (already using DS tokens in current file)
 
 ---
 
@@ -102,7 +102,7 @@
 ### Section: For Companies / CTA (lines 247–300)
 
 #### 1. Type scale
-- 🟡 `h2` at line 251 uses inline `text-xl md:text-2xl font-bold text-white` — on `variant="dark"` section, white text is expected (overrides DS foreground color); acceptable pattern for dark backgrounds.
+- 🟡 `h2` at line 251 uses inline `text-xl md:text-2xl font-bold text-white` — on `variant="dark"` section, white text is expected (overrides DS foreground color); acceptable pattern for dark backgrounds. — **Still deferred:** intentional white-on-dark for dark-variant section
 
 #### 2. Color
 - 🟢 `text-white`, `text-white/80` — correct on dark section.
