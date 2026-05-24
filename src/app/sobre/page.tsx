@@ -297,7 +297,7 @@ export default function SobrePage() {
             {/* Quote */}
             <div className="relative">
               <Quote className="h-8 w-8 text-[var(--color-brand-green)] mb-4" />
-              <blockquote className="text-base md:text-lg leading-relaxed text-[var(--color-foreground)] italic">
+              <blockquote className="lead text-[var(--color-foreground)] italic">
                 Comecei como aluno dessa escola em 2010, com 16 anos. Um ano depois era estagiário, com 18 era gerente, e em 2014 me tornei sócio-proprietário. Não planejei tudo isso — simplesmente amei o que vi e me dediquei completamente. Em todos esses anos passamos por franquias, parcerias com universidades, idiomas e muitas reinvenções. Mas o propósito nunca mudou: que todo jovem de Ibaiti possa se qualificar para o mercado de trabalho sem precisar sair da cidade. Cada aluno que conquista um emprego é uma vitória nossa também.
               </blockquote>
               <p className="mt-6 font-semibold text-[var(--color-brand-navy)] dark:text-[var(--color-brand-green)]">
