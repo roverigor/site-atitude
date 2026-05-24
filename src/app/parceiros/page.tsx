@@ -168,7 +168,7 @@ export default function ParceirosPage() {
       {/* Partner Grid Section */}
       <Section variant="default">
         <Container>
-          <h2 className="text-xl md:text-2xl font-bold text-center text-[var(--color-brand-navy)] dark:text-white mb-10">
+          <h2 className="h2 text-center text-[var(--color-brand-navy)] dark:text-white mb-10">
             Onde nossos alunos trabalham
           </h2>
 
