@@ -17,7 +17,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 | 07 | /formaturas | [07-page-formaturas.md](07-page-formaturas.md) | 2 | ⏸ still-deferred | 2 |
 | 08 | /sobre | [08-page-sobre.md](08-page-sobre.md) | 5 | ⏸ still-deferred | 2 |
 | 09 | /ingles | [09-page-ingles.md](09-page-ingles.md) | 1 | ⏸ still-deferred | 0 |
-| 10 | /parceiros | [10-page-parceiros.md](10-page-parceiros.md) | 13 | ⬜ pending | 0 |
+| 10 | /parceiros | [10-page-parceiros.md](10-page-parceiros.md) | 9 | ⏸ still-deferred | 6 |
 | 11 | /contato | [11-page-contato.md](11-page-contato.md) | 5 | ⬜ pending | 0 |
 
 **Total YELLOWs: 47.** Footer (01) had 0 YELLOWs at rollout time — skipped here. (04 /not-found: 3 retroactively resolved during rollout + 1 still-deferred as new-feature = 4 effective YELLOWs.)
