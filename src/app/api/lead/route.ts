@@ -1,21 +1,55 @@
 import { NextRequest, NextResponse } from "next/server";
 
+/**
+ * Lead capture endpoint.
+ *
+ * Current state of the lead flow:
+ * - `ContactPage.tsx` form submits redirect users to WhatsApp directly
+ *   (no fetch to this endpoint). This route exists as a future-proof hook
+ *   for webhook-based lead routing (CRM, n8n, email).
+ * - If `LEAD_WEBHOOK_URL` is set in the environment, the payload is
+ *   forwarded there. Failures are logged but never surfaced to the client.
+ * - Without `LEAD_WEBHOOK_URL`, the route logs and returns 200 so callers
+ *   can fire-and-forget.
+ *
+ * To wire a real destination: set `LEAD_WEBHOOK_URL` to an n8n/CRM webhook
+ * URL via Vercel env vars. No code change required.
+ */
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { nome, whatsapp, mensagem, origem } = body;
 
-    // Validação básica
     if (!nome || !whatsapp) {
-      return NextResponse.json({ error: "Nome e WhatsApp são obrigatórios" }, { status: 400 });
+      return NextResponse.json(
+        { error: "Nome e WhatsApp são obrigatórios" },
+        { status: 400 }
+      );
     }
 
-    // Log para debug (substituir por integração real: CRM, e-mail, n8n, etc.)
-    console.log("[lead]", { nome, whatsapp, mensagem, origem, timestamp: new Date().toISOString() });
+    const payload = {
+      nome,
+      whatsapp,
+      mensagem,
+      origem,
+      timestamp: new Date().toISOString(),
+    };
 
-    // TODO: integrar com n8n webhook, CRM ou envio de e-mail
-    // const webhookUrl = process.env.N8N_LEAD_WEBHOOK_URL;
-    // if (webhookUrl) await fetch(webhookUrl, { method: 'POST', body: JSON.stringify(body), headers: {'Content-Type':'application/json'} });
+    const webhookUrl = process.env.LEAD_WEBHOOK_URL;
+    if (webhookUrl) {
+      try {
+        await fetch(webhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+      } catch (err) {
+        // Webhook unreachable — log but don't fail the lead capture
+        console.error("[lead] webhook forward failed", err);
+      }
+    } else {
+      console.log("[lead]", payload);
+    }
 
     return NextResponse.json({ ok: true }, { status: 200 });
   } catch {
