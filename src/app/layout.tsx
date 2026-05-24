@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { ConditionalWrapper } from "@/components/layout/ConditionalWrapper";
 import { Analytics } from "@/components/shared/Analytics";
+import { CookieBanner } from "@/components/consent/CookieBanner";
 import "./globals.css";
 
 // Poppins (18 weights) and Caveat are self-hosted via @font-face in
@@ -62,6 +63,7 @@ export default function RootLayout({
             {children}
           </ConditionalWrapper>
           <Analytics />
+          <CookieBanner />
         </ThemeProvider>
       </body>
     </html>
