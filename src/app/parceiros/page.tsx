@@ -177,7 +177,7 @@ export default function ParceirosPage() {
             {partners.map((partner) => (
               <div
                 key={partner.nome}
-                className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)] p-5 flex flex-col items-center text-center transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] hover:shadow-[var(--shadow-md)] hover:-translate-y-1"
+                className="group rounded-3xl bg-[var(--color-background)] dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)] p-5 flex flex-col items-center text-center transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] hover:shadow-[var(--shadow-md)] hover:-translate-y-1"
               >
                 {/* Placeholder logo */}
                 <div
