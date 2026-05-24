@@ -11,7 +11,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 | 00 | Header | [00-layout-header.md](00-layout-header.md) | 1 | ✅ done | 1 |
 | 02 | MobileNav | [02-layout-mobilenav.md](02-layout-mobilenav.md) | 2 | ⏸ still-deferred | 1 |
 | 03 | /obrigado | [03-page-obrigado.md](03-page-obrigado.md) | 0 | ✅ done | 0 |
-| 04 | /not-found | [04-page-notfound.md](04-page-notfound.md) | 7 | ⬜ pending | 0 |
+| 04 | /not-found | [04-page-notfound.md](04-page-notfound.md) | 4 | ✅ done | 0 |
 | 05 | /blog (all) | [05-page-blog.md](05-page-blog.md) | 4 | ⬜ pending | 0 |
 | 06 | /depoimentos | [06-page-depoimentos.md](06-page-depoimentos.md) | 3 | ⬜ pending | 0 |
 | 07 | /formaturas | [07-page-formaturas.md](07-page-formaturas.md) | 3 | ⬜ pending | 0 |
@@ -20,7 +20,7 @@ Plan: [2026-05-24-ds-polish.md](../superpowers/plans/2026-05-24-ds-polish.md)
 | 10 | /parceiros | [10-page-parceiros.md](10-page-parceiros.md) | 13 | ⬜ pending | 0 |
 | 11 | /contato | [11-page-contato.md](11-page-contato.md) | 5 | ⬜ pending | 0 |
 
-**Total YELLOWs: 50.** Footer (01) had 0 YELLOWs at rollout time — skipped here.
+**Total YELLOWs: 47.** Footer (01) had 0 YELLOWs at rollout time — skipped here. (04 /not-found: 3 retroactively resolved during rollout + 1 still-deferred as new-feature = 4 effective YELLOWs.)
 
 Legend: ⬜ pending · 🟦 in progress · ✅ done · ⏸ still-deferred (structural)
 
