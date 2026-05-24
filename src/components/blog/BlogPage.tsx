@@ -103,7 +103,7 @@ export function BlogPage({
           >
             <Newspaper className="h-5 w-5 text-white" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+          <h1 className="h2">
             {pageTitle}
           </h1>
         </div>
