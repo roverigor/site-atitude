@@ -71,8 +71,8 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
         <div className="p-6 space-y-4">
           {/* Proxima turma */}
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 dark:bg-blue-950/30">
-              <Calendar className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-info)]/10 dark:bg-[var(--color-info)]/20">
+              <Calendar className="h-5 w-5 text-[var(--color-info)]" />
             </div>
             <div>
               <p className="text-xs text-[var(--color-foreground-muted)]">
@@ -86,8 +86,8 @@ export function CourseSidebar({ course }: CourseSidebarProps) {
 
           {/* Vagas */}
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-50 dark:bg-amber-950/30">
-              <Users className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-warning)]/10 dark:bg-[var(--color-warning)]/20">
+              <Users className="h-5 w-5 text-[var(--color-warning)]" />
             </div>
             <div>
               <p className="text-xs text-[var(--color-foreground-muted)]">
