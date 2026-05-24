@@ -105,7 +105,7 @@ export default function SobrePage() {
         <Container>
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="text-center max-w-3xl mx-auto pt-8 pb-4">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+            <h1 className="h1 mb-4">
               Nossa história
             </h1>
             <p className="text-lg md:text-xl text-white/80">
@@ -119,7 +119,7 @@ export default function SobrePage() {
       <Section variant="default">
         <Container>
           <div className="text-center mb-14">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               15 anos de trajetória
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
@@ -173,7 +173,7 @@ export default function SobrePage() {
                         className={`w-10 h-10 rounded-full flex items-center justify-center border-4 ${
                           isCurrentYear
                             ? "bg-[var(--color-brand-green)] border-[var(--color-brand-green)]/30"
-                            : "bg-[var(--color-brand-navy)] border-[var(--color-background)] dark:border-[#0A0A0A]"
+                            : "bg-[var(--color-brand-navy)] border-[var(--color-background)] dark:border-[var(--color-brand-navy)]"
                         }`}
                       >
                         <Icon
@@ -279,7 +279,7 @@ export default function SobrePage() {
       <Section variant="alt">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               Nossa missão
             </h2>
           </div>
@@ -312,7 +312,7 @@ export default function SobrePage() {
       <Section variant="default">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold text-[var(--color-brand-navy)] dark:text-white">
+            <h2 className="h2 text-[var(--color-brand-navy)] dark:text-white">
               Nossa equipe
             </h2>
             <p className="mt-3 text-[var(--color-foreground-muted)] max-w-lg mx-auto">
@@ -324,7 +324,7 @@ export default function SobrePage() {
             {teamMembers.map((member) => (
               <div
                 key={member.nome}
-                className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[#1a1a1a] border border-[var(--color-border)] text-center hover:shadow-[var(--shadow-md)] transition-shadow"
+                className="p-6 rounded-xl bg-[var(--color-background)] dark:bg-[var(--color-brand-navy)] border border-[var(--color-border)] text-center hover:shadow-[var(--shadow-md)] transition-shadow"
               >
                 {/* Photo placeholder */}
                 <div className="w-20 h-20 rounded-full bg-[var(--color-brand-navy)]/10 dark:bg-[var(--color-brand-green)]/10 mx-auto mb-4 flex items-center justify-center overflow-hidden">
@@ -365,7 +365,7 @@ export default function SobrePage() {
       <Section variant="gradient">
         <Container>
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-[1.75rem] md:text-[2.5rem] font-bold mb-4">
+            <h2 className="h2 mb-4">
               Venha escrever sua história aqui
             </h2>
             <p className="text-lg text-white/80 mb-8">

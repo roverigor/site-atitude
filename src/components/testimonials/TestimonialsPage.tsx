@@ -184,7 +184,7 @@ export function TestimonialsPage({
     <div>
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white mb-3">
+        <h1 className="h1 text-[var(--color-brand-navy)] dark:text-white mb-3">
           O que nossos alunos dizem
         </h1>
         <p className="text-[var(--color-foreground-muted)] max-w-2xl mx-auto leading-relaxed">
@@ -223,7 +223,7 @@ export function TestimonialsPage({
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setActiveCategory("all")}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
               activeCategory === "all"
                 ? "bg-[var(--color-brand-navy)] text-white dark:bg-[var(--color-brand-green)] dark:text-[var(--color-brand-navy)]"
                 : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -236,7 +236,7 @@ export function TestimonialsPage({
             <button
               key={cat.slug}
               onClick={() => setActiveCategory(cat.slug)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
                 activeCategory === cat.slug
                   ? "text-white"
                   : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -280,7 +280,7 @@ export function TestimonialsPage({
       <div className="relative mt-16 text-center p-8 md:p-12 rounded-3xl bg-[var(--color-brand-navy)] text-white overflow-hidden">
         <div className="pointer-events-none absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-[var(--color-brand-purple)]/30 blur-3xl" />
         <div className="relative z-10">
-        <h2 className="text-xl md:text-2xl font-bold mb-3">
+        <h2 className="h2 mb-3">
           Você também pode ter sua história aqui
         </h2>
         <p className="text-white/80 mb-6 max-w-lg mx-auto">

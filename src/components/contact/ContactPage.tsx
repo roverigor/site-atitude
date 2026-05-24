@@ -176,18 +176,21 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   type="text"
                   id="nome"
                   name="nome"
+                  required
+                  aria-invalid={!!(errors.nome && touched.nome)}
+                  aria-describedby={errors.nome && touched.nome ? "nome-error" : undefined}
                   value={formData.nome}
                   onChange={handleChange}
                   onBlur={() => handleBlur("nome")}
                   placeholder="Seu nome completo"
                   className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
                     errors.nome && touched.nome
-                      ? "border-red-500 focus:ring-2 focus:ring-red-500/30"
+                      ? "border-[var(--color-error)] focus:ring-2 focus:ring-[var(--color-error)]/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
                   }`}
                 />
                 {errors.nome && touched.nome && (
-                  <p className="mt-1.5 text-sm text-red-500">{errors.nome}</p>
+                  <p id="nome-error" role="alert" className="mt-1.5 text-sm text-[var(--color-error)]">{errors.nome}</p>
                 )}
               </div>
 
@@ -203,18 +206,21 @@ export function ContactPage({ courseNames }: ContactPageProps) {
                   type="tel"
                   id="whatsapp"
                   name="whatsapp"
+                  required
+                  aria-invalid={!!(errors.whatsapp && touched.whatsapp)}
+                  aria-describedby={errors.whatsapp && touched.whatsapp ? "whatsapp-error" : undefined}
                   value={formData.whatsapp}
                   onChange={handleChange}
                   onBlur={() => handleBlur("whatsapp")}
                   placeholder="(43) 99999-9999"
                   className={`w-full px-4 py-3 rounded-md border bg-[var(--color-paper)] dark:bg-[var(--color-background-alt)] text-[var(--color-foreground)] placeholder:text-[var(--color-foreground-muted)]/50 transition-all duration-200 outline-none ${
                     errors.whatsapp && touched.whatsapp
-                      ? "border-red-500 focus:ring-2 focus:ring-red-500/30"
+                      ? "border-[var(--color-error)] focus:ring-2 focus:ring-[var(--color-error)]/30"
                       : "border-[var(--color-border)] focus:ring-2 focus:ring-[var(--color-brand-green)]/30 focus:border-[var(--color-brand-green)]"
                   }`}
                 />
                 {errors.whatsapp && touched.whatsapp && (
-                  <p className="mt-1.5 text-sm text-red-500">
+                  <p id="whatsapp-error" role="alert" className="mt-1.5 text-sm text-[var(--color-error)]">
                     {errors.whatsapp}
                   </p>
                 )}

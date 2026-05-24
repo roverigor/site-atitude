@@ -172,7 +172,7 @@ export default async function BlogPostPage({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
               {relatedPosts.map((related) => {
                 const relCat = getBlogCategoryBySlug(related.category);
-                const relColor = relCat?.corHex || "#6B7280";
+                const relColor = relCat?.corHex || "var(--color-foreground-muted)";
                 return (
                   <Link
                     key={related.slug}

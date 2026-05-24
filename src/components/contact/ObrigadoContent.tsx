@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { CheckCircle2, Phone, ArrowLeft, Search } from "lucide-react";
+
+// DS motion tokens: --duration-slow 400ms, --ease-pop cubic-bezier(0.2,0.8,0.2,1)
+const DURATION_SLOW = 0.4; // --duration-slow
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
 import { Button } from "@/components/ui/Button";
@@ -37,7 +40,7 @@ export function ObrigadoContent() {
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, type: "spring" }}
+            transition={{ duration: DURATION_SLOW, type: "spring" }}
           >
             <CheckCircle2 className="h-20 w-20 mx-auto text-[var(--color-brand-green)] mb-6" />
           </motion.div>
@@ -47,7 +50,7 @@ export function ObrigadoContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <h1 className="text-2xl md:text-4xl font-bold text-[var(--color-brand-navy)] dark:text-white mb-4">
+            <h1 className="h1 dark:text-white mb-4">
               Obrigado pelo contato!
             </h1>
 

@@ -69,7 +69,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           >
             <GraduationCap className="h-5 w-5 text-white" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-brand-navy)] dark:text-white">
+          <h1 className="h1">
             Galeria de formaturas
           </h1>
         </div>
@@ -82,7 +82,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
       <div className="flex flex-wrap gap-2 mb-10">
         <button
           onClick={() => setActiveFilter("todos")}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
             activeFilter === "todos"
               ? "bg-[var(--color-brand-navy)] text-white shadow-md"
               : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -94,7 +94,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
           <button
             key={tipo}
             onClick={() => setActiveFilter(tipo)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-fast ${
               activeFilter === tipo
                 ? "text-white shadow-md"
                 : "bg-[var(--color-background-alt)] text-[var(--color-foreground-muted)] hover:bg-[var(--color-border)]"
@@ -121,7 +121,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
               {/* Event header */}
               <div className="p-5 md:p-6 border-b border-[var(--color-border)]">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <h2 className="text-lg md:text-xl font-bold text-[var(--color-foreground)]">
+                  <h2 className="h2">
                     {event.titulo}
                   </h2>
                   <Badge
@@ -147,7 +147,7 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
                     <button
                       key={fotoIndex}
                       onClick={() => openLightbox(event.fotos, fotoIndex)}
-                      className="group relative aspect-square overflow-hidden rounded-2xl bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:ring-offset-2"
+                      className="group relative aspect-square overflow-hidden rounded-2xl bg-[var(--color-background-alt)] focus:outline-none focus:ring-2 focus:ring-[var(--color-pillar-ensino)] focus:ring-offset-2"
                       aria-label={`Abrir foto ${fotoIndex + 1} de ${event.titulo}`}
                     >
                       <Image
@@ -155,11 +155,11 @@ export function GraduationsPage({ graduations }: GraduationsPageProps) {
                         alt={`${event.titulo} — foto ${fotoIndex + 1}`}
                         fill
                         sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                        className="object-cover transition-transform duration-[400ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:scale-105"
+                        className="object-cover transition-transform duration-[var(--duration-slow)] ease-[var(--ease-pop)] group-hover:scale-105"
                       />
                       {/* Hover overlay with camera icon */}
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-200 flex items-center justify-center">
-                        <Camera className="h-7 w-7 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-fast flex items-center justify-center">
+                        <Camera className="h-7 w-7 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-fast" />
                       </div>
                     </button>
                   ))}

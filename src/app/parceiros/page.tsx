@@ -33,12 +33,18 @@ function getInitials(name: string): string {
     .toUpperCase();
 }
 
+// DS-aligned segment colors (hex literals required by Badge color prop + opacity suffix mechanism)
+// Comércio  → --color-brand-green / --color-pillar-ensino (#6EDD17)
+// Saúde     → --color-brand-orange / --color-pillar-emprego (#FF4E09)
+// Governo   → --color-navy-900 / --color-brand-navy (#252566)
+// Serviços  → --color-violet-300 (#9D78F2) — lighter violet, distinct from Tecnologia
+// Tecnologia→ --color-brand-purple / --color-pillar-tecnologia (#570CE8) — already aligned
 const segmentColors: Record<string, string> = {
-  Comércio: "#16A34A",
-  Saúde: "#FF6600",
-  Governo: "#1B1464",
-  Serviços: "#6600FF",
-  Tecnologia: "#7C3AED",
+  Comércio: "#6EDD17",
+  Saúde: "#FF4E09",
+  Governo: "#252566",
+  Serviços: "#9D78F2",
+  Tecnologia: "#570CE8",
 };
 
 export default function ParceirosPage() {
@@ -111,7 +117,7 @@ export default function ParceirosPage() {
                 {/* Step card */}
                 <div className="flex flex-col items-center text-center w-56">
                   <div
-                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md"
+                    className="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-[var(--shadow-md)]"
                     style={{ backgroundColor: "var(--color-brand-orange)" }}
                   >
                     <step.icon className="h-8 w-8 text-white" />
@@ -171,11 +177,11 @@ export default function ParceirosPage() {
             {partners.map((partner) => (
               <div
                 key={partner.nome}
-                className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-sm p-5 flex flex-col items-center text-center transition-all duration-[250ms] ease-[cubic-bezier(0.2,0.8,0.2,1)] hover:shadow-md hover:-translate-y-1"
+                className="group rounded-3xl bg-white dark:bg-[var(--color-background-alt)] shadow-[var(--shadow-sm)] p-5 flex flex-col items-center text-center transition-all duration-[var(--duration-base)] ease-[var(--ease-pop)] hover:shadow-[var(--shadow-md)] hover:-translate-y-1"
               >
                 {/* Placeholder logo */}
                 <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-200 group-hover:scale-105"
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-3 text-white text-lg font-bold transition-transform duration-[var(--duration-fast)] group-hover:scale-105"
                   style={{
                     backgroundColor:
                       segmentColors[partner.segmento] || "var(--color-brand-navy)",
