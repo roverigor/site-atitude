@@ -12,14 +12,15 @@ interface GraduationsPageProps {
   graduations: GraduationEvent[];
 }
 
+// DS-category-aligned hex literals (Badge color prop requires hex due to +20 opacity suffix mechanism)
 const typeColors: Record<string, string> = {
-  geral:        "var(--color-brand-navy)",
-  informatica:  "var(--color-brand-purple)",
-  ingles:       "var(--color-brand-pink)",
-  administracao:"var(--color-brand-green)",
-  saude:        "var(--color-brand-green)",
-  beleza:       "var(--color-brand-green)",
-  tecnologia:   "var(--color-brand-purple)",
+  geral:        "#001F3F",
+  informatica:  "#7C3AED",
+  ingles:       "#EC4899",
+  administracao:"#6EDD17",
+  saude:        "#5BC112",
+  beleza:       "#B6EE82",
+  tecnologia:   "#7C3AED",
 };
 
 function typeLabel(tipo: string): string {
