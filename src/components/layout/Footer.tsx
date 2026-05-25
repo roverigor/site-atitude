@@ -52,7 +52,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0" aria-hidden="true" />
-                <span>{siteConfig.address.street}, {siteConfig.address.city} - {siteConfig.address.state}</span>
+                <span>{siteConfig.address.street}, {siteConfig.address.district} — {siteConfig.address.city}/{siteConfig.address.state} — CEP {siteConfig.address.zip}</span>
               </li>
               <li>
                 <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="flex items-center gap-2 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded" aria-label={`Ligar para ${siteConfig.phone}`}>

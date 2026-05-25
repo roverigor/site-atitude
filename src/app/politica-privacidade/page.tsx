@@ -28,7 +28,7 @@ export default function PoliticaPrivacidadePage() {
           A <strong>Atitude Ensino</strong> é uma instituição de ensino com sede
           em Ibaiti-PR, inscrita no CNPJ{" "}
           <span aria-label="CNPJ pendente">[CNPJ — pendente]</span>. Endereço:
-          Rua XV de Novembro, 123 — Ibaiti/PR — CEP 84900-000. Contato:{" "}
+          Av. Dra Fernandina do Amaral Gentile, 162 — Centro — Ibaiti/PR — CEP 84900-000. Contato:{" "}
           <a
             className="underline text-[var(--color-brand-purple)]"
             href="mailto:contato@atitudeensino.com.br"

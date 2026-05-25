@@ -400,7 +400,7 @@ export function ContactPage({ courseNames }: ContactPageProps) {
             >
               <iframe
                 title="Localização Atitude Ensino"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14500!2d-50.0775!3d-23.8447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                src="https://maps.google.com/maps?width=100%25&height=280&hl=pt-BR&q=Av.%20Dra%20Fernandina%20do%20Amaral%20Gentile%2C%20162%2C%20Centro%2C%20Ibaiti%20-%20PR%2C%2084900-000&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                 width="100%"
                 height="280"
                 style={{ border: 0 }}
