@@ -27,7 +27,7 @@ export default function PoliticaPrivacidadePage() {
         <p className="body mb-4">
           A <strong>Atitude Ensino</strong> é uma instituição de ensino com sede
           em Ibaiti-PR, inscrita no CNPJ{" "}
-          <span aria-label="CNPJ pendente">[CNPJ — pendente]</span>. Endereço:
+          <span>28.128.870/0001-60</span>. Endereço:
           Av. Dra Fernandina do Amaral Gentile, 162 — Centro — Ibaiti/PR — CEP 84900-000. Contato:{" "}
           <a
             className="underline text-[var(--color-brand-purple)]"
@@ -147,7 +147,7 @@ export default function PoliticaPrivacidadePage() {
 
         <h2 className="h2 mt-12 mb-4">11. Encarregado pelo tratamento (DPO)</h2>
         <p className="body mb-4">
-          Encarregado: <span>[Nome do DPO — pendente]</span>. Email:{" "}
+          Encarregado: <span>Igor Rover</span>. Email:{" "}
           <a
             className="underline text-[var(--color-brand-purple)]"
             href="mailto:contato@atitudeensino.com.br"
