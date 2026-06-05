@@ -18,6 +18,7 @@ import { Section } from "@/components/layout/Section";
 import { Button } from "@/components/ui/Button";
 import { siteConfig } from "@/data/site";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import { trackLead } from "@/lib/analytics";
 
 interface ContactPageProps {
   courseNames: string[];
@@ -131,6 +132,8 @@ export function ContactPage({ courseNames }: ContactPageProps) {
     e.preventDefault();
 
     if (!validate()) return;
+
+    trackLead({ campaign: "site-geral", source: "form-contato" });
 
     const message = `Novo lead pelo site!\nNome: ${formData.nome}\nWhatsApp: ${formData.whatsapp}\nInteresse: ${formData.curso}`;
     const whatsappUrl = buildWhatsAppUrl({ type: "custom", message });
