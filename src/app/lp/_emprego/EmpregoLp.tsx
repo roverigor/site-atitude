@@ -86,6 +86,12 @@ function LeadForm({ source, idp }: { source: string; idp: string }) {
     if (!ok) return;
     trackLead({ campaign: "emprego", source });
     const msg = `Oi! Meu nome é ${nome}. Vim pelo site e quero saber como funciona o curso pra conseguir meu primeiro emprego.${wpp ? ` Meu WhatsApp: ${wpp}.` : ""}`;
+    // captura o lead no /api/lead (encaminha pro webhook/Athy quando LEAD_WEBHOOK_URL estiver setado) — fire-and-forget
+    fetch("/api/lead", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ nome, whatsapp: wpp, mensagem: msg, origem: source }),
+    }).catch(() => {});
     window.open(`${waBase}?text=${encodeURIComponent(msg)}`, "_blank", "noopener,noreferrer");
   };
   return (
