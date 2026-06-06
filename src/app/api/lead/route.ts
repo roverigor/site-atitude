@@ -40,7 +40,13 @@ export async function POST(req: NextRequest) {
       try {
         await fetch(webhookUrl, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+            // Segredo compartilhado com o Athy (/api/webhooks/lead exige x-lead-secret).
+            ...(process.env.LEAD_INTAKE_SECRET
+              ? { "x-lead-secret": process.env.LEAD_INTAKE_SECRET }
+              : {}),
+          },
           body: JSON.stringify(payload),
         });
       } catch (err) {
