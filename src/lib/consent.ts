@@ -25,6 +25,7 @@ const CONSENT_VERSION = 1;
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
+    dataLayer?: Record<string, unknown>[];
   }
 }
 
@@ -80,4 +81,10 @@ function pushConsentUpdate(state: ConsentState): void {
     ad_user_data: state.ad,
     ad_personalization: state.ad,
   });
+  // Evento limpo p/ o GTM disparar o Pixel base (PageView) no momento do aceite,
+  // já que gtag('consent','update') não gera custom event. Só quando ad é concedido.
+  if (state.ad === "granted") {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "consent_granted" });
+  }
 }
