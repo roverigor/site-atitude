@@ -84,13 +84,32 @@ function LeadForm({ source, idp }: { source: string; idp: string }) {
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!ok) return;
-    trackLead({ campaign: "emprego", source });
+    // event_id compartilhado entre Pixel (GTM) e CAPI server-side → dedup
+    const eventId =
+      typeof crypto !== "undefined" && crypto.randomUUID
+        ? crypto.randomUUID()
+        : `lead-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    trackLead({ campaign: "emprego", source, eventId });
+    const getCookie = (n: string) =>
+      typeof document !== "undefined"
+        ? document.cookie.match("(^|;)\\s*" + n + "\\s*=\\s*([^;]+)")?.pop()
+        : undefined;
     const msg = `Oi! Meu nome é ${nome}. Vim pelo site e quero saber como funciona o curso pra conseguir meu primeiro emprego.${wpp ? ` Meu WhatsApp: ${wpp}.` : ""}`;
-    // captura o lead no /api/lead (encaminha pro webhook/Athy quando LEAD_WEBHOOK_URL estiver setado) — fire-and-forget
+    // captura o lead no /api/lead (encaminha pro Athy + dispara Meta CAPI) — fire-and-forget
     fetch("/api/lead", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ nome, whatsapp: wpp, mensagem: msg, origem: source }),
+      body: JSON.stringify({
+        nome,
+        whatsapp: wpp,
+        mensagem: msg,
+        origem: source,
+        eventId,
+        fbp: getCookie("_fbp"),
+        fbc: getCookie("_fbc"),
+        eventSourceUrl:
+          typeof window !== "undefined" ? window.location.href : undefined,
+      }),
     }).catch(() => {});
     window.open(`${waBase}?text=${encodeURIComponent(msg)}`, "_blank", "noopener,noreferrer");
   };

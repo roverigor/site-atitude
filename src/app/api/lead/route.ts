@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { sendLeadCapi } from "@/lib/meta-capi";
 
 /**
  * Lead capture endpoint.
@@ -18,7 +19,8 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { nome, whatsapp, mensagem, origem } = body;
+    const { nome, whatsapp, mensagem, origem, eventId, fbp, fbc, eventSourceUrl } =
+      body;
 
     if (!nome || !whatsapp) {
       return NextResponse.json(
@@ -55,6 +57,29 @@ export async function POST(req: NextRequest) {
       }
     } else {
       console.log("[lead]", payload);
+    }
+
+    // Meta CAPI (server-side) — evento Lead com dedup via eventId. Non-blocking.
+    try {
+      const clientIp =
+        req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+        req.headers.get("x-real-ip") ||
+        undefined;
+      const capi = await sendLeadCapi({
+        whatsapp,
+        nome,
+        eventId,
+        fbp,
+        fbc,
+        eventSourceUrl: eventSourceUrl || req.headers.get("referer") || undefined,
+        clientIp,
+        userAgent: req.headers.get("user-agent") || undefined,
+        origem,
+        campaign: origem,
+      });
+      if (!capi.ok) console.error("[lead] CAPI", capi.detail);
+    } catch (err) {
+      console.error("[lead] CAPI threw", err);
     }
 
     return NextResponse.json({ ok: true }, { status: 200 });

@@ -42,8 +42,16 @@ export function trackContact(): void {
   pushToDataLayer("contact_click");
 }
 
-/** LP-B: formulário enviado com sucesso → GTM dispara Meta Pixel Lead */
-export function trackLead(params?: { campaign?: string; source?: string }): void {
+/**
+ * LP-B: formulário enviado com sucesso → GTM dispara Meta Pixel Lead.
+ * `eventId` deve ser o MESMO enviado ao CAPI server-side (/api/lead). No GTM,
+ * o tag do Pixel Lead deve usar Event ID = {{dlv - eventId}} para deduplicar.
+ */
+export function trackLead(params?: {
+  campaign?: string;
+  source?: string;
+  eventId?: string;
+}): void {
   pushToDataLayer("lead_submit", params);
 }
 
